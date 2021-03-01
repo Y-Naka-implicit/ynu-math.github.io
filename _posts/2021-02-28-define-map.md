@@ -4,9 +4,8 @@ title: "写像の定義"
 date:   2021-02-28 19:10:30 +0900
 categories: jekyll update
 mathjax: true
+mathjax_autoNumber: true
 ---
-
-# 写像の定義
 
 !!! summary 要約
     集合$X$から集合$Y$への**写像**とは，$X$と$Y$の二項関係$(X,Y,G)$で
