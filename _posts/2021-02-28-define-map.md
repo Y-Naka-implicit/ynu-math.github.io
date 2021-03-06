@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "写像の定義"
 date:   2021-02-28 19:10:30 +0900
-categories: jekyll update
 mathjax: true
 mathjax_autoNumber: true
 ---
