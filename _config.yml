@@ -84,8 +84,8 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
+mathjax: ture # false (default), true
+mathjax_autoNumber: ture # false (default), true
 
 ## Mermaid
 mermaid: # false (default), true
