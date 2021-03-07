@@ -4,7 +4,7 @@ title: サークル情報
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/master/assets/images/trace_vec.png)
+![TeXt Theme](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/master/assets/images/logo.png)
 
 TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
 
