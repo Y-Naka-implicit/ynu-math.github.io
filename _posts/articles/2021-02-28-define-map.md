@@ -2,9 +2,10 @@
 layout: article
 title: "写像を定義する"
 date:   2021-02-28 19:10:30 +0900
-tag: 集合論
+tags: 集合論 基礎論
 author: shiba
-show_author_profile: true
+
+
 ### 以下の記述は数式を表示するために必要 ###
 mathjax: true
 mathjax_autoNumber: true
