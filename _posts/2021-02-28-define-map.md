@@ -1,20 +1,22 @@
 ---
-title: "写像の定義"
+title: "写像を定義する"
 date:   2021-02-28 19:10:30 +0900
+categoly: kji
 tag: 集合論
-
+author:
+  name: "siba"
 ### 以下の記述は数式を表示するために必要 ###
 mathjax: true
 mathjax_autoNumber: true
 #########################################
 ---
 
-!!! summary 要約
-    集合$X$から集合$Y$への**写像**とは，$X$と$Y$の二項関係$(X,Y,G)$で
-    $$
-    \forall x_0 \in X ~ \exists y_0 \in Y ~ \forall y \in Y ~ (x_0, y) \in G \Longrightarrow y = y_0
-    $$
-    を満たすものをいう．
+## 要約
+
+集合$X$から集合$Y$への**写像**とは，$X$と$Y$の二項関係$(X,Y,G)$で
+$$\forall x_0 \in X ~ \exists y_0 \in Y ~ \forall y \in Y ~ (x_0, y) \in G \Longrightarrow y = y_0$$
+を満たすものをいう．
+{:.info}
 
 ## 通常の写像の定義
 
