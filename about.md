@@ -1,6 +1,7 @@
 ---
 layout: article
 title: サークル情報
+show_author_profile: false
 key: page-about
 ---
 
