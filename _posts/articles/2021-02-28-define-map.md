@@ -1,10 +1,10 @@
 ---
+layout: article
 title: "写像を定義する"
 date:   2021-02-28 19:10:30 +0900
-categoly: kji
 tag: 集合論
-author:
-  name: "siba"
+author: shiba
+show_author_profile: true
 ### 以下の記述は数式を表示するために必要 ###
 mathjax: true
 mathjax_autoNumber: true
