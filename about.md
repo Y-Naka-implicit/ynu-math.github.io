@@ -17,10 +17,15 @@ key: page-about
 
 ## 活動概要
 
-数学や理学に興味のある学生が集まって自主ゼミ活動や雑談などをしています．
+数学など，理学に興味のある学生が集まって自主ゼミ活動や雑談などをしています．
 
 ## SNS/コミュニティ
 
 - [Twitter](https://twitter.com/ynu_integral)
 - [Discord](https://discord.gg/9RTQz3FyQc)
 - [Teams](https://teams.microsoft.com/join/9cypkdpsheqm)
+
+## 部員
+
+- 4年生：1人
+- 1年生：3人
