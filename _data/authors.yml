@@ -1,11 +1,11 @@
 shiba:
   name      : 柴犬レオ
   url       : 
-  avatar    : 
+  avatar    : https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/blob/a9846a8723370046c3bf9b425c52507dfa1b01de/_data/icons/shiba_dog_leo.jpg
   bio       : 数理科学EP 2年
   email     : fukuda-makoto-vb@ynu.jp
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : https://twitter.com/shiba_dog_leo
+  twitter   : shiba_dog_leo
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
@@ -13,5 +13,5 @@ shiba:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : https://github.com/shiba-dog-leo # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : shiba-dog-leo # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
