@@ -1,8 +1,8 @@
 header:
   - title: 活動紹介
-    url: /activity.html
+    url: /activities/activities.html
   - title: 記事一覧
-    url: /topics.html
+    url: /topics/topics.html
   - title: アーカイブ
     url: /archive.html
   - title: サークル情報

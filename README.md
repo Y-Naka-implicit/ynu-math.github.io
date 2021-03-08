@@ -1,4 +1,4 @@
-![TeXt Theme](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/master/assets/images/logo.png)
+![TeXt Theme](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/master/assets/images/source/logo.png)
 
 ## 組織
 

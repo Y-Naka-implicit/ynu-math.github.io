@@ -1,6 +1,9 @@
 ---
 layout: article
 title: 活動紹介
+author: #shiba
+date: 
+modify_date: 2021-03-08 15:21:40 +0900
 show_author_profile: false
 ---
 

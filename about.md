@@ -1,11 +1,13 @@
 ---
 layout: article
 title: サークル情報
+date: 
+modify_date: 2021-03-08 15:21:40 +0900
 show_author_profile: false
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/master/assets/images/logo.png)
+![TeXt Theme](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/master/assets/images/source/logo.png)
 
 ## 組織
 
