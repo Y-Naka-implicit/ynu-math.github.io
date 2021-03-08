@@ -8,4 +8,4 @@ show_author_profile: false
 
 ---
 
-## 解析入門ゼミで議論になった点
+## 【工事中】

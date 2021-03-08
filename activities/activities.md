@@ -7,6 +7,8 @@ modify_date: 2021-03-08 15:21:40 +0900
 show_author_profile: false
 ---
 
+## 【工事中】
+
 ## 進行中の活動
 
 - 解析入門中ゼミ
