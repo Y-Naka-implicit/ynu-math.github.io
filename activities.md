@@ -21,3 +21,5 @@ show_author_profile: false
 ## 終了した活動
 
 - [解析入門 上 ゼミ](/posts/Analysis_I/meeting-01)
+
+    2020-07-18～2020-11-14に行っていた松坂和夫著『解析入門 上』の輪読ゼミです．
