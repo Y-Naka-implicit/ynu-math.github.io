@@ -9,11 +9,13 @@ tags: 集合論 基礎
 
 ## 要約
 
-集合$X$から集合$Y$への**写像**とは，$X$と$Y$の二項関係$(X,Y,G)$で
+集合$X(\not = \varnothing)$から集合$Y(\not = \varnothing)$への**写像**とは，$X$と$Y$の二項関係$\sim = (X,Y,G)$で
 
-$$\forall x_0 \in X ~ \exists y_0 \in Y ~ \forall y \in Y ~ (x_0, y) \in G \Longrightarrow y = y_0$$
+$$
+\forall x_0 \in X ~ \exists y_0 \in Y ~ \forall y \in Y [~ (x_0, y) \in G \Longrightarrow y = y_0 ~]
+$$
 
-を満たすものをいう．
+を満たすものをいう
 
 ## 通常の写像の定義
 
@@ -156,10 +158,10 @@ $$
 $$
 であった．
 
-したがって，集合$X$から集合$Y$への**写像**とは，$X$と$Y$の二項関係$\sim = (X,Y,G)$で
+したがって，集合$X(\not = \varnothing)$から集合$Y(\not = \varnothing)$への**写像**とは，$X$と$Y$の二項関係$\sim = (X,Y,G)$で
 
 $$
-\forall x_0 \in X ~ \exists y_0 \in Y ~ \forall y \in Y ~ (x_0, y) \in G \Longrightarrow y = y_0
+\forall x_0 \in X ~ \exists y_0 \in Y ~ \forall y \in Y [~ (x_0, y) \in G \Longrightarrow y = y_0 ~]
 $$
 
 を満たすものをいう．このとき$x_0 \sim y_0$を$f(x_0) = y_0$とかくのである．
