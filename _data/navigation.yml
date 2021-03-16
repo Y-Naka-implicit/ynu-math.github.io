@@ -1,4 +1,6 @@
 header:
+  - title: ホーム
+    url: /posts/welcome
   - title: 活動記録
     url: /activities.html
   - title: 記事一覧
