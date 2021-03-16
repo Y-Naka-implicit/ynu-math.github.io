@@ -232,7 +232,7 @@ defaults:
     values:
       layout: article
       sidebar:
-        nav: activities-side
+        nav: Analysis_II-side
       license: false
       aside:
         toc: true
@@ -247,7 +247,7 @@ defaults:
     values:
       layout: article
       sidebar:
-        nav: activities-side
+        nav: Analysis_I_Solution-side
       license: false
       aside:
         toc: true
@@ -261,7 +261,7 @@ defaults:
     values:
       layout: article
       sidebar:
-        nav: activities-side
+        nav: Analysis_I-side
       license: false
       aside:
         toc: true

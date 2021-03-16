@@ -1,6 +1,6 @@
 header:
   - title: 活動記録
-    url: /posts/Analysis_II/seminar-03
+    url: /activities.html
   - title: 記事一覧
     url: /topics.html
   - title: アーカイブ
@@ -9,7 +9,7 @@ header:
     url: /about.html
 
 
-activities-side:
+Analysis_II-side:
   - title: 解析入門 中 ゼミ (現在進行中)
     children:
       - title: ゼミ第1回
@@ -19,11 +19,13 @@ activities-side:
       - title: ゼミ第3回
         url: /posts/Analysis_II/seminar-03
 
+Analysis_I_Solution-side:
   - title: 解析入門 上 解答集作成 (現在進行中)
     children:
       - title: ミーティング第1回
         url: /posts/Analysis_I_Solution/meeting-01
 
+Analysis_I-side:
   - title: 解析入門 上 ゼミ (2020-07-18～2020-11-14)
     children:
       - title: ミーティング第1回
