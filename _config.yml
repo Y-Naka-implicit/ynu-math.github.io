@@ -241,6 +241,20 @@ defaults:
       show_author_profile: false
       # lightbox: true
 
+  ## Analysis_I_Solution
+  - scope:
+      path: "_posts/Analysis_I_Solution"
+    values:
+      layout: article
+      sidebar:
+        nav: activities-side
+      license: false
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_date: true
+      show_author_profile: false
+
   ## Analysis_I
   - scope:
       path: "_posts/Analysis_I"
@@ -254,6 +268,8 @@ defaults:
       show_edit_on_github: false
       show_date: true
       show_author_profile: false
+
+  
 
 
 ## => Plugins
