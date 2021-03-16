@@ -1,9 +1,76 @@
 header:
-  - title: 活動紹介
-    url: /activities/activities.html
+  - title: 活動記録
+    url: /posts/Analysis_II/seminar-03
   - title: 記事一覧
-    url: /topics/topics.html
+    url: /topics.html
   - title: アーカイブ
     url: /archive.html
   - title: サークル情報
     url: /about.html
+
+
+activities-side:
+  - title: 解析入門 中 ゼミ (現在進行中)
+    children:
+      - title: ゼミ第1回
+        url: /posts/Analysis_II/seminar-01
+      - title: ゼミ第2回
+        url: /posts/Analysis_II/seminar-02
+      - title: ゼミ第3回
+        url: /posts/Analysis_II/seminar-03
+
+  - title: 解析入門 上 解答集作成 (現在進行中)
+    children:
+      - title: ミーティング第1回
+        url: /posts/Analysis_I_Solution/meeting-01
+
+  - title: 解析入門 上 ゼミ (2020-07-18～2020-11-14)
+    children:
+      - title: ミーティング第1回
+        url: /posts/Analysis_I/meeting-01
+      - title: ミーティング第2回
+        url: /posts/Analysis_I/meeting-02
+      - title: ミーティング第3回
+        url: /posts/Analysis_I/meeting-03
+      - title: ミーティング第4回
+        url: /posts/Analysis_I/meeting-04
+      - title: ミーティング第5回
+        url: /posts/Analysis_I/meeting-05
+      - title: ミーティング第6回
+        url: /posts/Analysis_I/meeting-06
+      - title: ゼミ第1回
+        url: /posts/Analysis_I/seminar-01
+      - title: ゼミ第2回
+        url: /posts/Analysis_I/seminar-02
+      - title: ゼミ第3回
+        url: /posts/Analysis_I/seminar-03
+      - title: ゼミ第4回
+        url: /posts/Analysis_I/seminar-04
+      - title: ゼミ第5回
+        url: /posts/Analysis_I/seminar-05
+      - title: ゼミ第6回
+        url: /posts/Analysis_I/seminar-06
+      - title: ゼミ第7回
+        url: /posts/Analysis_I/seminar-07
+      - title: ゼミ第8回
+        url: /posts/Analysis_I/seminar-08
+      - title: ゼミ第9回
+        url: /posts/Analysis_I/seminar-09
+      - title: ゼミ第10回
+        url: /posts/Analysis_I/seminar-10
+      - title: ミーティング第7回
+        url: /posts/Analysis_I/meeting-07
+      - title: ゼミ第11回
+        url: /posts/Analysis_I/seminar-11
+      - title: ゼミ第12回
+        url: /posts/Analysis_I/seminar-12
+      - title: ゼミ第13回
+        url: /posts/Analysis_I/seminar-13
+      - title: ゼミ第14回
+        url: /posts/Analysis_I/seminar-14
+      - title: ゼミ第15回
+        url: /posts/Analysis_I/seminar-15
+      - title: ゼミ第16回
+        url: /posts/Analysis_I/seminar-16
+      - title: ゼミ第17回
+        url: /posts/Analysis_I/seminar-17
