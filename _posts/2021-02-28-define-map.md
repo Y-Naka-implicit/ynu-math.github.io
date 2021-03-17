@@ -1,8 +1,8 @@
 ---
-layout: articles
+layout: article
 title: "写像を定義する"
 permalink: /posts/define-map
-author: dog
+author: shiba
 date:   2021-02-28 19:10:30 +0900
 modify_date: 2021-03-17 02:00:00 +0900
 tags: 集合論 基礎論 論理学
