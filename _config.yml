@@ -203,9 +203,9 @@ exclude:
 ## collections
 
 #collections_dir: # root
-#collections:
-#  activities:
-#    output: true
+collections:
+  minutes:
+    output: true
 #  topics:
 #    output: false
 
@@ -228,7 +228,7 @@ defaults:
 
   ## Analysis_II
   - scope:
-      path: "_posts/Analysis_II"
+      path: "_minutes/Analysis_II"
     values:
       layout: article
       sidebar:
@@ -243,7 +243,7 @@ defaults:
 
   ## Analysis_I_Solution
   - scope:
-      path: "_posts/Analysis_I_Solution"
+      path: "_minutes/Analysis_I_Solution"
     values:
       layout: article
       sidebar:
@@ -257,7 +257,7 @@ defaults:
 
   ## Analysis_I
   - scope:
-      path: "_posts/Analysis_I"
+      path: "_minutes/Analysis_I"
     values:
       layout: article
       sidebar:
