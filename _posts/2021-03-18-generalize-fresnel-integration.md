@@ -2,7 +2,7 @@
 layout: article
 title: "フレネル積分の一般化について"
 permalink: /posts/generalize-fresnel-integral
-author: 
+author: zab
 date:   2021-03-18 14:45:00 +0900
 modify_date: 
 tags: 解析学 複素関数論
