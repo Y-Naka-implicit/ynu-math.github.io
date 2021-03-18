@@ -203,9 +203,9 @@ exclude:
 ## collections
 
 #collections_dir: # root
-#collections:
-#  activities:
-#    output: true
+collections:
+  minutes:
+    output: true
 #  topics:
 #    output: false
 
