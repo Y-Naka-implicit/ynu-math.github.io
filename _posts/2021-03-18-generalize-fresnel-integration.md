@@ -176,7 +176,7 @@ $$
 &= -\lim_{R\to \infty}\mathrm{Im}\, I_3\\
 &= -\mathrm{Im}\, \left(\lim_{R\to \infty} I_3 \right)\\
 &= \mathrm{Im}\, \left\{ e^{i\frac{\pi}{2k}}\Gamma\left(1+\frac{1}{k}\right) \right\}\\
-&=\Gamma\left(1+\frac{1}{k}\right)\sin\left(\frac{\pi}{2k}\right).
+&=\Gamma\left(1+\frac{1}{k}\right)\sin\left(\frac{\pi}{2k}\right)
 \end{align}
 $$
 
