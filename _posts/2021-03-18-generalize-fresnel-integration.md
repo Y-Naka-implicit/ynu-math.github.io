@@ -21,7 +21,7 @@ $$
 
 ## フレネル積分
 
-フレネル積分は，
+フレネル積分は
 
 $$
 \int_0^\infty \sin(x^2)dx
@@ -33,7 +33,7 @@ $$
 \int_0^\infty \sin(x^k)dx
 $$
 
-をフレネル積分の一般化とし，この値を求める．ただし，$k$は整数とする．
+をフレネル積分の一般化とし，この値を求める．ただし$k$は整数とする．
 積分を求める道具として，コーシーの積分定理を用いる．
 
 ## コーシーの積分定理
@@ -49,7 +49,7 @@ $$
 また，特に次の不等式が成立することに注意する．
 
 $\sin \theta$に関する不等式
-:   $0\le \theta \le \pi/2$なる$\theta$に対して，
+:   $0\le \theta \le \pi/2$なる$\theta$に対して
 
     $$
     \sin \theta \ge \frac{2}{\pi}\theta
@@ -68,11 +68,15 @@ $\sin \theta$に関する不等式
 
 ## 積分を分解する
 
-$f(z)=\exp(iz^k)$とおき，下の画像のような積分路で$f(z)$を積分する．向きは，$C_1$は原点から$(R,0)$向き，$C_2$は反時計回り，$C_3$は弧の端から原点向きである．$C=C_1+C_2+C_3$とする．$C$は$\mathbb{C}$内の単純閉曲線となる．
+$$
+f(z)=\exp(iz^k)
+$$
+
+とおき，下の画像のような積分路で$f(z)$を積分する．向きは，$C_1$は原点から$(R,0)$向き，$C_2$は反時計回り，$C_3$は弧の端から原点向きである．$C=C_1+C_2+C_3$とする．$C$は$\mathbb{C}$内の単純閉曲線となる．
 
 ![画像](https://github.com/Y-Naka-implicit/Y-Naka-implicit/blob/main/equation.jpg?raw=true)
 
-$f(z)$は全平面で正則であるから，とくに$C$の中で正則である．よって，コーシーの積分定理より，
+$f(z)$は全平面で正則であるから，とくに$C$の中で正則である．よって，コーシーの積分定理より
 
 $$
 \oint_C f(z)dz=\int_{C_1}f(z)dz+\int_{C_2}f(z)dz+\int_{C_3}f(z)dz=0
@@ -88,13 +92,13 @@ C_3&=\{\, te^{i\frac{\pi}{2k}} \mid 0\le t \le R \, \}
 \end{align}
 $$
 
-であるから，
+であるから
 
 $$
 \begin{align}
 I_1&=\int_{C_1}f(z)dz=\int_0^R \exp(it^k)dt,\\
-I_2&=\int_0^{\frac{\pi}{2k}}\exp(iR^ke^{ik\theta})Rie^{i\theta}d\theta\\
-I_3&=\int_{C_3}\exp(iz^k)dz,\\
+I_2&=\int_0^{\frac{\pi}{2k}}\exp(iR^ke^{ik\theta})Rie^{i\theta}d\theta,\\
+I_3&=\int_{C_3}\exp(iz^k)dz\\
     &=-e^{i\frac{\pi}{2k}}\int_0^R \exp (it^k\cdot e^{i\frac{\pi}{2}})dt\\
     &=-e^{i\frac{\pi}{2k}}\int_0^R \exp (-t^k)dt
 \end{align}
@@ -131,7 +135,7 @@ $$
 I_3=-e^{i\frac{\pi}{2k}}\int_0^R \exp (-t^k)dt
 $$
 
-において$u=t^k$と変数変換をする．$u,t\ge 0$より，$t=u^{1/k}$であり$\dfrac{dt}{du}=\dfrac{1}{k}u^{1/k-1}$である．よって，
+において$u=t^k$と変数変換をする．$u,t\ge 0$より，$t=u^{1/k}$であり$\dfrac{dt}{du}=\dfrac{1}{k}u^{1/k-1}$である．よって
 
 $$
 \begin{align}
@@ -140,8 +144,7 @@ I_3 &= -\frac{e^{i\frac{\pi}{2k}}}{k}\int_0^{R^k} u^{\frac{1}{k}-1}\exp (-u)dt\\
 \end{align}
 $$
 
-である．
-ここでガンマ関数$\Gamma(\cdot)$は
+である．ここでガンマ関数$\Gamma(\cdot)$は
 
 $$
 \Gamma(s)=\int_0^\infty x^{s-1}e^{-s}dx
@@ -190,7 +193,7 @@ $$
 
 ## 補足
 
-$I_1$の実部を取れば，
+$I_1$の実部を取れば
 
 $$\displaystyle
 \int_0^\infty \cos(x^k)dx=\Gamma\left(1+\frac{1}{k}\right)\cos\left(\frac{\pi}{2k}\right)
