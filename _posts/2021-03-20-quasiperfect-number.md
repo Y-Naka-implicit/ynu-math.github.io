@@ -33,7 +33,7 @@ $$ \frac{M+1}{2}\times{M}=2^{82589932}\times{(2^{82589933}-1)}$$
 **なお奇数の完全数はその存在が不明である。**
   
 
-[^wikija.org]: [巨大数研究wiki](https://googology.wikia.org/ja/wiki/%E7%9F%A5%E3%82%89%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E6%9C%80%E5%A4%A7%E3%81%AE%E5%AE%8C%E5%85%A8%E6%95%B0)
+[^wikija.org]:[巨大数研究wiki](https://googology.wikia.org/ja/wiki/%E7%9F%A5%E3%82%89%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E6%9C%80%E5%A4%A7%E3%81%AE%E5%AE%8C%E5%85%A8%E6%95%B0)
 
 ## 概完全数について
 
