@@ -34,7 +34,7 @@ zab:
   github    : Y-Nakano-implicit # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
-  orange:
+orange:
   name      : 温州ミカン
   url       : 
   avatar    : 
