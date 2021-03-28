@@ -106,4 +106,4 @@ int main(void)
 }
 ```
 
-![](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/master/assets/images/topics/quasiperfect-number.png)
+![](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/gh-pages/assets/images/topics/quasiperfect-number.png)
