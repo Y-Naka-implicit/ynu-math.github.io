@@ -106,4 +106,4 @@ int main(void)
 }
 ```
 
-![](./quasiperfect-number.png)
+![](https://raw.githubusercontent.com/physi0323/ynu-math.github.io/master/assets/images/topics/quasiperfect-number.png)
