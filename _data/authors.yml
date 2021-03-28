@@ -37,7 +37,7 @@ zab:
 orange:
   name      : 温州ミカン
   url       : 
-  avatar    : 
+  avatar    : https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/master/assets/images/authors/orange.png
   bio       : 数理科学EP 1年(2021年3月現在)
   email     : miyazaki-yuu-zm@ynu.jp
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
