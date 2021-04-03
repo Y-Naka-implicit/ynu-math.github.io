@@ -23,7 +23,7 @@ tags: VSCode LaTeX
 気軽にlatexを使いたい．そしてtexファイルはクラウド上に保持したい．しかし備え付けのエディタではなくVSCodeを使いたい．そんな願いをかなえてくれるのが今回紹介する拡張機能です．
 
 
-この拡張機能を使うことで，ローカルPC上で編集したファイルをCloud LaTeXのプロジェクトに同期することができます．Cloud LaTeXではlatexファイルをコンパイルしてpdfを出力してくれるので，すぐにpdfで出力を確認することができます．
+この拡張機能を使うことで，ローカルPC上で編集したファイルをCloud LaTeXのプロジェクトに同期することができます．Cloud LaTeXではtexファイルをコンパイルしてpdfを出力してくれるので，すぐにpdfで出力を確認することができます．
 
 ## 実際の手順
 
@@ -56,7 +56,7 @@ tags: VSCode LaTeX
 
 urlの`/projects`以下の数字がProject IDです．
 
-この例では`343112`となっています．この値も今後つかいので保存しておきましょう．
+この例では`343112`となっています．この値はあとで使うので別のテキストファイルなどにコピー&ペーストで一次的に保存しておきましょう．
 
 ![](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/gh-pages/assets/images/topics/cloudlatex/cloud-latex-project-url.png)
 
@@ -70,11 +70,11 @@ urlの`/projects`以下の数字がProject IDです．
 
 パスワードの入力を求められるので，入力します．
 
-次にトークンを生成をクリックします．
+次に`トークンを生成`をクリックします．
 
 ![](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/gh-pages/assets/images/topics/cloudlatex/cloud-latex-token.png)
 
-Client IDとtokenはあとで必要になるので別のテキストファイルなどにコピー&ペーストで一次的に保存しておきます．
+Client IDとtokenもあとで必要になるので保存しておきます．
 
 
 ### ステップ 4 VSCodeに拡張機能を導入
@@ -111,22 +111,22 @@ VSCodeの拡張機能が並んでいる左のバーから`CL`をクリックし�
 
 ここにCloud LaTeXで登録したメールアドレスを入力します．このときパスワードを設定していないとエラーになります．
 
-次にClient IDを入力して`Enter`を押します．もし保存忘れてしまったら，もう一度同じ手順で作り直してください．
+次にClient IDを入力して`Enter`を押します．もし保存し忘れてしまっていたら，もう一度同じ手順で作り直してください．
 
 次にtokenを入力して`Enter`を押します．
 
 認証が成功すると右下にポップアップが出ます．
 
-次にproject settingのWorkplaceタブにある設定を変更します．
+次に`Project setting`の`Workplace`タブにある設定を変更します．
 
 ![](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/gh-pages/assets/images/topics/cloudlatex/cloud-latex-vscode-projectsetting.png)
 
 - Cloudlatex: **Enabled** にチェック
-- Cloudlatex: **Project ID**にプロジェクトIDを入力します．
+- Cloudlatex: **Project ID**にプロジェクトIDを入力
 
 変更するとリロードを促すポップアップが出るのでリロードします．
 
-左側がProject setting (Sample)となれば成功です．
+左側の`Project setting`が`Project setting (Sample)`となれば成功です．
 
 ![](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/gh-pages/assets/images/topics/cloudlatex/cloud-latex-vscode-success.png)
 
@@ -134,11 +134,11 @@ VSCodeの拡張機能が並んでいる左のバーから`CL`をクリックし�
 
 成功するとCloud LaTeXというフォルダに，新たに
 
-- figures
-- main.pdf
-- main.tex
+- `figures`
+- `main.pdf`
+- `main.tex`
 
-などのフォルダとファイルができます．
+などのフォルダとファイルが作成されます．
 
 ## 同期できるかの確認
 
