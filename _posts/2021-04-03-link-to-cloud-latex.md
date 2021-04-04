@@ -12,18 +12,18 @@ tags: VSCode LaTeX
 
 - Viual Studio Codeの拡張機能[Cloud LaTeX Extension for Visual Studio Code](https://github.com/cloudlatex-team/cloudlatex-vscode-extension)を使ってCloud LaTeXとVSCodeを連携します．
 - Cloud LaTeXのプロジェクトにあるファイルを，ローカルPCのVSCodeで編集できるようになります．
-- Cloud LaTeXは2021年4月3日現在開発中です．
+- Cloud LaTeX Extension for Visual Studio Codeは2021年4月3日現在開発中です．
 
 ## 導入背景
 
-[Cloud LaTeX](https://cloudlatex.io/)はクラウド上でlatexを使ってpdfファイルを作成できるサービスです．texファイルを編集するエディタもウェブブラウザ上で動作します．長大なlatexのプログラムをローカルPCにインストールせずに使うことができるのが利点です．
+[Cloud LaTeX](https://cloudlatex.io/)はクラウド上で$\LaTeX$を使ってpdfファイルを作成できるサービスです．`.tex`ファイルを編集するエディタもウェブブラウザ上で動作します．長大な$\LaTeX$のプログラムをローカルPCにインストールせずに使うことができるのが利点です．
 
 [Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)は最も人気のあるエディタの一つで，様々なサービスとの連携や拡張性・カスタマイズ性の高さが特徴です．
 
-気軽にlatexを使いたい．そしてtexファイルはクラウド上に保持したい．しかし備え付けのエディタではなくVSCodeを使いたい．そんな願いをかなえてくれるのが今回紹介する拡張機能です．
+気軽にlatexを使いたい．そして`.tex`ファイルはクラウド上に保持したい．しかし備え付けのエディタではなくVSCodeを使いたい．そんな願いをかなえてくれるのが今回紹介する拡張機能です．
 
 
-この拡張機能を使うことで，ローカルPC上で編集したファイルをCloud LaTeXのプロジェクトに同期することができます．Cloud LaTeXではtexファイルをコンパイルしてpdfを出力してくれるので，すぐにpdfで出力を確認することができます．
+この拡張機能を使うことで，ローカルPC上で編集したファイルをCloud LaTeXのプロジェクトに同期することができます．Cloud LaTeXでは`.tex`ファイルをコンパイルしてpdfを出力してくれるので，すぐにpdfで出力を確認することができます．
 
 ## 実際の手順
 
@@ -39,7 +39,7 @@ tags: VSCode LaTeX
 
 のいずれかを選びます．
 
-他のサービスと連携してアカウントを作成した人は別途パスワード登録をする必要があります．
+他のサービスと連携してアカウントを作成した人は別途パスワードを登録する必要があります．
 
 一度ログアウトし，ログイン画面にある`パスワード再設定`をクリックして誘導に従ってください．
 
@@ -169,7 +169,7 @@ VSCodeの編集画面で`main.tex`というファイルの36行目に文字列�
 
 ## まとめ
 
-この記事ではCloud LaTeXをVSCodeに連携する方法を紹介しました．これにより，texファイルをクラウドに保持しつつ，好きなエディタでtexファイルを編集することができます．
+この記事ではCloud LaTeXをVSCodeに連携する方法を紹介しました．これにより，`.tex`ファイルをクラウドに保持しつつ，好きなエディタで`.tex`ファイルを編集することができます．
 
 ### 注意
 
