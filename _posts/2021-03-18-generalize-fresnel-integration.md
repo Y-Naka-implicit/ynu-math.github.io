@@ -110,7 +110,7 @@ $$
 \lim_{R\to \infty}\mathrm{Im}\, I_1 = \int_0^\infty \sin(x^k)dx
 $$
 
-であるため，$I_1, I_2$の値がわかれば$I_1 = -(I_2+I_3)$から$\displaystyle \int_0^\infty \sin(x^k)dx$の値が求められる．
+であるため，$I_2, I_3$の値がわかれば$I_1 = -(I_2+I_3)$から$\displaystyle \int_0^\infty \sin(x^k)dx$の値が求められる．
 
 ## 積分の値を求める
 
