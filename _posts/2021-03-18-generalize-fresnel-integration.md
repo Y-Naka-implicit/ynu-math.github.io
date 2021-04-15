@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "フレネル積分の一般化について"
+title: "フレネル積分の一般化"
 permalink: /posts/generalize-fresnel-integral
 author: zab
 date:   2021-03-18 14:45:00 +0900
@@ -74,7 +74,7 @@ $$
 
 とおき，下の画像のような積分路で$f(z)$を積分する．向きは，$C_1$は原点から$(R,0)$向き，$C_2$は反時計回り，$C_3$は弧の端から原点向きである．$C=C_1+C_2+C_3$とする．$C$は$\mathbb{C}$内の単純閉曲線となる．
 
-![画像](https://github.com/Y-Naka-implicit/Y-Naka-implicit/blob/main/equation.jpg?raw=true)
+![画像](https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/gh-pages/assets/images/topics/fresnel/course_image.jpg)
 
 $f(z)$は全平面で正則であるから，とくに$C$の中で正則である．よって，コーシーの積分定理より
 

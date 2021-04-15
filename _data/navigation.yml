@@ -88,3 +88,9 @@ Analysis_I-side:
         url: /minutes/Analysis_I/seminar-16
       - title: ゼミ第17回
         url: /minutes/Analysis_I/seminar-17
+
+General-side:
+  - title: 全体ミーティング
+    children:
+      - title: ミーティング第1回
+        url: /minutes/General/meeting-01
