@@ -94,3 +94,5 @@ General-side:
     children:
       - title: ミーティング第1回
         url: /minutes/General/meeting-01
+      - title: ミーティング第2回
+        url: /minutes/General/meeting-02
