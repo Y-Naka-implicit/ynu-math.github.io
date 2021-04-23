@@ -17,7 +17,48 @@ $(X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)$を位相空間とする．写像$f:X_1
 
 今回の主題は，連続写像の定義から**距離**や**極限**といった概念を取り払い，位相空間の間の連続写像を定義することです．
 
+まず，高校数学までの素朴な定義を確認し，距離空間における連続写像を取り扱います．
 
+次に，距離空間における開集合系の性質を述べ，慣例に則って，位相を開集合系によって定義します．
+
+最後に，位相を用いた連続写像の表現を定義します．
+
+本編では，語尾はである調で統一しています．
+
+## $\varepsilon - \delta$論法による連続性の定義
+
+ここでは，距離空間の連続写像を考えるために，高校での連続の定義の問題点を挙げ，$\varepsilon - \delta$論法による連続の定義を行う．
+
+高校までで学んだ連続の定義は，次のようであった．[^oshima]
+
+{% include definition.html content="
+$a$を$f(x)$の定義域に属する値とするとき，関数$f(x)$が$x=a$で<b>連続</b>であるとは，次の2つのことが満たされていることである．
+<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. 極限値$\displaystyle \lim_{x\to a}f(x)$が存在する．
+<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. $\displaystyle \lim_{x\to a}f(x)=f(a)$が成立する．
+" %}
+
+[^oshima]: 大島利雄ほか13名著 (2018).極限,『改訂版　数学III』,数研出版,pp.141-142.より引用．
+
+
+高校までの数学では「極限値$\displaystyle \lim_{x\to a}f(x)$が存在する．」ということが，はっきりとは定義されていない．そのため，1つ目の条件について議論することができない．
+
+コーシー以後，現代数学では**極限**と**連続**を次のように定義する．
+
+{% include definition.html content="
+<b>極限が存在すること</b>
+<p>$I\subset \mathbb{R}$を区間とする．$f:I\to \mathbb{R}$に対して$\lim_{x\to a}f(x)=\alpha$とは次のことである．
+ある実数$\alpha$が存在し，任意の$\varepsilon>0$に対して，ある$\delta$が存在して，$0<|x-a|<\delta$ならば$|f(x)-\alpha|<\varepsilon$が成立する．
+</p>
+<b>連続であること</b>
+<p>$I\subset \mathbb{R}$を区間として，$a\in I$を固定する．関数$f:I\to \mathbb{R}$が点$a$で連続であるとは次のことである．
+任意の正の数$\varepsilon$に対して，正の数$\delta_{\varepsilon,a}$が存在し，$|x-a|<\delta_{\varepsilon,a}$ならば$|f(x)-f(a)|<\varepsilon$が成立する．
+</p>
+" %}
+
+極限の存在に対しては，$f$は点$a$で定義されていなくてよいことがわかる．連続の定義では，$f$は点$a$で定義されていなけらばならない．
+この定義は，論理式を直訳したような形をとっており，具体的にどのように利用するのかがわかりにくい．そこで，具体的に例を挙げる．
 
 {% include example.html content="
 \[
@@ -60,7 +101,7 @@ $$||\boldsymbol{x} - \boldsymbol{a}||_2<\delta_{\varepsilon,\boldsymbol{a}}$$な
 ノルムは，ベクトルそのものの大きさを測る写像である．ユークリッド空間以外の空間でも連続写像を考えるためには，2点間の距離を直接測れる方がよい．ここではユークリッド空間の距離を考察し，一般の距離空間を定義する．
 
 
-$(1,1)\in \mathbb{R}^2$と$(2,3)\in \mathbb{R}^2$の距離は，$\sqrt{(2-1)^2+(3-1)^2}=\sqrt{1+4}=\sqrt{5}$と計算される．これを$d((1,1),(2,3))$と書けば，距離は，$d:\mathbb{R}^2\times \mathbb{R}^2\to \mathbb{R}$なる写像を考えているということである．ここからの一般化として，ユークリッド空間における距離を定義する．
+$(1,1)\in \mathbb{R}^2$と$(2,3)\in \mathbb{R}^2$の距離は，$\sqrt{(2-1)^2+(3-1)^2}=\sqrt{1+4}=\sqrt{5}$と計算される．これを$d((1,1),(2,3))$と書けば，距離は，$d:\mathbb{R}^2\times \mathbb{R}^2\to \mathbb{R}$なる写像を考えているということである．ここからの一般化として，ユークリッド空間の間の距離を定義する．
 
 {% include definition.html content="
 <b>ユークリッド距離</b>
@@ -167,7 +208,9 @@ $X$を距離空間とする．任意の$r$について$B(a;r)$は開集合であ
 さらに，$A^i$は開集合であり，$A$に包まれる開集合の中で最大のものである．
 " %}
 
-
+{% include proof.html content="
+略.
+"%}
 
 {% include theorem.html content="
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. $(A_\lambda)_{\lambda\in \Lambda}$について，各$A_\lambda$が開集合なら$\displaystyle \bigcup_{\lambda\in \Lambda}A_\lambda$は開集合である．
@@ -195,7 +238,16 @@ $A$を開集合とする．各$a\in A$について，$r_a$が存在して，$B(a
 
 開集合に対して成立する種々の定理を見てきた．ここで，距離空間における開集合の性質をまとめる．
 
-
+<a name="thm:op-sys"></a><!--アンカー-->
+{% include theorem.html content="
+距離空間$X=(X,d)$において，$d$から定まる開集合全体を$\mathcal{O}_d$とかき，$(X,d)$の<b>開集合系</b>という．$\mathcal{O}_d\subset \mathscr{P}(X)$である．さらに，開集合系にたいして次が成立する．
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. $\varnothing,X\in \mathcal{O}_d.$
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. $O_1,O_2\in \mathcal{O}_d ~ \implies O_1\cap O_2\in \mathcal{O}_d.$
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. $ \forall \lambda\in \Lambda\,(O_\lambda \in \mathcal{O}_d) \implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}_d. $
+"%}
 
 [定理15](#thm:op-sys)<!--参照-->は，$\mathcal{O}_d$が距離から定まる集合であるということを明らかにしていない．ここで，距離空間における開集合が満たす性質を公理として採用できないか，ということを考える．そして，それは実際に可能である．詳しくは，次の節で述べる．
 
@@ -278,13 +330,13 @@ $P$は開集合である．
 
 {% include definition.html content="
 集合$X$と$\mathcal{O}\subset \mathscr{P}(X)$について，$\mathcal{O}$が<b>位相</b>であるとは次の3つの公理を満たすことである．
-$$
-\begin{align*}
-(1)&\ \varnothing,X\in \mathcal{O}\\
-(2)&\ O_1,O_2\in \mathcal{O}\implies O_1\cap O_2\in \mathcal{O}\\
-(3)&\ (\forall \lambda \in \Lambda\, (O_\lambda\in \mathcal{O}))\implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}
-\end{align*}
-$$
+\[
+    \begin{align*}
+    (1)&\ \varnothing,X\in \mathcal{O}\\
+    (2)&\ O_1,O_2\in \mathcal{O}\implies O_1\cap O_2\in \mathcal{O}\\
+    (3)&\ (\forall \lambda \in \Lambda\, (O_\lambda\in \mathcal{O}))\implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}
+    \end{align*}
+\]
 このとき，組$(X,\mathcal{O})$を$\mathcal{O}$を<b>開集合系</b>とする<b>位相空間</b>という．しばしば，位相空間$(X,\mathcal{O})$を，位相空間$X$と略記する．$U\in \mathcal{O}$なる$U$を$\mathcal{O}$-開集合という．位相が明らかである場合には，単に開集合ということもある．2つ目の公理より，$\mathcal{O}$は有限個の交叉で閉じている．
 "%}
 
