@@ -42,7 +42,7 @@ $a$を$f(x)$の定義域に属する値とするとき，関数$f(x)$が$x=a$で
 [^oshima]: 大島利雄ほか13名著 (2018).極限,『改訂版　数学III』,数研出版,pp.141-142.より引用．
 
 
-高校までの数学では「極限値$\displaystyle \lim_{x\to a}f(x)$が存在する．」ということが，はっきりとは定義されていない．そのため，1つ目の条件について議論することができない．
+高校までの数学では「極限値$\displaystyle \lim_{x\to a}f(x)$が存在する」ということが，はっきりとは定義されていない．そのため，1つ目の条件について議論することができない．
 
 コーシー以後，現代数学では**極限**と**連続**を次のように定義する．
 
@@ -339,10 +339,10 @@ $(X_1,d_1),(X_2,d_2)$を距離空間とし，$f:X_1\to X_2$を写像とする．
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. $X_2$の閉集合$Q$について$f^{-1}(Q)$は$X_1$の閉集合である．
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. $f(\overline{A})\subset \overline{f(A)}.$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. $f\left(\overline{A}\right)\subset \overline{f(A)}.$
 "%}
 
-ここで<i><b>TFAE.</b></i>は"The Followings Are Equivalent"（いかはすべて互いに同値）の略である．
+ここで<i><b>TFAE.</b></i>は"The Followings Are Equivalent"（以下はすべて互いに同値）の略である．
 
 簡単に1,2,3の同値性を述べる．
 
@@ -398,7 +398,7 @@ $(X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)$を位相空間とする．写像$f:X_1
 異なる位相を入れた位相空間の間の恒等写像に対しては，次のような性質がある．
 
 {% include example.html content="
-$(X,\mathcal{O}_1,(X,\mathcal{O}_2)$を位相空間とし，$f:(X,\mathcal{O}_1)\to (X,\mathcal{O}_2)$を恒等写像とする．$f$が連続写像であることは，$\mathcal{O}_2\subseteq \mathcal{O}_1$となることと同値である．実際，各$x\in X$に対して，$f(x)=x$であることに注意すれば，定義より，$f$が連続であるとは，$\mathcal{O}_2$-開集合$Q$について，$f^{-1}(Q)=Q$が$\mathcal{O}_1$-開集合となることであり，これは，$Q\in \mathcal{O}_2\implies Q\in \mathcal{O}_1$となることと同値であるから，$f$が連続であることは，$\mathcal{O}_2\subseteq \mathcal{O}_1$となることと同値である．$\Box$
+$(X,\mathcal{O}_1,(X,\mathcal{O}_2)$を位相空間とし，$f:(X,\mathcal{O}_1)\to (X,\mathcal{O}_2)$を恒等写像とする．$f$が連続写像であることは，$\mathcal{O}_2\subseteq \mathcal{O}_1$となることと同値である．実際，各$x\in X$に対して，$f(x)=x$であることに注意すれば，定義より，$f$が連続であるとは，$\mathcal{O}_2$-開集合$Q$について，$f^{-1}(Q)=Q$が$\mathcal{O}_1$-開集合となることであり，これは，$Q\in \mathcal{O}_2\implies Q\in \mathcal{O}_1$となることと同値であるから，$f$が連続であることは，$\mathcal{O}_2\subseteq \mathcal{O}_1$となることと同値である．
 "%}
 
 距離空間$(X,d)$において，$d$から定まる開集合全体を$\mathcal{O}_d$とおくと，$\mathcal{O}_d$は位相である．よって，すべての距離空間は位相空間となる．すなわち位相空間は距離空間を一般化したものと捉えられる．
