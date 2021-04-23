@@ -269,7 +269,19 @@ defaults:
       show_date: true
       show_author_profile: false
 
-  
+  ## General
+  - scope:
+      path: "_minutes/General"
+    values:
+      layout: article
+      sidebar:
+        nav: General-side
+      license: false
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_date: true
+      show_author_profile: false
 
 
 ## => Plugins

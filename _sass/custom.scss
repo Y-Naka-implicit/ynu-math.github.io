@@ -1,3 +1,61 @@
 /* start custom scss snippet */
+body{
+    /*'envi'というカウンターを0で初期化*/
+    counter-reset: environment;
+}
+.environment {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px #FFC107;    
+}
+.environment .environment-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+span.environment-title::after{
+    /*'envi'カウンターに1を加算*/
+    counter-increment: environment;
+    content: counter(environment);
+}
+.environment p {
+    margin: 0; 
+    padding: 0;
+}
+
+/* 番号なし環境 */
+.environment-no-number {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px #FFC107;    
+}
+.environment-no-number .environment-no-number-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.environment-no-number p {
+    margin: 0; 
+    padding: 0;
+}
 
 /* end custom scss snippet */
