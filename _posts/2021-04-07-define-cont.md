@@ -322,12 +322,11 @@ $\iff$ 「$f(a)$の近傍$U$について，$f^{-1}(U)$が$a$の近傍になる�
 
 [定義8](#def:cont-map)のあとで注意したように，写像の連続性は定義域の各点の連続性の議論に帰着される．
 
-$\varepsilon'>\varepsilon>0$に対して，$f^{-1}(B(f(a);\varepsilon))\subset f^{-1}(B(f(a);\varepsilon'))$
-となるから十分小さい$\varepsilon$にたいして包含が成立することを確認すればよい．
+[定義17](#def:cont)の1,2,3,4は任意の$\varepsilon>0$に対しての定義となっているが，$\varepsilon'>\varepsilon>0$に対して，$f^{-1}(B(f(a);\varepsilon))\subset f^{-1}(B(f(a);\varepsilon'))$となるから，十分小さい$\varepsilon$にたいして，$d(x,a)<\delta_{\varepsilon,a}$ならば，$d(f(x),f(a))<\varepsilon$を満たす正の数$\delta_{\varepsilon,a}$が存在することを確認すればよい．
 
-<span style="color:red;">直上の文章が何を言っているのかわからない．主語がない．</span>
 
-ここまで連続写像を抽象化するために，距離から定まる特別な集合を考えてきた．[定義17](#def:cont)の書き換えを念頭に置き，開集合の概念を用い，連続写像の概念を簡明に表現できる．
+
+ここまで距離空間と距離空間上に定まる開集合を見てきた．[定義17](#def:cont)の書き換えを念頭に置けば，開集合を用いて連続写像を簡明に表現できる．
 
 <a name="thm:cont-op"></a><!--アンカー-->
 {% include theorem.html content="
