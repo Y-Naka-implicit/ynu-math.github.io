@@ -226,6 +226,20 @@ defaults:
       show_author_profile: true
       pageview: true
 
+  ## Linear_Algebra
+  - scope:
+      path: "_minutes/Linear_Algebra"
+    values:
+      layout: article
+      sidebar:
+        nav: Linear_Algebra-side
+      license: false
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_date: true
+      show_author_profile: false
+
   ## Analysis_II
   - scope:
       path: "_minutes/Analysis_II"

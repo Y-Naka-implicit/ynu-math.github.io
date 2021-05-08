@@ -4,7 +4,7 @@ title: 活動記録
 permalink:
 author: #shiba
 date: 2021-03-08 15:21:40 +0900
-modify_date: 2021-04-15 00:00:00 +0900
+modify_date: 2021-05-08 00:00:00 +0900
 show_author_profile: false
 ---
 
@@ -19,11 +19,16 @@ show_author_profile: false
 - [解析入門 中 ゼミ](/minutes/Analysis_II/meeting-01)
 
     松坂和夫著『解析入門 中』の輪読ゼミです．
+    学部2年生向け．
 
 - [解析入門 上 解答集作成](/minutes/Analysis_I_Solution/meeting-01)
 
     松坂和夫著『解析入門 上』の演習問題の解答を作成しています．
 
+- [線型代数入門 ゼミ](/minutes/Linear_Algebra/seminar-01)
+
+    松坂和夫著『線型代数入門』の輪読ゼミです．
+    学部1年生向け．東京都立大の有志学生と共同で行っています．
 ## 終了した活動
 
 - [解析入門 上 ゼミ](/minutes/Analysis_I/meeting-01)

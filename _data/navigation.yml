@@ -10,6 +10,11 @@ header:
   - title: サークル情報
     url: /about.html
 
+Linear_Algebra-side:
+  - title: 線型代数入門 ゼミ (現在進行中)
+    children:
+      - title: ゼミ第1回
+        url: /minutes/Linear_Algebra/seminar-01
 
 Analysis_II-side:
   - title: 解析入門 中 ゼミ (現在進行中)
@@ -24,6 +29,10 @@ Analysis_II-side:
         url: /minutes/Analysis_II/seminar-02
       - title: ゼミ第3回
         url: /minutes/Analysis_II/seminar-03
+      - title: ゼミ第4回
+        url: /minutes/Analysis_II/seminar-04
+      - title: ゼミ第5回
+        url: /minutes/Analysis_II/seminar-05
 
 Analysis_I_Solution-side:
   - title: 解析入門 上 解答集作成 (現在進行中)
@@ -96,3 +105,5 @@ General-side:
         url: /minutes/General/meeting-01
       - title: ミーティング第2回
         url: /minutes/General/meeting-02
+      - title: ミーティング第3回
+        url: /minutes/General/meeting-03
