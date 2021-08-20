@@ -1,0 +1,195 @@
+= B2ゼミ 第9回
+福田 誠 <fukuda-makoto-vb@ynu.jp>
+v0.2 2021-08-19
+:page-layout: article
+:page-permalink: 
+:page-date: 2021-08-18 11:48:48 +0900
+:page-categories: jekyll update
+:page-liquid:
+
+:toc:
+:toclevels: 2
+:toc-title: 内容
+:sectnums:
+:sectnumlevels: 2
+:stem:
+:eqnums: all
+:dummy: {counter2:section:0}
+:example-caption: 例
+
+
+== 今回の目標
+:dummy: {counter2:section}
+:num: 0
+
+. 多次元正規分布のモーメント母関数を計算する
+. 二次元正規分布の性質
+. 指数分布とガンマ分布の導出
+. カイ2乗分布
+. 標本平均と標本分散の独立性
+
+=== 言葉の確認
+
+* 単回帰係数
+* ボックス・ミュラー法
+* 指数分布
+* ガンマ分布
+
+
+== 多次元正規分布のモーメント母関数
+:dummy: {counter2:section}
+:num: 0
+
+ベクトルの平方完成に慣れました．
+
+== 二次元正規分布の性質
+:dummy: {counter2:section}
+:num: 0
+
+=== 単回帰係数
+
+確率変数ベクトル \(^t(X, Y)\) が2次元正規分布に従うとする．\(X = x\) が与えられた時の \(Y\) の条件付き確率密度関数は
+\[\notag
+    \begin{align*}
+        f_{Y|X} (y|x) = \dfrac{1}{\sqrt{2\pi \sigma_{xx}}}\exp{\left\{-\dfrac{(x - \mu_x)^2}{2 \sigma_{xx}}\right\}} \times \dfrac{1}{\sqrt{2\pi \sigma_{yy}(1 - {\rho_{xy} }^2)}}\exp{\left\{-\dfrac{(y - \mu_y - \beta_{yx}(x-\mu_x))^2}{2 \sigma_{yy}(1 - \rho_{xy} ^2)}\right\}}
+    \end{align*}
+\]
+ここで
+\[\notag
+    \begin{align*}
+        \beta_{yx} = \rho_{xy}\dfrac{\sqrt{\sigma_{yy}}}{\sqrt{\sigma_{xx}}} = \dfrac{\sigma_{xy}}{\sigma_{xx}}
+    \end{align*}
+\]
+を \(Y\) に対する \(X\) の**単回帰係数**という．
+
+つまり\(Y\sim N(\mu_y + \beta_{yx}(x-\mu_x), \sigma_{yy}(1 - {\rho_{xy} }^2))\)
+である．
+
+\(Y\)について積分すると\(X\)の周辺密度関数が
+\[\notag
+    \begin{align*}
+        f_X(x) = \dfrac{1}{\sqrt{2\pi \sigma_{xx}}}\exp{\left\{-\dfrac{(x - \mu_x)^2}{2 \sigma_{xx}}\right\}}
+    \end{align*}
+\]
+であるとわかる．
+
+=== 独立性
+
+\[\notag
+    \begin{align*}
+        E[XY] &= E[XE[Y|X]]\\
+            &= E[X(\mu_y + \beta_{yx}(X-\mu_x))]\\
+            &= \mu_{x} \mu_{y} + \beta_{yx} E[X(X-\mu_x)]\\
+            &= \mu_{x} \mu_{y} + \beta_{yx} E[(X-\mu_x)^2 +X\mu_x -\mu_x^2]\\
+            &= \mu_{x} \mu_{y} + \sigma_{xy}
+    \end{align*}
+\]
+
+より
+
+\[\notag
+    \begin{align*}
+        {\rm Cov}[X,Y] = E[XY] - E[X]E[Y] = \sigma_{xy}
+    \end{align*}
+\]
+
+NOTE: \(X,Y\)がどんな分布に従っていようと，これは定義では？
+
+\(\sigma_{xy}=0\) なら \(f_{X,Y}(x,y) = f_X(x)f_Y(y)\) となり独立
+
+無相関ならば独立という著しい性質がある．
+
+=== ボックスミュラー法
+
+\(X_1, X_2 \sim U(0,1)\)のとき
+\[\notag
+    \begin{align*}
+        \begin{cases}
+            Z_1 = \sqrt{-2 \log X_1} \cos \left(2\pi X_2\right)\\
+            Z_2 = \sqrt{-2 \log X_1} \sin \left(2\pi X_2\right)
+        \end{cases}
+    \end{align*}
+\]
+として\(f_{Z_1, Z_2}(z_1,z_2)\) を計算すると \((Z_1, Z_2) \sim N(\boldsymbol{0}, \boldsymbol{1})\) とわかる．
+
+== 指数分布とガンマ分布の導出
+:dummy: {counter2:section}
+:num: 0
+
+=== 指数分布
+
+確率 \(p\) のベルヌイ試行を繰り返し行い， \(x\) 回の失敗を繰り返したあと成功する確率は
+\[\notag
+    \begin{align*}
+        (1-p)^x p
+    \end{align*}
+\]
+
+初めて成功するまでにかかる時間を \(T\) として \(T\) が従う確率分布を調べる．
+
+1回の試行に要する時間を \(\Delta t\) として 初めて成功するまでに \(t\) 時間要するとする．つまり \(x \Delta t = t\)．
+
+また， \(p, \Delta t\) が十分小さいとき\(p = \lambda \Delta t\) という関係があるとすると
+
+\[\notag
+    \begin{align*}
+        {\rm P}(t \leq T \leq t + \Delta t) &= \left(1-\lambda \Delta t \right)^{\frac{t}{\Delta t}} \lambda \Delta t\\
+        & \fallingdotseq \lambda e^{-\lambda t} \Delta t
+    \end{align*}
+\]
+したがって，連続型確率変数 \(T\) の確率密度関数は \( f_T(t) = \lambda e^{-\lambda t}\) である．このとき \(T\) は**指数分布**に従うといい， \(T \sim {\rm Ex}(\lambda)\) とかく．
+
+指数分布は無記憶性を持つ
+
+=== ガンマ分布
+
+\(X_1, X_2, \dotsc , X_n \overset{\text{i.i.d.}}{\sim} {\rm Ex}\left(\dfrac{1}{\beta}\right)\) のとき \(Y = X_1 + X_2 + \dotsb + X_n\) の従う分布は
+
+\[\notag
+    \begin{align*}
+        f_Y(y) = \dfrac{1}{(n-1)! ~ \beta ^n} y^{n-1} e^{-\frac{y}{\beta}}
+    \end{align*}
+\]
+\(n\) を正の実数全体に拡張して
+\[\notag
+    \begin{align*}
+        f_Y(y) = \dfrac{1}{\Gamma (\alpha) ~ \beta ^{\alpha}} y^{\alpha-1} e^{-\frac{y}{\beta}}
+    \end{align*}
+\]
+と表せるとき\(Y\)はガンマ分布にしたがうといい\(Y \sim {\rm Ga}(\alpha, \beta)\) とかく．ここで \(y>0, \alpha>0 , \beta>0 \) である．
+
+モーメント母関数を計算し，再生性を示す．
+
+== カイ2乗分布
+:dummy: {counter2:section}
+:num: 0
+
+
+\(X_1, X_2, \dotsc , X_n \overset{\text{i.i.d.}}{\sim} N(0, 1^2)\) のとき\(Y = {X_1}^2 + {X_2}^2 + \dotsb + {X_n}^2\) の従う分布を自由度2のカイ2乗分布という．
+
+畳み込みで示すのがつらい．
+
+ガンマ分布 \({\rm Ga}(\dfrac{n}{2}, 2)\) を自由度\(n\) のカイ2乗分布といい \(\chi ^2 (n)\) で表す．つまりカイ2乗分布の確率密度関数は
+\[\notag
+    \begin{align*}
+        \dfrac{1}{\Gamma (\dfrac{n}{2}) ~ 2 ^{\frac{n}{2}}} x^{\frac{n}{2}-1} e^{-\frac{x}{2}}
+    \end{align*}
+\]
+
+
+== 標本平均と標本分散の独立性
+:dummy: {counter2:section}
+:num: 0
+
+p.112 \(Y_1^2\) と \(\sum_{i=2}^n Y_i^2\) が独立であることの理由がわからない．
+
+
+[bibliography]
+== 参考文献
+* [[[ref:kuroki,Kuroki]]] 黒木学. 数理統計学&#8212;統計的推論の基礎&#8212; . 初版, 東京, 共立出版株式会社, 2020, 246p., ISBN 978-4-320-11429-6. 
+
+
+////
+* [[[ref:seki, Seki]]]  赤摂也．確率論入門．初版, 東京, 培風館, 1963, 214p., ISBN 978-4563003142
+* [Sinai] Yakov G. Sinai著, 森真訳. シナイ確率論入門コース. 東京, 丸善出版株式会社, 2012, 225p., ISBN 978-4-621-06298-2
+////
