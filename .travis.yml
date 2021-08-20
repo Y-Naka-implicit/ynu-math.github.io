@@ -1,17 +1,31 @@
-language: ruby
-rvm:
-  - 2.4.1
-branches:
-  only:
-  - master
-before_script: cp -rfv docs/_includes .
-script: JEKYLL_ENV=production bundle exec jekyll build --config ./docs/_config.yml
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: _site
-  keep-history: true
-  on:
-    branch: master
-    target_branch: gh-pages
+
+
+sudo: required
+
+services:
+  - docker                  
+
+before_install:            
+  - mkdir -p output
+  - docker pull asciidoctor/docker-asciidoctor
+
+script:
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-html asciidoctor/docker-asciidoctor asciidoctor -D /documents/output *.adoc      
+  - docker run -v $TRAVIS_BUILD_DIR:/documents/ --name asciidoc-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -D /documents/output *.adoc    
+
+after_error: 
+  - docker logs asciidoc-to-html
+  - docker logs asciidoc-to-pdf
+
+after_failure:
+  - docker logs asciidoc-to-html
+  - docker logs asciidoc-to-pdf
+
+after_success:      
+  - cd output ; mv README.html index.html ; cp -R ../images images
+  - git init
+  - git config user.name "${GH_USER_NAME}"
+  - git config user.email "{GH_USER_EMAIL}"
+  - git add . ; git commit -m "Deploy to GitHub Pages"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+
