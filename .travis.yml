@@ -24,8 +24,9 @@ after_failure:
 after_success:      
   - cd output ; mv README.html index.html ; cp -R ../images images
   - git init
-  - git config --local user.name "shiba-dog-leo"
+  - git config --local user.name "Makoto Fukuda"
   - git config --local user.email "shiba.dog.leo.private@gmail.com"
-  - git add . ; git commit -m "Deploy to GitHub Pages"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+  - git add -A .
+  - git commit -m "Deploy to GitHub Pages"
+  - git push --force --quiet origin master > /dev/null 2>&1
 
