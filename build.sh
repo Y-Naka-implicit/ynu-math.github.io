@@ -28,5 +28,5 @@ git config --local user.name "Makoto Fukuda"
 git config --local user.email "shiba.dog.leo.private@gmail.com"
 git add -A .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
 
