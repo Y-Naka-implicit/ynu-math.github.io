@@ -1,5 +1,8 @@
+sudo: required
+services:
+  - docker  
 language: ruby
-script: ./build.sh
+
 branches:
   only:
   - master
@@ -12,10 +15,16 @@ env:
 before_install:            
   - docker pull asciidoctor/docker-asciidoctor
 
-after_success:
-  - git init
+script:
+  - set -e
+  - jekyll build
+  - rm -rf ../shiba.dog.leo/ynu-math.github.io.master
+  - git clone https://${GH_TOKEN}@github.com/shiba.dog.leo/ynu-math.github.io.git ../shiba.dog.leo/ynu-math.github.io.master
+  - cp -R _site/* ../shiba.dog.leo/ynu-math.github.io.master
+  - cd ../shiba.dog.leo/ynu-math.github.io.master
   - git config --local user.name "Makoto Fukuda"
   - git config --local user.email "shiba.dog.leo.private@gmail.com"
   - git add -A .
-  - git commit -a -m "Deploy to GitHub Pages"
+  - git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+
