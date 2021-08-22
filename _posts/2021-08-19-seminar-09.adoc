@@ -1,10 +1,9 @@
 = B2ゼミ 第9回
-福田 誠 <fukuda-makoto-vb@ynu.jp>
-v0.2 2021-08-19
-:page-layout: article
+shiba <fukuda-makoto-vb@ynu.jp>
+v0.2 2021-12-19
+
 :page-permalink: 
-:page-date: 2021-08-18 11:48:48 +0900
-:page-categories: jekyll update
+:page-date: 2021-08-80 11:48:48 +0900
 :page-liquid:
 
 :toc:
