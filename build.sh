@@ -5,22 +5,22 @@ if [ $TRAVIS_PULL_REQUEST == "true" ]; then
   echo "this is PR, exiting"
   exit 0
 fi
-echo "o1"
+echo "r1"
 # enable error reporting to the console
 set -e
-
+echo "r2"
 # build site with jekyll, by default to `_site' folder
 jekyll build
-
+echo "r3"
 # cleanup
 rm -rf ../shiba.dog.leo/ynu-math.github.io.master
-
+echo "r4"
 #clone `master' branch of the repository using encrypted GH_TOKEN for authentification
 git clone https://${GH_TOKEN}@github.com/shiba.dog.leo/ynu-math.github.io.git ../shiba.dog.leo/ynu-math.github.io.master
-
+echo "r5"
 # copy generated HTML site to `master' branch
 cp -R _site/* ../shiba.dog.leo/ynu-math.github.io.master
-
+echo "r6"
 # commit and push generated content to `master' branch
 # since repository was cloned in write mode with token auth - we can push there
 cd ../shiba.dog.leo/ynu-math.github.io.master
