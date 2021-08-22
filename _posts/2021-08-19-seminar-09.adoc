@@ -6,9 +6,6 @@ v0.2 2021-12-19
 :page-date: 2021-08-80 11:48:48 +0900
 :page-liquid:
 
-:toc:
-:toclevels: 2
-:toc-title: 内容
 :sectnums:
 :sectnumlevels: 2
 :stem:

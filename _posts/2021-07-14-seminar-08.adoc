@@ -1,9 +1,7 @@
 = B2ゼミ 第8回
 福田 誠 <fukuda-makoto-vb@ynu.jp>
 v0.2 2021-07-14   
-:toc:
-:toclevels: 2
-:toc-title: 内容
+
 :sectnums:
 :sectnumlevels: 2
 :stem:
