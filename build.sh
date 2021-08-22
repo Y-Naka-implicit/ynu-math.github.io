@@ -23,10 +23,10 @@ cp -R _site/* ../shiba.dog.leo/ynu-math.github.io.master
 
 # commit and push generated content to `master' branch
 # since repository was cloned in write mode with token auth - we can push there
-cd ../shiba.dog.leo/ynu-math.github.io.master
-git config --local user.name "Makoto Fukuda"
-git config --local user.email "shiba.dog.leo.private@gmail.com"
-git add -A .
-git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+#cd ../shiba.dog.leo/ynu-math.github.io.master
+#git config --local user.name "Makoto Fukuda"
+#git config --local user.email "shiba.dog.leo.private@gmail.com"
+#git add -A .
+#git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
+#git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
 
