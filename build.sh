@@ -5,7 +5,7 @@ if [ $TRAVIS_PULL_REQUEST == "true" ]; then
   echo "this is PR, exiting"
   exit 0
 fi
-
+echo "o1"
 # enable error reporting to the console
 set -e
 
