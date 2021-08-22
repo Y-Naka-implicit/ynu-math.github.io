@@ -10,7 +10,7 @@ echo "r1"
 set -e
 echo "r2"
 # build site with jekyll, by default to `_site' folder
-jekyll build
+bundle exec jekyll build
 echo "r3"
 # cleanup
 rm -rf ../shiba.dog.leo/ynu-math.github.io.master
