@@ -308,9 +308,6 @@ plugins:
   #- jemoji
 
 
-exclude:
-  - Gemfile
-
 asciidoctor:
   attributes:
   - stem
