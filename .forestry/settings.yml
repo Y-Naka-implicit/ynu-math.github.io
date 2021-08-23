@@ -13,6 +13,7 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+  new_doc_ext: ".adoc"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
