@@ -9,11 +9,11 @@ sections:
   label: Minutes
   create: all
   match: "**/*"
-  new_doc_ext: ".adoc"
+  new_doc_ext: adoc
 - type: jekyll-posts
   label: Posts
   create: all
-  new_doc_ext: ".adoc"
+  new_doc_ext: adoc
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
