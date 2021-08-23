@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="en">
   <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>B2ゼミ 第9回 - 横浜国立大学数学サークル</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Ascii Doc 構文解説 - 横浜国立大学数学サークル</title>
 
-<meta name="description" content="1. 今回の目標多次元正規分布のモーメント母関数を計算する二次元正規分布の性質指数分布とガンマ分布の導出カイ2乗分布標本平均と標本分散の独立性1.1. 言葉の確認単回帰係数ボックス・ミュラー法指数分布ガンマ分布2. 多次元正規分布のモーメント母関数ベクトルの平方完成に慣れました．3. 二次元正規分布の性質3.1....">
-<link rel="canonical" href="/2021/08/19/seminar-09.html"><link rel="alternate" type="application/rss+xml" title="横浜国立大学数学サークル" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
+<meta name="description" content="数学関連の記事を書くために最低限必要な構文です．1. 文字装飾Table 1. 書式一覧修飾の名前構文表示用途太字**bold**bold強調，用語の定義斜体[1]_italic_italic引用文献の名前，定理の名前打消し線[line-through#打消し線#]打消し線訂正コメントアウト//この部分は表示され...">
+<link rel="canonical" href="/2021/08/23/Syntax_Sample.html"><link rel="alternate" type="application/rss+xml" title="横浜国立大学数学サークル" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
 
@@ -276,282 +276,309 @@
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>B2ゼミ 第9回</h1></header></div><meta itemprop="headline" content="B2ゼミ 第9回"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="fas fa-user"></i> <span>柴犬レオ</span></li><li><i class="far fa-calendar-alt"></i> <span>Aug 19, 2021</span>
-            </li></ul></div><meta itemprop="author" content="柴犬レオ"/><meta itemprop="datePublished" content="2021-08-19T00:00:00+09:00"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Ascii Doc 構文解説</h1></header></div><meta itemprop="headline" content="Ascii Doc 構文解説"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="fas fa-user"></i> <span></span></li><li><i class="far fa-calendar-alt"></i> <span>Aug 23, 2021</span>
+            </li></ul></div><meta itemprop="author" content=""/><meta itemprop="datePublished" content="2021-08-23T00:00:00+09:00"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet -->
-<div class="article__content" itemprop="articleBody"><div class="sect1">
-<h2 id="今回の目標">1. 今回の目標</h2>
+<div class="article__content" itemprop="articleBody"><div id="preamble">
 <div class="sectionbody">
+<div class="paragraph">
+<p>数学関連の記事を書くために最低限必要な構文です．</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="文字装飾">1. 文字装飾</h2>
+<div class="sectionbody">
+<table id="tab-dec" class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. 書式一覧</caption>
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">修飾の名前</th>
+<th class="tableblock halign-left valign-top">構文</th>
+<th class="tableblock halign-left valign-top">表示</th>
+<th class="tableblock halign-left valign-top">用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">太字</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">**bold**</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>bold</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">強調，用語の定義</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">斜体<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">_italic_</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>italic</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">引用文献の名前，定理の名前</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">打消し線</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[line-through#打消し線#]</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="line-through">打消し線</span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">訂正</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">コメントアウト</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">//この部分は表示されない</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">表示したくないとき</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="章節の区分">2. 章・節の区分</h2>
+<div class="sectionbody">
+<div class="exampleblock">
+<div class="title">Example 1. 章・節の区分</div>
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre>= Document Title (Level 0)
+
+ページタイトル
+
+最も大きい見出し
+
+== Level 1 Section Title
+
+見出し1
+「章」だとおもって差支えない．
+
+=== Level 2 Section Title
+
+見出し2 +
+「小節」だと思って差支えない．</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>表示例</strong></p>
+</div>
+</div>
+</div>
+<h1 id="document-title-level-0" class="sect0">Document Title (Level 0)</h1>
+<div class="paragraph">
+<p>ページタイトル</p>
+</div>
+<div class="paragraph">
+<p>最も大きい見出し</p>
+</div>
+<div class="sect1">
+<h2 id="level-1-section-title">Level 1 Section Title</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>見出し1
+「章」だとおもって差支えない．</p>
+</div>
+<div class="sect2">
+<h3 id="level-2-section-title">Level 2 Section Title</h3>
+<div class="paragraph">
+<p>見出し2<br>
+「小節」だと思って差支えない．</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><strong>解説</strong></p>
+</div>
+<div class="paragraph">
+<p>空行を1行加えると段落とみなされる．(level 0 の下の文)<br>
+空行を入れないと，続きの文章とみなされる．(level 1 の下の文)<br>
+同じ段落で改行したいときは行末に+を置く．(level 2 の下の文)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="数式の利用">数式の利用</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>タイトル(level 0 要素)のすぐ下に，空行をはさまずに<code>:stem:</code>と書くと<br>
+<code>\( \)</code>でインライン，<code>\[ \]</code>で別行立ての数式を\(\LaTeX\)記法で入力できる.<br>
+<code>:stem:</code>の下の行に<code>:eqnums: all</code>とすると自動的に別行立て数式に番号を表示する.</p>
+</div>
+<div class="exampleblock">
+<div class="title">Example 2. 数式の利用</div>
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre>インライン数式：\(F = ma\)
+
+別行立て数式：
+\[\notag
+    \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+\]</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>表示例</strong></p>
+</div>
+<div class="paragraph">
+<p>インライン数式：\(F = ma\)</p>
+</div>
+<div class="paragraph">
+<p>別行立て数式：
+\[\notag
+    \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+\]</p>
+</div>
+<div class="paragraph">
+<p><strong>解説</strong></p>
+</div>
+<div class="paragraph">
+<p>このようにすることで<code>label{}</code>や<code>\ref{}</code>が使え，自動で番号付けされ，リンクもつけられる.</p>
+</div>
+<div class="paragraph">
+<p>番号を表示したくないときは<code>\[</code>のあとに<code>\notag</code>をおく．</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="定理環境">定理環境</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>初めての節（level 1 Section）の<strong>前</strong>に<code>:dummy: {counter2:section:0}</code>と記述し，節の初めに</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>:dummy: {counter2:section}
+:num: 0</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>という文字をおくことで実現できる．詳細は述べない．（述べられない．）</p>
+</div>
+<div class="exampleblock">
+<div class="title">Example 3. 定理環境</div>
+<div class="content">
+<div class="listingblock">
+<div class="content">
+<pre>:def-add: 定義{section}.{counter:num}. 加法族
+[#def:add.definition, title='{def-add}']
+****
+\(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という．
+
+\[
+    \begin{align}
+        \Omega &amp; \in G \label{def:certain}\\
+        E \in G &amp; \implies E^c \in G \label{def:complement}\\
+        E_1, E_2 \in G &amp; \implies E_1 \cup E_2 \in G \label{def:additive}
+    \end{align}
+\]
+****
+
+&lt;&lt;def:add&gt;&gt;は重要．</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>表示例</strong></p>
+</div>
+<div id="def:add" class="sidebarblock definition">
+<div class="content">
+<div class="title">定義4.1. 加法族</div>
+<div class="paragraph">
+<p>\(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の<strong>加法族</strong>という．</p>
+</div>
+<div class="paragraph">
+<p>\[
+    \begin{align}
+        \Omega &amp; \in G \label{def:certain}\\
+        E \in G &amp; \implies E^c \in G \label{def:complement}\\
+        E_1, E_2 \in G &amp; \implies E_1 \cup E_2 \in G \label{def:additive}
+    \end{align}
+\]</p>
+</div>
+</div>
+</div>
+<div class="paragraph">
+<p><a href="#def:add">定義4.1. 加法族</a>は重要．</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><strong>解説</strong></p>
+</div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>多次元正規分布のモーメント母関数を計算する</p>
+<p><code>:def-add:</code>という部分でタイトルを指定する．</p>
 </li>
 <li>
-<p>二次元正規分布の性質</p>
+<p><code>:def-add:</code>という部分の<code>def-add</code>という文字列はなんでも良い．ただし，何を表しているのかわかりやすいほうがいいので<code>def-hoge</code>や<code>thm-hoge</code>などのようにすることを推奨する．</p>
 </li>
 <li>
-<p>指数分布とガンマ分布の導出</p>
+<p><code>{section}</code>という部分で節番号を表示する．</p>
 </li>
 <li>
-<p>カイ2乗分布</p>
+<p><code>{counter:num}</code>という部分で連続した番号を表示する．</p>
 </li>
 <li>
-<p>標本平均と標本分散の独立性</p>
+<p><code>#def:add</code>という部分で定理環境のidを作成する．<code>&lt;&lt; &gt;&gt;</code>で参照すると自動でリンクが作成される．</p>
 </li>
-</ol>
-</div>
-<div class="sect2">
-<h3 id="言葉の確認">1.1. 言葉の確認</h3>
+<li>
+<p><code>#def:add</code>の<code>def:add</code>という部分はなんでもいいが，何を表しているのかわかりやすいほうがいいので<code>def:hoge</code>や<code>thmhoge</code>などのようにすることを推奨する．</p>
+</li>
+<li>
+<p><code>.definition</code>という部分はこの文字列<strong>でなければならない</strong>．</p>
 <div class="ulist">
 <ul>
 <li>
-<p>単回帰係数</p>
+<p><strong>定義</strong>なら<code>.definition</code></p>
 </li>
 <li>
-<p>ボックス・ミュラー法</p>
-</li>
-<li>
-<p>指数分布</p>
-</li>
-<li>
-<p>ガンマ分布</p>
+<p><strong>定理</strong>なら<code>.theorem</code><br>
+などとする.<br>
+※ cssのクラスを指定することに相当．未実装だが，いずれ必要．</p>
 </li>
 </ul>
 </div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="多次元正規分布のモーメント母関数">2. 多次元正規分布のモーメント母関数</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>ベクトルの平方完成に慣れました．</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="二次元正規分布の性質">3. 二次元正規分布の性質</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="単回帰係数">3.1. 単回帰係数</h3>
-<div class="paragraph">
-<p>確率変数ベクトル \(^t(X, Y)\) が2次元正規分布に従うとする．\(X = x\) が与えられた時の \(Y\) の条件付き確率密度関数は
-\[\notag
-    \begin{align*}
-        f_{Y|X} (y|x) = \dfrac{1}{\sqrt{2\pi \sigma_{xx}}}\exp{\left\{-\dfrac{(x - \mu_x)^2}{2 \sigma_{xx}}\right\}} \times \dfrac{1}{\sqrt{2\pi \sigma_{yy}(1 - {\rho_{xy} }^2)}}\exp{\left\{-\dfrac{(y - \mu_y - \beta_{yx}(x-\mu_x))^2}{2 \sigma_{yy}(1 - \rho_{xy} ^2)}\right\}}
-    \end{align*}
-\]
-ここで
-\[\notag
-    \begin{align*}
-        \beta_{yx} = \rho_{xy}\dfrac{\sqrt{\sigma_{yy}}}{\sqrt{\sigma_{xx}}} = \dfrac{\sigma_{xy}}{\sigma_{xx}}
-    \end{align*}
-\]
-を \(Y\) に対する \(X\) の<strong>単回帰係数</strong>という．</p>
-</div>
-<div class="paragraph">
-<p>つまり\(Y\sim N(\mu_y + \beta_{yx}(x-\mu_x), \sigma_{yy}(1 - {\rho_{xy} }^2))\)
-である．</p>
-</div>
-<div class="paragraph">
-<p>\(Y\)について積分すると\(X\)の周辺密度関数が
-\[\notag
-    \begin{align*}
-        f_X(x) = \dfrac{1}{\sqrt{2\pi \sigma_{xx}}}\exp{\left\{-\dfrac{(x - \mu_x)^2}{2 \sigma_{xx}}\right\}}
-    \end{align*}
-\]
-であるとわかる．</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="独立性">3.2. 独立性</h3>
-<div class="paragraph">
-<p>\[\notag
-    \begin{align*}
-        E[XY] &amp;= E[XE[Y|X]]\\
-            &amp;= E[X(\mu_y + \beta_{yx}(X-\mu_x))]\\
-            &amp;= \mu_{x} \mu_{y} + \beta_{yx} E[X(X-\mu_x)]\\
-            &amp;= \mu_{x} \mu_{y} + \beta_{yx} E[(X-\mu_x)^2 +X\mu_x -\mu_x^2]\\
-            &amp;= \mu_{x} \mu_{y} + \sigma_{xy}
-    \end{align*}
-\]</p>
-</div>
-<div class="paragraph">
-<p>より</p>
-</div>
-<div class="paragraph">
-<p>\[\notag
-    \begin{align*}
-        {\rm Cov}[X,Y] = E[XY] - E[X]E[Y] = \sigma_{xy}
-    \end{align*}
-\]</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-\(X,Y\)がどんな分布に従っていようと，これは定義では？
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>\(\sigma_{xy}=0\) なら \(f_{X,Y}(x,y) = f_X(x)f_Y(y)\) となり独立</p>
-</div>
-<div class="paragraph">
-<p>無相関ならば独立という著しい性質がある．</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="ボックスミュラー法">3.3. ボックスミュラー法</h3>
-<div class="paragraph">
-<p>\(X_1, X_2 \sim U(0,1)\)のとき
-\[\notag
-    \begin{align*}
-        \begin{cases}
-            Z_1 = \sqrt{-2 \log X_1} \cos \left(2\pi X_2\right)\\
-            Z_2 = \sqrt{-2 \log X_1} \sin \left(2\pi X_2\right)
-        \end{cases}
-    \end{align*}
-\]
-として\(f_{Z_1, Z_2}(z_1,z_2)\) を計算すると \((Z_1, Z_2) \sim N(\boldsymbol{0}, \boldsymbol{1})\) とわかる．</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="指数分布とガンマ分布の導出">4. 指数分布とガンマ分布の導出</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="指数分布">4.1. 指数分布</h3>
-<div class="paragraph">
-<p>確率 \(p\) のベルヌイ試行を繰り返し行い， \(x\) 回の失敗を繰り返したあと成功する確率は
-\[\notag
-    \begin{align*}
-        (1-p)^x p
-    \end{align*}
-\]</p>
-</div>
-<div class="paragraph">
-<p>初めて成功するまでにかかる時間を \(T\) として \(T\) が従う確率分布を調べる．</p>
-</div>
-<div class="paragraph">
-<p>1回の試行に要する時間を \(\Delta t\) として 初めて成功するまでに \(t\) 時間要するとする．つまり \(x \Delta t = t\)．</p>
-</div>
-<div class="paragraph">
-<p>また， \(p, \Delta t\) が十分小さいとき\(p = \lambda \Delta t\) という関係があるとすると</p>
-</div>
-<div class="paragraph">
-<p>\[\notag
-    \begin{align*}
-        {\rm P}(t \leq T \leq t + \Delta t) &amp;= \left(1-\lambda \Delta t \right)^{\frac{t}{\Delta t}} \lambda \Delta t\\
-        &amp; \fallingdotseq \lambda e^{-\lambda t} \Delta t
-    \end{align*}
-\]
-したがって，連続型確率変数 \(T\) の確率密度関数は \( f_T(t) = \lambda e^{-\lambda t}\) である．このとき \(T\) は<strong>指数分布</strong>に従うといい， \(T \sim {\rm Ex}(\lambda)\) とかく．</p>
-</div>
-<div class="paragraph">
-<p>指数分布は無記憶性を持つ</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="ガンマ分布">4.2. ガンマ分布</h3>
-<div class="paragraph">
-<p>\(X_1, X_2, \dotsc , X_n \overset{\text{i.i.d.}}{\sim} {\rm Ex}\left(\dfrac{1}{\beta}\right)\) のとき \(Y = X_1 + X_2 + \dotsb + X_n\) の従う分布は</p>
-</div>
-<div class="paragraph">
-<p>\[\notag
-    \begin{align*}
-        f_Y(y) = \dfrac{1}{(n-1)! ~ \beta ^n} y^{n-1} e^{-\frac{y}{\beta}}
-    \end{align*}
-\]
-\(n\) を正の実数全体に拡張して
-\[\notag
-    \begin{align*}
-        f_Y(y) = \dfrac{1}{\Gamma (\alpha) ~ \beta ^{\alpha}} y^{\alpha-1} e^{-\frac{y}{\beta}}
-    \end{align*}
-\]
-と表せるとき\(Y\)はガンマ分布にしたがうといい\(Y \sim {\rm Ga}(\alpha, \beta)\) とかく．ここで \(y&gt;0, \alpha&gt;0 , \beta&gt;0 \) である．</p>
-</div>
-<div class="paragraph">
-<p>モーメント母関数を計算し，再生性を示す．</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="カイ2乗分布">5. カイ2乗分布</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>\(X_1, X_2, \dotsc , X_n \overset{\text{i.i.d.}}{\sim} N(0, 1^2)\) のとき\(Y = {X_1}^2 + {X_2}^2 + \dotsb + {X_n}^2\) の従う分布を自由度2のカイ2乗分布という．</p>
-</div>
-<div class="paragraph">
-<p>畳み込みで示すのがつらい．</p>
-</div>
-<div class="paragraph">
-<p>ガンマ分布 \({\rm Ga}(\dfrac{n}{2}, 2)\) を自由度\(n\) のカイ2乗分布といい \(\chi ^2 (n)\) で表す．つまりカイ2乗分布の確率密度関数は
-\[\notag
-    \begin{align*}
-        \dfrac{1}{\Gamma (\dfrac{n}{2}) ~ 2 ^{\frac{n}{2}}} x^{\frac{n}{2}-1} e^{-\frac{x}{2}}
-    \end{align*}
-\]</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="標本平均と標本分散の独立性">6. 標本平均と標本分散の独立性</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>p.112 \(Y_1^2\) と \(\sum_{i=2}^n Y_i^2\) が独立であることの理由がわからない．</p>
+</li>
+</ol>
 </div>
 </div>
 </div>
 <div class="sect1">
 <h2 id="参考文献">参考文献</h2>
 <div class="sectionbody">
-<div class="ulist bibliography">
-<ul class="bibliography">
+<div class="ulist">
+<ul>
 <li>
-<p><a id="ref:kuroki"></a>[Kuroki] 黒木学. 数理統計学&#8212;統計的推論の基礎&#8212; . 初版, 東京, 共立出版株式会社, 2020, 246p., ISBN 978-4-320-11429-6.</p>
+<p><a href="https://qiita.com/xmeta/items/de667a8b8a0f982e123a">AsciiDoc入門</a></p>
 </li>
 </ul>
 </div>
 </div>
-</div></div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2021-08-19T00:00:00+09:00"><!-- start custom article footer snippet -->
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. 厳密にはイタリックと斜体は異なるらしい．参考：  <a href="https://www.nishishi.com/css/font-italic-oblique.html#:~:text=%E6%AC%A7%E6%96%87%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%AD%E3%81%AB,%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%BD%A2%E3%81%A7%E3%81%99%E3%80%82&amp;text=%E3%81%9D%E3%81%AE%E5%A0%B4%E5%90%88%E3%80%81%E3%82%82%E3%81%97%E3%82%A4%E3%82%BF%E3%83%AA%E3%83%83%E3%82%AF%E4%BD%93,%E3%81%9D%E3%82%8C%E3%81%8C%E4%BD%BF%E3%82%8F%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82">斜体とイタリック体は違うのか</a>
+</div>
+</div></div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2021-08-23T00:00:00+09:00"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
-<div itemscope itemtype="http://schema.org/Person" class="author-profile card card--flat item"><img class="author-profile__avatar" itemprop="image" src="https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/gh-pages/assets/images/authors/shiba_dog_leo.jpg" /><div class="item__content"><meta itemprop="name" content="柴犬レオ">
-        <p class="author-profile__name">柴犬レオ</p><p itemprop="description">数理科学EP 1年(2021年3月現在)</p><div class="author-profile__links"><div class="author-links">
-  <ul class="menu menu--nowrap menu--inline"><li title="Send me an Email.">
-      <a class="button button--circle mail-button" itemprop="email" href="mailto:fukuda-makoto-vb@ynu.jp" target="_blank">
-        <i class="fas fa-envelope"></i>
-      </a><li title="Follow me on Twitter.">
-        <a class="button button--circle twitter-button" itemprop="sameAs" href="https://twitter.com/shiba_dog_leo" target="_blank">
-          <div class="icon"><svg fill="#000000" width="24px" height="24px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
-  <path d="M1024.032 194.432c-37.664 16.704-78.176 28-120.672 33.088 43.36-26.016 76.672-67.168 92.384-116.224-40.608 24.064-85.568 41.568-133.408 50.976-38.336-40.832-92.928-66.336-153.344-66.336-116.032 0-210.08 94.048-210.08 210.08 0 16.48 1.856 32.512 5.44 47.872-174.592-8.768-329.408-92.416-433.024-219.52-18.08 31.04-28.448 67.104-28.448 105.632 0 72.896 37.088 137.184 93.472 174.88-34.432-1.088-66.816-10.528-95.168-26.272-0.032 0.864-0.032 1.76-0.032 2.656 0 101.792 72.416 186.688 168.512 205.984-17.632 4.8-36.192 7.36-55.36 7.36-13.536 0-26.688-1.312-39.52-3.776 26.72 83.456 104.32 144.192 196.256 145.888-71.904 56.352-162.496 89.92-260.928 89.92-16.96 0-33.664-0.992-50.112-2.944 92.96 59.616 203.392 94.4 322.048 94.4 386.432 0 597.728-320.128 597.728-597.76 0-9.12-0.192-18.176-0.608-27.168 41.056-29.632 76.672-66.624 104.832-108.736z" />
-</svg>
-</div>
-        </a>
-      </li><li title="Follow me on Github.">
-        <a class="button button--circle github-button" itemprop="sameAs" href="https://github.com/shiba-dog-leo" target="_blank">
-          <div class="icon"><svg fill="#000000" width="24px" height="24px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
-  <path class="svgpath" data-index="path_0" fill="#272636" d="M0 525.2c0 223.6 143.3 413.7 343 483.5 26.9 6.8 22.8-12.4 22.8-25.4l0-88.7c-155.3 18.2-161.5-84.6-172-101.7-21.1-36-70.8-45.2-56-62.3 35.4-18.2 71.4 4.6 113.1 66.3 30.2 44.7 89.1 37.2 119 29.7 6.5-26.9 20.5-50.9 39.7-69.6C248.8 728.2 181.7 630 181.7 513.2c0-56.6 18.7-108.7 55.3-150.7-23.3-69.3 2.2-128.5 5.6-137.3 66.5-6 135.5 47.6 140.9 51.8 37.8-10.2 80.9-15.6 129.1-15.6 48.5 0 91.8 5.6 129.8 15.9 12.9-9.8 77-55.8 138.8-50.2 3.3 8.8 28.2 66.7 6.3 135 37.1 42.1 56 94.6 56 151.4 0 117-67.5 215.3-228.8 243.7 26.9 26.6 43.6 63.4 43.6 104.2l0 128.8c0.9 10.3 0 20.5 17.2 20.5C878.1 942.4 1024 750.9 1024 525.3c0-282.9-229.3-512-512-512C229.1 13.2 0 242.3 0 525.2L0 525.2z" />
-</svg>
-</div>
-        </a>
-      </li></ul>
+<div itemscope itemtype="http://schema.org/Person" class="author-profile card card--flat item"><div class="item__content"><div class="author-profile__links"><div class="author-links">
+  <ul class="menu menu--nowrap menu--inline"></ul>
 </div>
 </div>
 
     </div>
 </div>
 </footer>
-<div class="article__section-navigator clearfix"><div class="previous"><span>PREVIOUS</span><a href="/2021/07/14/seminar-08.html">B2ゼミ 第8回</a></div><div class="next"><span>NEXT</span><a href="/2021/08/20/rule.html">横浜国立大学 数学サークル 会則</a></div></div></div>
+<div class="article__section-navigator clearfix"><div class="previous"><span>PREVIOUS</span><a href="/posts/define-cont">連続写像の定義</a></div></div></div>
 
 </div>
 

@@ -1,1257 +1,291 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-22T18:07:05+09:00</updated><id>/feed.xml</id><title type="html">横浜国立大学数学サークル</title><subtitle>学生有志による数学のゼミ活動を行っています．</subtitle><author><name>{&quot;type&quot;=&gt;&quot;organization&quot;, &quot;url&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;ynu.integral@gmail.com&quot;, &quot;facebook&quot;=&gt;nil, &quot;twitter&quot;=&gt;&quot;ynu_integral&quot;, &quot;weibo&quot;=&gt;nil, &quot;googleplus&quot;=&gt;nil, &quot;telegram&quot;=&gt;nil, &quot;medium&quot;=&gt;nil, &quot;zhihu&quot;=&gt;nil, &quot;douban&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;github&quot;=&gt;&quot;ynu-math&quot;, &quot;npm&quot;=&gt;nil}</name><email>ynu.integral@gmail.com</email></author><entry><title type="html">横浜国立大学 数学サークル 会則</title><link href="/2021/08/20/rule.html" rel="alternate" type="text/html" title="横浜国立大学 数学サークル 会則" /><published>2021-08-20T00:00:00+09:00</published><updated>2021-08-20T00:00:00+09:00</updated><id>/2021/08/20/rule</id><content type="html" xml:base="/2021/08/20/rule.html">&lt;div id=&quot;preamble&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-23T17:52:52+09:00</updated><id>/feed.xml</id><title type="html">横浜国立大学数学サークル</title><subtitle>学生有志による数学のゼミ活動を行っています．</subtitle><author><name>{&quot;type&quot;=&gt;&quot;organization&quot;, &quot;url&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;ynu.integral@gmail.com&quot;, &quot;facebook&quot;=&gt;nil, &quot;twitter&quot;=&gt;&quot;ynu_integral&quot;, &quot;weibo&quot;=&gt;nil, &quot;googleplus&quot;=&gt;nil, &quot;telegram&quot;=&gt;nil, &quot;medium&quot;=&gt;nil, &quot;zhihu&quot;=&gt;nil, &quot;douban&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;github&quot;=&gt;&quot;ynu-math&quot;, &quot;npm&quot;=&gt;nil}</name><email>ynu.integral@gmail.com</email></author><entry><title type="html">Ascii Doc 構文解説</title><link href="/2021/08/23/Syntax_Sample.html" rel="alternate" type="text/html" title="Ascii Doc 構文解説" /><published>2021-08-23T00:00:00+09:00</published><updated>2021-08-23T00:00:00+09:00</updated><id>/2021/08/23/Syntax_Sample</id><content type="html" xml:base="/2021/08/23/Syntax_Sample.html">&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph text-right&quot;&gt;
-&lt;p&gt;制定　令和2021年07月10日&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;art:name&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;第1条 名前&lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;本サークルは横浜国立大学 数学サークルと称する．&lt;/p&gt;
+&lt;p&gt;数学関連の記事を書くために最低限必要な構文です．&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;art:place&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;第2条 場所&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;本部サークルは&lt;a href=&quot;#art:purpose&quot;&gt;第3条 目的&lt;/a&gt;で定める目的に賛同し自発的に参加する者で組織し，本部を横浜国立大学に置く．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;art:purpose&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;第3条 目的&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;本サークルは，数学に限らず理系の話題を気軽に話し合う人たちが集まる場所・機会を提供することを目的とする．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;被引用条項&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;#art:place&quot;&gt;第2条 場所&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;#art:activity&quot;&gt;第4条 活動&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;art:activity&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;第4条 活動&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;本サークルは&lt;a href=&quot;#art:purpose&quot;&gt;第3条 目的&lt;/a&gt;で定める目的達成のために次の活動を行う．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;一つの学問分野に関する定期的な輪講&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;様々な話題に関する短期的な活動&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;その他，本サークルの目的を達成するために必要な活動&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;art:org&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;第5条 組織&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;本サークルは以下の通りに役員を置き，組織運営を行う．仕事内容は細則で定める．&lt;/p&gt;
-&lt;/div&gt;
-&lt;table class=&quot;tableblock frame-all grid-all stretch&quot;&gt;
-&lt;caption class=&quot;title&quot;&gt;表 1. 役職と人数&lt;/caption&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;文字装飾&quot;&gt;1. 文字装飾&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;table id=&quot;tab-dec&quot; class=&quot;tableblock frame-all grid-all stretch&quot;&gt;
+&lt;caption class=&quot;title&quot;&gt;Table 1. 書式一覧&lt;/caption&gt;
 &lt;colgroup&gt;
-&lt;col style=&quot;width: 50%;&quot;&gt;
-&lt;col style=&quot;width: 50%;&quot;&gt;
+&lt;col style=&quot;width: 25%;&quot;&gt;
+&lt;col style=&quot;width: 25%;&quot;&gt;
+&lt;col style=&quot;width: 25%;&quot;&gt;
+&lt;col style=&quot;width: 25%;&quot;&gt;
 &lt;/colgroup&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;役職&lt;/th&gt;
-&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;人数&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;修飾の名前&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;構文&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;表示&lt;/th&gt;
+&lt;th class=&quot;tableblock halign-left valign-top&quot;&gt;用途&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;代表&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;1人&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;太字&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;**bold**&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;強調，用語の定義&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;総務&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;1人&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;斜体&lt;sup class=&quot;footnote&quot;&gt;[&lt;a id=&quot;_footnoteref_1&quot; class=&quot;footnote&quot; href=&quot;#_footnotedef_1&quot; title=&quot;View footnote.&quot;&gt;1&lt;/a&gt;]&lt;/sup&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;_italic_&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;em&gt;italic&lt;/em&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;引用文献の名前，定理の名前&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;会計&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;1人&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;打消し線&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;[line-through#打消し線#]&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;&lt;span class=&quot;line-through&quot;&gt;打消し線&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;訂正&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;部誌制作&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;1人&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;HP維持管理&lt;/p&gt;&lt;/td&gt;
-&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;1人&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;コメントアウト&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;//この部分は表示されない&lt;/p&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;tableblock halign-left valign-top&quot;&gt;&lt;p class=&quot;tableblock&quot;&gt;表示したくないとき&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;被引用条項&lt;/dt&gt;
-&lt;dd&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;章節の区分&quot;&gt;2. 章・節の区分&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;exampleblock&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Example 1. 章・節の区分&lt;/div&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;= Document Title (Level 0)
+
+ページタイトル
+
+最も大きい見出し
+
+== Level 1 Section Title
+
+見出し1
+「章」だとおもって差支えない．
+
+=== Level 2 Section Title
+
+見出し2 +
+「小節」だと思って差支えない．&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;表示例&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;document-title-level-0&quot; class=&quot;sect0&quot;&gt;Document Title (Level 0)&lt;/h1&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ページタイトル&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;最も大きい見出し&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;level-1-section-title&quot;&gt;Level 1 Section Title&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;見出し1
+「章」だとおもって差支えない．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;level-2-section-title&quot;&gt;Level 2 Section Title&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;見出し2&lt;br&gt;
+「小節」だと思って差支えない．&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;解説&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;空行を1行加えると段落とみなされる．(level 0 の下の文)&lt;br&gt;
+空行を入れないと，続きの文章とみなされる．(level 1 の下の文)&lt;br&gt;
+同じ段落で改行したいときは行末に+を置く．(level 2 の下の文)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;数式の利用&quot;&gt;数式の利用&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;タイトル(level 0 要素)のすぐ下に，空行をはさまずに&lt;code&gt;:stem:&lt;/code&gt;と書くと&lt;br&gt;
+&lt;code&gt;\( \)&lt;/code&gt;でインライン，&lt;code&gt;\[ \]&lt;/code&gt;で別行立ての数式を\(\LaTeX\)記法で入力できる.&lt;br&gt;
+&lt;code&gt;:stem:&lt;/code&gt;の下の行に&lt;code&gt;:eqnums: all&lt;/code&gt;とすると自動的に別行立て数式に番号を表示する.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;exampleblock&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Example 2. 数式の利用&lt;/div&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;インライン数式：\(F = ma\)
+
+別行立て数式：
+\[\notag
+    \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+\]&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;表示例&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;インライン数式：\(F = ma\)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;別行立て数式：
+\[\notag
+    \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+\]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;解説&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;このようにすることで&lt;code&gt;label{}&lt;/code&gt;や&lt;code&gt;\ref{}&lt;/code&gt;が使え，自動で番号付けされ，リンクもつけられる.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;番号を表示したくないときは&lt;code&gt;\[&lt;/code&gt;のあとに&lt;code&gt;\notag&lt;/code&gt;をおく．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;定理環境&quot;&gt;定理環境&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;初めての節（level 1 Section）の&lt;strong&gt;前&lt;/strong&gt;に&lt;code&gt;:dummy: {counter2:section:0}&lt;/code&gt;と記述し，節の初めに&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;:dummy: {counter2:section}
+:num: 0&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;という文字をおくことで実現できる．詳細は述べない．（述べられない．）&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;exampleblock&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;Example 3. 定理環境&lt;/div&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre&gt;:def-add: 定義{section}.{counter:num}. 加法族
+[#def:add.definition, title='{def-add}']
+****
+\(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という．
+
+\[
+    \begin{align}
+        \Omega &amp;amp; \in G \label{def:certain}\\
+        E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\
+        E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive}
+    \end{align}
+\]
+****
+
+&amp;lt;&amp;lt;def:add&amp;gt;&amp;gt;は重要．&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;表示例&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def:add&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義4.1. 加法族&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の&lt;strong&gt;加法族&lt;/strong&gt;という．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\[
+    \begin{align}
+        \Omega &amp;amp; \in G \label{def:certain}\\
+        E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\
+        E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive}
+    \end{align}
+\]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;#def:add&quot;&gt;定義4.1. 加法族&lt;/a&gt;は重要．&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;解説&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;:def-add:&lt;/code&gt;という部分でタイトルを指定する．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;:def-add:&lt;/code&gt;という部分の&lt;code&gt;def-add&lt;/code&gt;という文字列はなんでも良い．ただし，何を表しているのかわかりやすいほうがいいので&lt;code&gt;def-hoge&lt;/code&gt;や&lt;code&gt;thm-hoge&lt;/code&gt;などのようにすることを推奨する．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;{section}&lt;/code&gt;という部分で節番号を表示する．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;{counter:num}&lt;/code&gt;という部分で連続した番号を表示する．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;#def:add&lt;/code&gt;という部分で定理環境のidを作成する．&lt;code&gt;&amp;lt;&amp;lt; &amp;gt;&amp;gt;&lt;/code&gt;で参照すると自動でリンクが作成される．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;#def:add&lt;/code&gt;の&lt;code&gt;def:add&lt;/code&gt;という部分はなんでもいいが，何を表しているのかわかりやすいほうがいいので&lt;code&gt;def:hoge&lt;/code&gt;や&lt;code&gt;thmhoge&lt;/code&gt;などのようにすることを推奨する．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;.definition&lt;/code&gt;という部分はこの文字列&lt;strong&gt;でなければならない&lt;/strong&gt;．&lt;/p&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;#art:in-out&quot;&gt;第6条 入部及び退部&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定義&lt;/strong&gt;なら&lt;code&gt;.definition&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;#art:change&quot;&gt;第10条 会則の改定&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理&lt;/strong&gt;なら&lt;code&gt;.theorem&lt;/code&gt;&lt;br&gt;
+などとする.&lt;br&gt;
+※ cssのクラスを指定することに相当．未実装だが，いずれ必要．&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;art:in-out&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;第6条 入部及び退部&lt;/div&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;入部を希望する者は，代表にその旨を伝え，総務に入部届を提出する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;退部を希望する者は，代表にその旨を伝え，総務に退部届を提出する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;退部する者が退部時までに納めた費用の払い戻しは行わない．これは，払い戻しに係る手続きが煩雑になることを防ぐためである．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;#art:org&quot;&gt;第5条 組織&lt;/a&gt;で決められた役職を持つ者が退部を希望する場合は，必ず後任を選出し，その者に引き継ぎを行った後，総務に届け出る．&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;art:decision&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;第7条 議決&lt;/div&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;運営方針議会&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;毎年5月または6月に&lt;strong&gt;運営方針議会&lt;/strong&gt;を置き，1年の活動の方針を決める．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;代表が会則を部員に周知する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;代表がその年度に行う予定の活動の目的・目標・収支・期間を提案する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;総務が議長を務め，議事録をとる．議会終了後，出席していなかった部員に周知する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;年次総会&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;毎年2月または3月に&lt;strong&gt;年次総括会&lt;/strong&gt;を置き，1年の活動を部員に報告する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;その年度に行った活動の責任者が活動の目的・結果・収支を報告する．
-総務が議長を務め，議事録をとる．議会終了後，出席していなかった部員に周知する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;会計がその年度の収支の詳細を説明する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;span class=&quot;red line-through&quot;&gt;総員の過半数の出席で成立する．&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;span class=&quot;red&quot;&gt;過半数の出席がなかった場合，本サークルは解散する．&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&quot;admonitionblock note&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class=&quot;icon&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
-&lt;/td&gt;
-&lt;td class=&quot;content&quot;&gt;
-出席の定義は？&lt;br&gt;
-活動実態の定義をどうするか&lt;br&gt;
-議決に対して1週間以内に承認するか否か（システムが必要）
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;臨時会&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;部員の希望があった場合，代表が臨時会を開催する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;総務が議長を務め，議事録をとる．議会終了後，総務が非出席部員に周知する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;span class=&quot;red line-through&quot;&gt;総員の過半数の出席で成立する．&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;span class=&quot;red&quot;&gt;議決の必要がある場合は出席部員の過半数で議決を行う．&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;art:acc&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;第8条 会費&lt;/div&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;部員は活動のために，必要に応じて支出する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;会計が集金し，支払業務を行う．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;金額・集金期日は会計と代表が決定し，議決を必要としない．（役員の良心にゆだねられている）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;誰も，費用の支出を強制してはならない．（拒否しても会員資格は剥奪されない）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;支出が必要不可欠だと代表が判断した場合，費用を負担しない部員には活動への参加を拒否することができる．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;会計年度は4月から翌年3月までとし，年次総括会で部員に会計報告を行う．&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;毎年部誌発行するなら入会時に徴収して通帳に納める&lt;br&gt;
-2021年度の同人誌発行のためにいどこかで集めたい&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;art:penalty&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;第9条 罰則&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;部員が以下の行為を行った場合，総務が注意喚起する．代表が必要と判断した場合，退部を促すことができる．退部に際する議決は臨時会にて行う．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;サークル内外の人々に対して迷惑行為を行ったとき．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;役員が職務を遂行しなかったとき．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;所属する大学の学則に違反したとき．&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;art:change&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;第10条 会則の改定&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;この会則の改廃は，&lt;a href=&quot;#art:org&quot;&gt;第5条 組織&lt;/a&gt;に定める3つの議会うちのいずれかにおいて議決する．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;注意&quot;&gt;注意&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;細則&quot;&gt;細則&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div id=&quot;fine:job&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;細則1 役員の業務&lt;/div&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;代表&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;サークル全体の方針を決定する提案をする．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;顧問教員への交渉．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;その他の渉外行為．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;部員の入部を受け付ける．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;部員の退部を受け付ける．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;運営方針議会で会則を部員に周知する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;部員の希望があった場合，臨時会を開催する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;運営方針議会でその年度に行う予定の活動の目的・目標・収支・期間を提案する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;活動に必要な費用を会計と決定する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;活動に必要不可欠だと判断した場合，費用を負担しない部員には活動への参加を拒否する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;顧問教員の任期が過ぎた場合，新たな教員と交渉して顧問教員の許可をもらう．&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;総務&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;入部届を受け取る．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;退部届を受け取る．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;#art:penalty&quot;&gt;第9条 罰則&lt;/a&gt;に定める行為を行った部員に対し注意喚起する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;学務からの連絡を受け取る．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;決定事項を部員へ周知する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;議会における議長・書記を務める．&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;会計&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;必要があるたびに代表と相談し費用を徴収する．&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;年次総括会で部員に会計報告を行う&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;被引用条項&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;#art:org&quot;&gt;第5条 組織&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;fine:report&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;細則2 顧問教員の報告&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;代表は以下の事項を顧問教員へ報告する．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;運営方針議会の決議事項&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;年次総会の決議事項&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;嬉しいことがあったとき，その内容&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&quot;fine:advisor&quot; class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;細則3 顧問教員の辞職条件&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;顧問教員が以下の条件に該当すると判断した場合は，顧問の職を辞退することができる．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;条件&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;活動実態がないと判断した場合．(年次総会の出席が過半数に達しないとき)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph text-right&quot;&gt;
-&lt;p&gt;以上&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name>福田 誠</name></author><summary type="html">制定　令和2021年07月10日 第1条 名前 本サークルは横浜国立大学 数学サークルと称する． 第2条 場所 本部サークルは第3条 目的で定める目的に賛同し自発的に参加する者で組織し，本部を横浜国立大学に置く． 第3条 目的 本サークルは，数学に限らず理系の話題を気軽に話し合う人たちが集まる場所・機会を提供することを目的とする． 被引用条項 第2条 場所 第4条 活動 第4条 活動 本サークルは第3条 目的で定める目的達成のために次の活動を行う． 一つの学問分野に関する定期的な輪講 様々な話題に関する短期的な活動 その他，本サークルの目的を達成するために必要な活動 第5条 組織 本サークルは以下の通りに役員を置き，組織運営を行う．仕事内容は細則で定める． 表 1. 役職と人数 役職 人数 代表 1人 総務 1人 会計 1人 部誌制作 1人 HP維持管理 1人 被引用条項 第6条 入部及び退部 第10条 会則の改定 第6条 入部及び退部 入部を希望する者は，代表にその旨を伝え，総務に入部届を提出する． 退部を希望する者は，代表にその旨を伝え，総務に退部届を提出する． 退部する者が退部時までに納めた費用の払い戻しは行わない．これは，払い戻しに係る手続きが煩雑になることを防ぐためである． 第5条 組織で決められた役職を持つ者が退部を希望する場合は，必ず後任を選出し，その者に引き継ぎを行った後，総務に届け出る． 第7条 議決 運営方針議会 毎年5月または6月に運営方針議会を置き，1年の活動の方針を決める． 代表が会則を部員に周知する． 代表がその年度に行う予定の活動の目的・目標・収支・期間を提案する． 総務が議長を務め，議事録をとる．議会終了後，出席していなかった部員に周知する． 年次総会 毎年2月または3月に年次総括会を置き，1年の活動を部員に報告する． その年度に行った活動の責任者が活動の目的・結果・収支を報告する． 総務が議長を務め，議事録をとる．議会終了後，出席していなかった部員に周知する． 会計がその年度の収支の詳細を説明する． 総員の過半数の出席で成立する． 過半数の出席がなかった場合，本サークルは解散する． Note 出席の定義は？ 活動実態の定義をどうするか 議決に対して1週間以内に承認するか否か（システムが必要） 臨時会 部員の希望があった場合，代表が臨時会を開催する． 総務が議長を務め，議事録をとる．議会終了後，総務が非出席部員に周知する． 総員の過半数の出席で成立する． 議決の必要がある場合は出席部員の過半数で議決を行う． 第8条 会費 部員は活動のために，必要に応じて支出する． 会計が集金し，支払業務を行う． 金額・集金期日は会計と代表が決定し，議決を必要としない．（役員の良心にゆだねられている） 誰も，費用の支出を強制してはならない．（拒否しても会員資格は剥奪されない） 支出が必要不可欠だと代表が判断した場合，費用を負担しない部員には活動への参加を拒否することができる． 会計年度は4月から翌年3月までとし，年次総括会で部員に会計報告を行う． 毎年部誌発行するなら入会時に徴収して通帳に納める 2021年度の同人誌発行のためにいどこかで集めたい 第9条 罰則 部員が以下の行為を行った場合，総務が注意喚起する．代表が必要と判断した場合，退部を促すことができる．退部に際する議決は臨時会にて行う． サークル内外の人々に対して迷惑行為を行ったとき． 役員が職務を遂行しなかったとき． 所属する大学の学則に違反したとき． 第10条 会則の改定 この会則の改廃は，第5条 組織に定める3つの議会うちのいずれかにおいて議決する． 注意 . 細則 細則1 役員の業務 代表 サークル全体の方針を決定する提案をする． 顧問教員への交渉． その他の渉外行為． 部員の入部を受け付ける． 部員の退部を受け付ける． 運営方針議会で会則を部員に周知する． 部員の希望があった場合，臨時会を開催する． 運営方針議会でその年度に行う予定の活動の目的・目標・収支・期間を提案する． 活動に必要な費用を会計と決定する． 活動に必要不可欠だと判断した場合，費用を負担しない部員には活動への参加を拒否する． 顧問教員の任期が過ぎた場合，新たな教員と交渉して顧問教員の許可をもらう． 総務 入部届を受け取る． 退部届を受け取る． 第9条 罰則に定める行為を行った部員に対し注意喚起する． 学務からの連絡を受け取る． 決定事項を部員へ周知する． 議会における議長・書記を務める． 会計 必要があるたびに代表と相談し費用を徴収する． 年次総括会で部員に会計報告を行う 被引用条項 第5条 組織 細則2 顧問教員の報告 代表は以下の事項を顧問教員へ報告する． 運営方針議会の決議事項 年次総会の決議事項 嬉しいことがあったとき，その内容 細則3 顧問教員の辞職条件 顧問教員が以下の条件に該当すると判断した場合は，顧問の職を辞退することができる． 条件 活動実態がないと判断した場合．(年次総会の出席が過半数に達しないとき) 以上</summary></entry><entry><title type="html">B2ゼミ 第9回</title><link href="/2021/08/19/seminar-09.html" rel="alternate" type="text/html" title="B2ゼミ 第9回" /><published>2021-08-19T00:00:00+09:00</published><updated>2021-08-19T00:00:00+09:00</updated><id>/2021/08/19/seminar-09</id><content type="html" xml:base="/2021/08/19/seminar-09.html">&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;今回の目標&quot;&gt;1. 今回の目標&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;多次元正規分布のモーメント母関数を計算する&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;二次元正規分布の性質&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;指数分布とガンマ分布の導出&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;カイ2乗分布&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;標本平均と標本分散の独立性&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;言葉の確認&quot;&gt;1.1. 言葉の確認&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;単回帰係数&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ボックス・ミュラー法&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;指数分布&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ガンマ分布&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;多次元正規分布のモーメント母関数&quot;&gt;2. 多次元正規分布のモーメント母関数&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ベクトルの平方完成に慣れました．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;二次元正規分布の性質&quot;&gt;3. 二次元正規分布の性質&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;単回帰係数&quot;&gt;3.1. 単回帰係数&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;確率変数ベクトル \(^t(X, Y)\) が2次元正規分布に従うとする．\(X = x\) が与えられた時の \(Y\) の条件付き確率密度関数は
-\[\notag
-    \begin{align*}
-        f_{Y|X} (y|x) = \dfrac{1}{\sqrt{2\pi \sigma_{xx}}}\exp{\left\{-\dfrac{(x - \mu_x)^2}{2 \sigma_{xx}}\right\}} \times \dfrac{1}{\sqrt{2\pi \sigma_{yy}(1 - {\rho_{xy} }^2)}}\exp{\left\{-\dfrac{(y - \mu_y - \beta_{yx}(x-\mu_x))^2}{2 \sigma_{yy}(1 - \rho_{xy} ^2)}\right\}}
-    \end{align*}
-\]
-ここで
-\[\notag
-    \begin{align*}
-        \beta_{yx} = \rho_{xy}\dfrac{\sqrt{\sigma_{yy}}}{\sqrt{\sigma_{xx}}} = \dfrac{\sigma_{xy}}{\sigma_{xx}}
-    \end{align*}
-\]
-を \(Y\) に対する \(X\) の&lt;strong&gt;単回帰係数&lt;/strong&gt;という．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;つまり\(Y\sim N(\mu_y + \beta_{yx}(x-\mu_x), \sigma_{yy}(1 - {\rho_{xy} }^2))\)
-である．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(Y\)について積分すると\(X\)の周辺密度関数が
-\[\notag
-    \begin{align*}
-        f_X(x) = \dfrac{1}{\sqrt{2\pi \sigma_{xx}}}\exp{\left\{-\dfrac{(x - \mu_x)^2}{2 \sigma_{xx}}\right\}}
-    \end{align*}
-\]
-であるとわかる．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;独立性&quot;&gt;3.2. 独立性&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\[\notag
-    \begin{align*}
-        E[XY] &amp;amp;= E[XE[Y|X]]\\
-            &amp;amp;= E[X(\mu_y + \beta_{yx}(X-\mu_x))]\\
-            &amp;amp;= \mu_{x} \mu_{y} + \beta_{yx} E[X(X-\mu_x)]\\
-            &amp;amp;= \mu_{x} \mu_{y} + \beta_{yx} E[(X-\mu_x)^2 +X\mu_x -\mu_x^2]\\
-            &amp;amp;= \mu_{x} \mu_{y} + \sigma_{xy}
-    \end{align*}
-\]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;より&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\[\notag
-    \begin{align*}
-        {\rm Cov}[X,Y] = E[XY] - E[X]E[Y] = \sigma_{xy}
-    \end{align*}
-\]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;admonitionblock note&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class=&quot;icon&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;Note&lt;/div&gt;
-&lt;/td&gt;
-&lt;td class=&quot;content&quot;&gt;
-\(X,Y\)がどんな分布に従っていようと，これは定義では？
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(\sigma_{xy}=0\) なら \(f_{X,Y}(x,y) = f_X(x)f_Y(y)\) となり独立&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;無相関ならば独立という著しい性質がある．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;ボックスミュラー法&quot;&gt;3.3. ボックスミュラー法&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(X_1, X_2 \sim U(0,1)\)のとき
-\[\notag
-    \begin{align*}
-        \begin{cases}
-            Z_1 = \sqrt{-2 \log X_1} \cos \left(2\pi X_2\right)\\
-            Z_2 = \sqrt{-2 \log X_1} \sin \left(2\pi X_2\right)
-        \end{cases}
-    \end{align*}
-\]
-として\(f_{Z_1, Z_2}(z_1,z_2)\) を計算すると \((Z_1, Z_2) \sim N(\boldsymbol{0}, \boldsymbol{1})\) とわかる．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;指数分布とガンマ分布の導出&quot;&gt;4. 指数分布とガンマ分布の導出&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;指数分布&quot;&gt;4.1. 指数分布&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;確率 \(p\) のベルヌイ試行を繰り返し行い， \(x\) 回の失敗を繰り返したあと成功する確率は
-\[\notag
-    \begin{align*}
-        (1-p)^x p
-    \end{align*}
-\]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;初めて成功するまでにかかる時間を \(T\) として \(T\) が従う確率分布を調べる．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;1回の試行に要する時間を \(\Delta t\) として 初めて成功するまでに \(t\) 時間要するとする．つまり \(x \Delta t = t\)．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;また， \(p, \Delta t\) が十分小さいとき\(p = \lambda \Delta t\) という関係があるとすると&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\[\notag
-    \begin{align*}
-        {\rm P}(t \leq T \leq t + \Delta t) &amp;amp;= \left(1-\lambda \Delta t \right)^{\frac{t}{\Delta t}} \lambda \Delta t\\
-        &amp;amp; \fallingdotseq \lambda e^{-\lambda t} \Delta t
-    \end{align*}
-\]
-したがって，連続型確率変数 \(T\) の確率密度関数は \( f_T(t) = \lambda e^{-\lambda t}\) である．このとき \(T\) は&lt;strong&gt;指数分布&lt;/strong&gt;に従うといい， \(T \sim {\rm Ex}(\lambda)\) とかく．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;指数分布は無記憶性を持つ&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;ガンマ分布&quot;&gt;4.2. ガンマ分布&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(X_1, X_2, \dotsc , X_n \overset{\text{i.i.d.}}{\sim} {\rm Ex}\left(\dfrac{1}{\beta}\right)\) のとき \(Y = X_1 + X_2 + \dotsb + X_n\) の従う分布は&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\[\notag
-    \begin{align*}
-        f_Y(y) = \dfrac{1}{(n-1)! ~ \beta ^n} y^{n-1} e^{-\frac{y}{\beta}}
-    \end{align*}
-\]
-\(n\) を正の実数全体に拡張して
-\[\notag
-    \begin{align*}
-        f_Y(y) = \dfrac{1}{\Gamma (\alpha) ~ \beta ^{\alpha}} y^{\alpha-1} e^{-\frac{y}{\beta}}
-    \end{align*}
-\]
-と表せるとき\(Y\)はガンマ分布にしたがうといい\(Y \sim {\rm Ga}(\alpha, \beta)\) とかく．ここで \(y&amp;gt;0, \alpha&amp;gt;0 , \beta&amp;gt;0 \) である．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;モーメント母関数を計算し，再生性を示す．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;カイ2乗分布&quot;&gt;5. カイ2乗分布&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(X_1, X_2, \dotsc , X_n \overset{\text{i.i.d.}}{\sim} N(0, 1^2)\) のとき\(Y = {X_1}^2 + {X_2}^2 + \dotsb + {X_n}^2\) の従う分布を自由度2のカイ2乗分布という．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;畳み込みで示すのがつらい．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ガンマ分布 \({\rm Ga}(\dfrac{n}{2}, 2)\) を自由度\(n\) のカイ2乗分布といい \(\chi ^2 (n)\) で表す．つまりカイ2乗分布の確率密度関数は
-\[\notag
-    \begin{align*}
-        \dfrac{1}{\Gamma (\dfrac{n}{2}) ~ 2 ^{\frac{n}{2}}} x^{\frac{n}{2}-1} e^{-\frac{x}{2}}
-    \end{align*}
-\]&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;標本平均と標本分散の独立性&quot;&gt;6. 標本平均と標本分散の独立性&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;p.112 \(Y_1^2\) と \(\sum_{i=2}^n Y_i^2\) が独立であることの理由がわからない．&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sect1&quot;&gt;
 &lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist bibliography&quot;&gt;
-&lt;ul class=&quot;bibliography&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a id=&quot;ref:kuroki&quot;&gt;&lt;/a&gt;[Kuroki] 黒木学. 数理統計学&amp;#8212;統計的推論の基礎&amp;#8212; . 初版, 東京, 共立出版株式会社, 2020, 246p., ISBN 978-4-320-11429-6.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name>柴犬レオ</name><email>fukuda-makoto-vb@ynu.jp</email></author><summary type="html">1. 今回の目標 多次元正規分布のモーメント母関数を計算する 二次元正規分布の性質 指数分布とガンマ分布の導出 カイ2乗分布 標本平均と標本分散の独立性 1.1. 言葉の確認 単回帰係数 ボックス・ミュラー法 指数分布 ガンマ分布 2. 多次元正規分布のモーメント母関数 ベクトルの平方完成に慣れました． 3. 二次元正規分布の性質 3.1. 単回帰係数 確率変数ベクトル \(^t(X, Y)\) が2次元正規分布に従うとする．\(X = x\) が与えられた時の \(Y\) の条件付き確率密度関数は \[\notag \begin{align*} f_{Y|X} (y|x) = \dfrac{1}{\sqrt{2\pi \sigma_{xx}}}\exp{\left\{-\dfrac{(x - \mu_x)^2}{2 \sigma_{xx}}\right\}} \times \dfrac{1}{\sqrt{2\pi \sigma_{yy}(1 - {\rho_{xy} }^2)}}\exp{\left\{-\dfrac{(y - \mu_y - \beta_{yx}(x-\mu_x))^2}{2 \sigma_{yy}(1 - \rho_{xy} ^2)}\right\}} \end{align*} \] ここで \[\notag \begin{align*} \beta_{yx} = \rho_{xy}\dfrac{\sqrt{\sigma_{yy}}}{\sqrt{\sigma_{xx}}} = \dfrac{\sigma_{xy}}{\sigma_{xx}} \end{align*} \] を \(Y\) に対する \(X\) の単回帰係数という． つまり\(Y\sim N(\mu_y + \beta_{yx}(x-\mu_x), \sigma_{yy}(1 - {\rho_{xy} }^2))\) である． \(Y\)について積分すると\(X\)の周辺密度関数が \[\notag \begin{align*} f_X(x) = \dfrac{1}{\sqrt{2\pi \sigma_{xx}}}\exp{\left\{-\dfrac{(x - \mu_x)^2}{2 \sigma_{xx}}\right\}} \end{align*} \] であるとわかる． 3.2. 独立性 \[\notag \begin{align*} E[XY] &amp;amp;= E[XE[Y|X]]\\ &amp;amp;= E[X(\mu_y + \beta_{yx}(X-\mu_x))]\\ &amp;amp;= \mu_{x} \mu_{y} + \beta_{yx} E[X(X-\mu_x)]\\ &amp;amp;= \mu_{x} \mu_{y} + \beta_{yx} E[(X-\mu_x)^2 +X\mu_x -\mu_x^2]\\ &amp;amp;= \mu_{x} \mu_{y} + \sigma_{xy} \end{align*} \] より \[\notag \begin{align*} {\rm Cov}[X,Y] = E[XY] - E[X]E[Y] = \sigma_{xy} \end{align*} \] Note \(X,Y\)がどんな分布に従っていようと，これは定義では？ \(\sigma_{xy}=0\) なら \(f_{X,Y}(x,y) = f_X(x)f_Y(y)\) となり独立 無相関ならば独立という著しい性質がある． 3.3. ボックスミュラー法 \(X_1, X_2 \sim U(0,1)\)のとき \[\notag \begin{align*} \begin{cases} Z_1 = \sqrt{-2 \log X_1} \cos \left(2\pi X_2\right)\\ Z_2 = \sqrt{-2 \log X_1} \sin \left(2\pi X_2\right) \end{cases} \end{align*} \] として\(f_{Z_1, Z_2}(z_1,z_2)\) を計算すると \((Z_1, Z_2) \sim N(\boldsymbol{0}, \boldsymbol{1})\) とわかる． 4. 指数分布とガンマ分布の導出 4.1. 指数分布 確率 \(p\) のベルヌイ試行を繰り返し行い， \(x\) 回の失敗を繰り返したあと成功する確率は \[\notag \begin{align*} (1-p)^x p \end{align*} \] 初めて成功するまでにかかる時間を \(T\) として \(T\) が従う確率分布を調べる． 1回の試行に要する時間を \(\Delta t\) として 初めて成功するまでに \(t\) 時間要するとする．つまり \(x \Delta t = t\)． また， \(p, \Delta t\) が十分小さいとき\(p = \lambda \Delta t\) という関係があるとすると \[\notag \begin{align*} {\rm P}(t \leq T \leq t + \Delta t) &amp;amp;= \left(1-\lambda \Delta t \right)^{\frac{t}{\Delta t}} \lambda \Delta t\\ &amp;amp; \fallingdotseq \lambda e^{-\lambda t} \Delta t \end{align*} \] したがって，連続型確率変数 \(T\) の確率密度関数は \( f_T(t) = \lambda e^{-\lambda t}\) である．このとき \(T\) は指数分布に従うといい， \(T \sim {\rm Ex}(\lambda)\) とかく． 指数分布は無記憶性を持つ 4.2. ガンマ分布 \(X_1, X_2, \dotsc , X_n \overset{\text{i.i.d.}}{\sim} {\rm Ex}\left(\dfrac{1}{\beta}\right)\) のとき \(Y = X_1 + X_2 + \dotsb + X_n\) の従う分布は \[\notag \begin{align*} f_Y(y) = \dfrac{1}{(n-1)! ~ \beta ^n} y^{n-1} e^{-\frac{y}{\beta}} \end{align*} \] \(n\) を正の実数全体に拡張して \[\notag \begin{align*} f_Y(y) = \dfrac{1}{\Gamma (\alpha) ~ \beta ^{\alpha}} y^{\alpha-1} e^{-\frac{y}{\beta}} \end{align*} \] と表せるとき\(Y\)はガンマ分布にしたがうといい\(Y \sim {\rm Ga}(\alpha, \beta)\) とかく．ここで \(y&amp;gt;0, \alpha&amp;gt;0 , \beta&amp;gt;0 \) である． モーメント母関数を計算し，再生性を示す． 5. カイ2乗分布 \(X_1, X_2, \dotsc , X_n \overset{\text{i.i.d.}}{\sim} N(0, 1^2)\) のとき\(Y = {X_1}^2 + {X_2}^2 + \dotsb + {X_n}^2\) の従う分布を自由度2のカイ2乗分布という． 畳み込みで示すのがつらい． ガンマ分布 \({\rm Ga}(\dfrac{n}{2}, 2)\) を自由度\(n\) のカイ2乗分布といい \(\chi ^2 (n)\) で表す．つまりカイ2乗分布の確率密度関数は \[\notag \begin{align*} \dfrac{1}{\Gamma (\dfrac{n}{2}) ~ 2 ^{\frac{n}{2}}} x^{\frac{n}{2}-1} e^{-\frac{x}{2}} \end{align*} \] 6. 標本平均と標本分散の独立性 p.112 \(Y_1^2\) と \(\sum_{i=2}^n Y_i^2\) が独立であることの理由がわからない． 参考文献 [Kuroki] 黒木学. 数理統計学&amp;#8212;統計的推論の基礎&amp;#8212; . 初版, 東京, 共立出版株式会社, 2020, 246p., ISBN 978-4-320-11429-6.</summary></entry><entry><title type="html">B2ゼミ 第8回</title><link href="/2021/07/14/seminar-08.html" rel="alternate" type="text/html" title="B2ゼミ 第8回" /><published>2021-07-14T00:00:00+09:00</published><updated>2021-07-14T00:00:00+09:00</updated><id>/2021/07/14/seminar-08</id><content type="html" xml:base="/2021/07/14/seminar-08.html">&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;今回の目標&quot;&gt;1. 今回の目標&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;正規分布の定義・性質を確認&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;多次元正規分布の定義・性質を確認&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;二次元正規分布の性質&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;言葉の確認&quot;&gt;1.1. 言葉の確認&lt;/h3&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;正規分布&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;標準正規分布&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;多次元正規分布&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;単回帰係数&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ボックス・ミュラー法&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/xmeta/items/de667a8b8a0f982e123a&quot;&gt;AsciiDoc入門&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;div id=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;div class=&quot;footnote&quot; id=&quot;_footnotedef_1&quot;&gt;
+&lt;a href=&quot;#_footnoteref_1&quot;&gt;1&lt;/a&gt;. 厳密にはイタリックと斜体は異なるらしい．参考：  &lt;a href=&quot;https://www.nishishi.com/css/font-italic-oblique.html#:~:text=%E6%AC%A7%E6%96%87%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%AD%E3%81%AB,%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%BD%A2%E3%81%A7%E3%81%99%E3%80%82&amp;amp;text=%E3%81%9D%E3%81%AE%E5%A0%B4%E5%90%88%E3%80%81%E3%82%82%E3%81%97%E3%82%A4%E3%82%BF%E3%83%AA%E3%83%83%E3%82%AF%E4%BD%93,%E3%81%9D%E3%82%8C%E3%81%8C%E4%BD%BF%E3%82%8F%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82&quot;&gt;斜体とイタリック体は違うのか&lt;/a&gt;
 &lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;正規分布&quot;&gt;2. 正規分布&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;導出&quot;&gt;2.1. 導出&lt;/h3&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;偶然誤差&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;観測するごとに独立に発生する誤差&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;偶然誤差に関するガウスの公理&lt;/div&gt;
-&lt;div class=&quot;olist arabic&quot;&gt;
-&lt;ol class=&quot;arabic&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;大きさの等しい正と負の誤差は等しい確率で生じる&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;小さい誤差は大きい誤差より起こりやすい&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ある限界値より大きな誤差は実際上怒らない&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;何かしらの値を測定するとき，真の値 \(X\) から誤差 \(\varepsilon\) だけ離れた値 \(x\) を観測するとする．すなわち
-\[
-    \begin{align}
-    \label{x:e}
-        x = X + \varepsilon
-    \end{align}
-\]
-である．
-確率変数 \(\varepsilon\) の従う分布 \(f(\varepsilon)\) を考える． \( (\varepsilon, \varepsilon + d \varepsilon ) \) の範囲の誤差が観測される確率は
-\[
-    \begin{align}
-    \label{f:e}
-        f(\varepsilon) d \varepsilon
-    \end{align}
-\]
-である．(\(\ref{x:e}\))より \( dx = d \varepsilon \) だから (\(\ref{f:e}\))は
-\[\notag
-    \begin{align*}
-        f(x -X) d x
-    \end{align*}
-\]
-と書ける．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ここで \(n\) 個の標本を観測することを考える．それぞれの観測値は確率変数と見ることができる．これを \(X_1, X_2, \cdots , X_n\) とおく．誤差 \(\varepsilon\) は観測するごとにそれぞれ独立に生じている．誤差が \(n\) 個の観測値 \(X_1, X_2, \dotsc , X_n\) から \(dx\) 内に入いる確率は
-\[\notag
-    \begin{align*}
-        f(X_1 -X) d x f(X_2 -X) d x \cdots f(X_n -X) d x
-    \end{align*}
-\]
-とかける．これを \(P(X_1, X_2, \dotsc , X_n)dx^n\) と表すと \(X_1, X_2, \dotsc , X_n\) の同時確率密度関数 \(P(X_1, X_2, \dotsc , X_n)\) は
-\[
-    \begin{align}
-    \label{p}
-        P(X_1, X_2, \cdots , X_n) = f(X_1 -X) f(X_2 -X) \cdots f(X_n -X)
-    \end{align}
-\]
-であることがわかる．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;公理1,2 より \(P\) は \(X_1 = X_2 = \cdots = X_n = X\) で最大値をとる．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;一方， (\(\ref{p}\)) を \(X\) の関数 \(P(X)\) とみるとどのような \(X\) で\(P\) が最大となるかはわからない．そこで&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;経験則による仮定&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\({\rm P}(X)\)は\(X = \dfrac{x_1 + x_2 + \dotsb + x_n}{n} = \overline{X}\)で最大値をとる．すなわち
-\[
-    \begin{align}
-    \label{hyp}
-        \dfrac{d {\rm P}}{dX}(\overline{X}) = 0
-    \end{align}
-\]&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;という仮定をおいてみる．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;(\(\ref{p}\))の対数をとって
-\[\notag
-    \begin{align*}
-        \ln P = \sum_{i=1}^{n} \ln f(X_i - X)
-    \end{align*}
-\]
-両辺微分して
-\[\notag
-    \begin{align*}
-        \dfrac{P'}{P} = -\sum_{i=1}^{n} \dfrac{f'(X_i - X)}{f(X_i - X)}
-    \end{align*}
-\]
-ここで \(X = \overline{X}\) とおくと(\ref{hyp})より
-\[
-    \begin{align}
-    \label{gen}
-        \sum_{i=1}^{n} \dfrac{f'(X_i - \overline{X})}{f(X_i - \overline{X})} = 0
-    \end{align}
-\]
-を得る．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;また定義より
-\[\notag
-    \begin{align*}
-        \sum_{i=1}^{n} (X_i - \overline{X}) = 0
-    \end{align*}
-\]
-を満たす．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ここで次の補題を示す．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;lem:phi&quot; class=&quot;sidebarblock lemma&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;補題&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;関数 \(\phi ~ \colon ~ \mathbb{R} \to \mathbb{R}\) は二階微分可能であるとする．任意の \(n ~ (\geq 3)\)  個の独立な実数 \(x_1, x_2, \dotsc ,x_n\) が
-\[
-    \begin{align}
-    \label{sum}
-        x_1 + x_2 + \dotsb + x_n = 0
-    \end{align}
-\]
-なる関係を満たし，関数 \(\phi\) が
-\[
-    \begin{align}
-    \label{dphi}
-        \sum_{i=1}^{n} \phi(x_i) = 0
-    \end{align}
-\]
-を満たすとき定数 \(a\) をもちいて \(\phi (x) = ax \) とかける．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph text-left&quot;&gt;
-&lt;p&gt;&lt;strong&gt;証明&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sidebarblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;(\(\ref{dphi}\))を \(x_i ~ (1 \leq i \leq n-1)\) で偏微分して
-\[\notag
-    \begin{align*}
-        \phi'(x_i) + \phi'(x_n) \dfrac{\partial x_n}{\partial x_i} = 0
-    \end{align*}
-\]
-となる．
-(\(\ref{sum}\)) より \( \displaystyle x_n = -\sum_{i=1}^{n-1} x_i \) だから \(\dfrac{\partial x_n}{\partial x_i} = -1\) ．よって
-\[
-    \begin{align}
-        \label{n}
-        \phi'(x_i) = \phi'(x_n)
-    \end{align}
-\]
-が成り立つ．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(1 \leq j \leq n-1, ~ j\not = i\) を満たす \(j\) についても同様に
-\[
-    \begin{align}
-        \label{m}
-        \phi'(x_j) = \phi'(x_n)
-    \end{align}
-\]
-(\(\ref{n}, \ref{m}\))より\(1 \leq j \leq n-1, ~ j\not = i\) を満たす \(i, j\) について
-\[\notag
-    \begin{align*}
-        \phi'(x_i) = \phi'(x_j)
-    \end{align*}
-\]
-両辺を\(x_i\)で偏微分すると，各 \(x_1, x_2, \dotsc , x_n\) は独立であったから
-\[\notag
-    \begin{align*}
-        \phi''(x_i) = 0
-    \end{align*}
-\]
-これより \(\phi(x) = ax+b\) とかける．(\(\ref{sum}, \ref{dphi}\)) より \(b=0\) を得る．\(\Box\)&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(\phi = \dfrac{f'}{f}\) として(\(\ref{gen}\))に&lt;a href=&quot;#lem:phi&quot;&gt;補題&lt;/a&gt;を適用すると
-\[\notag
-    \begin{align*}
-        \dfrac{f'(x_i-X)}{f(x_i-X)} = a(x_i-X)
-    \end{align*}
-\]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ここで \(x_i\) を \(x\) ，\(X\) を \(\mu\) とおきなおすと
-\[\notag
-    \begin{align*}
-        \dfrac{f'(x)}{f(x)} &amp;amp;= a(x-\mu)\\
-        \therefore \quad f(x) &amp;amp;= C \exp\left(\dfrac{a(x-\mu)^2}{2}\right)
-    \end{align*}
-\]
-公理3.より \( \displaystyle \lim_{x \to \pm \infty} f(x) = 0\) だから \(a&amp;lt;0\)とわかる．そこで \( a = -\dfrac{1}{\sigma^2} \) とおく．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;規格化条件とガウス積分の公式から\(C = \dfrac{1}{\sqrt{2 \pi \sigma^2}}\) とわかる．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;以上より偶然誤差は確率密度関数が
-\[
-    \begin{align}
-        \label{reg}
-        f_X(x) = \dfrac{1}{\sqrt{2 \pi \sigma^2}} \exp\left(- \dfrac{(x-\mu)^2}{2 \sigma^2 }\right)
-    \end{align}
-\]
-で与えられる分布に従う．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ガウス分布とはガウスの公理を満たす確率密度関数のうち特に \(P'(\overline{X}) = 0\) を満たすものである．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph text-left&quot;&gt;
-&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(n=2\) のとき，\(\phi\)は任意の奇関数となる．\(\phi(x) = ax\) は奇関数だから \(n=2\) の場合も \(\phi(x)=ax\) としてよい．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(n=1\) のとき，\(\overline{X} = X_1\) で，仮定は公理1,2そのものである．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;よって\(n=1,2\) に対しても(\(\ref{reg}\)) としても矛盾を生じない．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;パラメタ&quot;&gt;2.2. パラメタ&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;確率変数 \(X\) の確率密度関数が (\(\ref{reg}\)) で表されるとき，\(X\) は平均 \(\mu\) 分散 \(\sigma ^2\) の正規分布に従うといい，\(X \sim N(\mu, \sigma ^2)\) とかく．
-\[\notag
-    \begin{align*}
-        E[X] =  \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{+ \infty} x \exp\left(- \dfrac{(x-\mu)^2}{2 \sigma^2 }\right)dx
-    \end{align*}
-\]
-\(z = \dfrac{x-\mu}{\sigma}\) と変数変換して
-\[\notag
-    \begin{align*}
-        E[X] =  \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{+ \infty} \left( \sigma^2 z + \mu \sigma \right) \exp\left(- \dfrac{z ^2}{2}\right)dz
-    \end{align*}
-\]
-\(\displaystyle \int_{- \infty} ^{+ \infty}  z^{}  \exp\left( - \dfrac{z^2}{2}\right)dz = \left[ - \exp\left( - \dfrac{z^2}{2}\right) \right]^{\infty}_{-\infty} = 0\) より
-\[\notag
-    \begin{align*}
-        E[X] &amp;amp;=  \dfrac{\mu}{\sqrt{2 \pi}} \int_{- \infty} ^{ +\infty}  \exp\left(- \dfrac{z ^2}{2}\right)dz\\
-        &amp;amp;=  \dfrac{\mu}{\sqrt{2 \pi}} \sqrt{2 \pi} = \mu
-    \end{align*}
-\]
-また
-\[\notag
-    \begin{align*}
-        E[X^2] &amp;amp;=  \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{ + \infty} x^2 \exp\left(- \dfrac{(x-\mu)^2}{2 \sigma^2 }\right)dx\\
-        &amp;amp;=  \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{ \infty} \left( \sigma^2 z + \mu \sigma \right)^2 \exp\left(- \dfrac{z ^2}{2}\right)dz
-    \end{align*}
-\]
-ここで
-\[\notag
-    \begin{align*}
-        \int_{- \infty} ^{ + \infty}  z^2  \exp\left( - \dfrac{z^2}{2}\right)dz &amp;amp;= \int_{- \infty} ^{+ \infty}  \left(-z\right) \left(- \exp\left( - \dfrac{z^2}{2}\right) \right) dz\\
-        &amp;amp;= \left[ - z\exp\left( - \dfrac{z^2}{2}\right) \right]^{+\infty}_{-\infty} + \int_{- \infty} ^{ + \infty} \exp\left( - \dfrac{z^2}{2}\right)dz\\
-        &amp;amp;= \sqrt{2\pi}
-    \end{align*}
-\]
-より
-\[\notag
-    \begin{align*}
-        E[X^2] &amp;amp;=  \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{ + \infty} \left( \sigma^2 z + \mu \sigma \right)^2 \exp\left(- \dfrac{z ^2}{2}\right)dz\\
-        &amp;amp;=  \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{ + \infty} \left( \sigma^4 z ^2 + 2\mu \sigma ^3 z + \mu ^2 \sigma ^2 \right) \exp\left(- \dfrac{z ^2}{2}\right)dz\\
-        &amp;amp;= \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \left\{\sigma ^4 \sqrt{2\pi} + \mu ^2 \sigma ^2 \sqrt{2\pi} \right\} = \sigma ^2 + \mu ^2
-    \end{align*}
-\]
-だから
-\[\notag
-    \begin{align*}
-        V[X] &amp;amp;= E[X ^2] - E[X]^2\\
-        &amp;amp;= \sigma ^2 + \mu ^2 - \mu ^2 = \sigma ^2
-    \end{align*}
-\]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(X \sim N(0, 1)\) のとき\(X\) は標準正規分布に従うという．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;モーメント母関数&quot;&gt;2.3. モーメント母関数&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\[\notag
-    \begin{align*}
-        M_X[t] &amp;amp;=  \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{+ \infty} \exp\left(xt\right) \exp\left(- \dfrac{(x-\mu)^2}{2 \sigma^2 }\right)dx\\
-        &amp;amp;= \exp\left( \mu t + \dfrac{\sigma ^2 t^2}{2} \right) \dfrac{1}{\sqrt{2 \pi \sigma ^2}}  \int_{- \infty} ^{+ \infty} \exp\left(- \dfrac{1}{2 \sigma^2 } \left\{ x- \left( \mu + \sigma ^2 t \right) \right\}\right)dx\\
-        &amp;amp;= \exp\left( \mu t + \dfrac{\sigma ^2 t^2}{2} \right)
-    \end{align*}
-\]&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;再生性&quot;&gt;2.4. 再生性&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(X \sim N(\mu_{x}, \sigma_{xx}), Y \sim N(\mu_{y}, \sigma_{yy})\) のとき \(Z = X + Y\) の従う分布は \(N(\mu_{x} + \mu_{y}, \sigma_{xx} + \sigma_{yy})\)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\[\notag
-    \begin{align*}
-        f_Z (z) = \dfrac{1}{\sqrt{2 \pi \sigma_{xx} ^2}} \dfrac{1}{\sqrt{2 \pi \sigma_{yy} ^2}} \int_{-\infty}^{+\infty} \exp\left( - \dfrac{(x-\mu_{xx})^2 }{2 \sigma_{xx}} \right) \exp\left( - \dfrac{(z - x - \mu_{yy})^2 }{2 \sigma_{xx}} \right) dx
-    \end{align*}
-\]
-\(\dfrac{1}{\sigma ^2} = \dfrac{1}{\sigma_{xx}} + \dfrac{1}{\sigma_{yy}}\) とおくと
-\[\notag
-    \begin{align*}
-        &amp;amp; - \dfrac{(x-\mu_{x})^2 }{2 \sigma_{xx}}  - \dfrac{(z - x - \mu_{y})^2 }{2 \sigma_{xx}}\\
-        &amp;amp;= -\dfrac{1}{2\sigma ^2} \left\{ x - \sigma ^2 \left( \dfrac{\mu_x}{\sigma_{xx}} + \dfrac{z - \mu_y}{\sigma_{yy}} \right) \right\} ^2 \\
-        &amp;amp; \quad + \dfrac{\sigma^2}{2} \left( \dfrac{\mu_x}{\sigma_{xx}} + \dfrac{z - \mu_y}{\sigma_{yy}} \right) -\dfrac{1}{2} \left( \dfrac{\mu_x ^2}{\sigma_{xx}} + \dfrac{(z - \mu_y) ^2}{\sigma_{yy}} \right)\\
-        &amp;amp;= -\dfrac{1}{2\sigma ^2} \left\{ x - \sigma ^2 \left( \dfrac{\mu_x}{\sigma_{xx}} + \dfrac{z - \mu_y}{\sigma_{yy}} \right) \right\} ^2 - \dfrac{1}{2} \dfrac{(z - \mu_{x} - \mu_{y}) ^2}{\sigma_{xx} + \sigma_{yy}}
-    \end{align*}
-\]
-より
-\[\notag
-    \begin{align*}
-        f_Z(z) &amp;amp;= \dfrac{1}{\sqrt{2 \pi \sigma_{xx} ^2}} \dfrac{1}{\sqrt{2 \pi \sigma_{yy} ^2}} \sqrt{2\pi \sigma ^2} \exp \left( - \dfrac{1}{2} \dfrac{(z - \mu_{x} - \mu_{y}) ^2}{\sigma_{xx} + \sigma_{yy}} \right)\\
-        &amp;amp;= \dfrac{1}{\sqrt{2 \pi (\sigma_{xx} ^2 + \sigma_{yy} ^2)}} \exp \left( - \dfrac{1}{2} \dfrac{(z - \mu_{x} - \mu_{y}) ^2}{\sigma_{xx} + \sigma_{yy}} \right)
-    \end{align*}
-\]
-だから \(Z \sim N(\mu_{x} + \mu_{y}, \sigma_{xx} + \sigma_{yy})\)&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;多次元正規分布&quot;&gt;3. 多次元正規分布&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;導出-2&quot;&gt;3.1. 導出&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(p\) 個の確率変数 \(Z_1, Z_2, \dotsc , Z_p\) が独立に同一の分布 \(N(1,0)\) に従うとする．\(\boldsymbol{z} = (z_1, z_2, \dotsc , z_p)^T\) として確率変数ベクトル \(\boldsymbol{Z} = (Z_1, Z_2, \dotsc , Z_p)\) の同時確率密度関数 \(f_{\boldsymbol{Z}}(\boldsymbol{z})\) は
-\[
-    \begin{align}
-        f_{\boldsymbol{Z}}(\boldsymbol{z}) &amp;amp;=\prod_{i=1} ^{n} \dfrac{1}{\sqrt{2 \pi}} \exp \left(-\dfrac{z_i ^2}{2}\right)\notag\\
-        &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2} \sum_{i=0} ^{p} z_i^2 \right)\notag\\
-        \label{fz}
-        &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2}\boldsymbol{z}^T \boldsymbol{z} \right)
-    \end{align}
-\]
-である．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;各 \(z_i \sim N(0,1)\) より
-\[\notag
-    \begin{align*}
-        \boldsymbol{\mu_z} = \begin{pmatrix} \mu_{z_1} \\
-        \mu_{z_2}\\
-        \vdots\\
-        \mu_{z_p}
-        \end{pmatrix} = \begin{pmatrix} 0 \\
-        0\\
-        \vdots\\
-        0
-        \end{pmatrix}
-    \end{align*}
-\]
-及び
-\[\notag
-    \begin{align*}
-        \Sigma_{\boldsymbol{zz}} = E\left[ (\boldsymbol{z} - \boldsymbol{\mu}) (\boldsymbol{z} - \boldsymbol{\mu})^T \right] = \begin{pmatrix}
-        1 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0\\
-        0 &amp;amp; 1 &amp;amp; \cdots &amp;amp; 0\\
-        \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots\\
-        0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 1\\
-        \end{pmatrix}
-        = E
-    \end{align*}
-\]
-が成り立つ． ここで正則な実対称行列 \(A\) を用いて \(\boldsymbol{Z}\) を&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\[
-    \begin{align}
-    \label{ZtoA}
-        \boldsymbol{X} = A \boldsymbol{Z} + \boldsymbol{b}
-    \end{align}
-\]
-のように正則アフィン変換したときの\(p\) 次元確率変数ベクトル \(\boldsymbol{X} = ( X_1, X_2 , \dotsc , X_p)^T\) が 従う分布 \(f_{\boldsymbol{X}}( x_1, x_2, \cdots , x_n)\) を求める．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;このとき
-\[
-    \begin{align}
-    \label{mu}
-        \boldsymbol{\mu_x} = E[\boldsymbol{X}] = A E[\boldsymbol{Z}] + \boldsymbol{b} = \boldsymbol{b}
-    \end{align}
-\]
-である．また&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\[
-    \begin{align}
-        \Sigma_{\boldsymbol{xx}} &amp;amp;= V[\boldsymbol{X}]\\
-        &amp;amp;= E\left[ (A \boldsymbol{Z} + \boldsymbol{b} - E[\boldsymbol{X}]) (A \boldsymbol{Z} + \boldsymbol{b} - E[\boldsymbol{X}])^T \right]\notag\\
-        &amp;amp;= E\left[ A \boldsymbol{Z} \boldsymbol{Z}^T A ^T \right]\notag\\
-        &amp;amp;= A E\left[  \boldsymbol{Z} \boldsymbol{Z}^T \right] A^T\notag\\
-        \label{sigma}
-        &amp;amp;= A E A^T = AA^T
-    \end{align}
-\]
-である．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;(\(\ref{ZtoA}\), \(\ref{mu}\)) および\(A\) が正則であることより
-\[
-    \begin{align}
-    \label{XtoZ}
-        \boldsymbol{Z} = A ^{-1} \left( \boldsymbol{X - \mu_x} \right)
-    \end{align}
-\]
-である．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;(\(\ref{XtoZ}\)) を (\(\ref{fz}\)) に代入すると
-\[\notag
-    \begin{align*}
-        f_{\boldsymbol{Z}}(A^{-1} \boldsymbol{ (\boldsymbol{X -\mu_x})}) &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2}\boldsymbol{z}^T \boldsymbol{z} \right)\\
-        &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2} \left\{A^{-1} (\boldsymbol{x- \mu_x})\right\}^T \left\{A^{-1} (\boldsymbol{x- \mu_x})\right\} \right)\\
-        &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T (A ^{-1}) ^T  A^{-1} (\boldsymbol{x- \mu_x}) \right)\\
-        &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T (AA^T) ^{-1} (\boldsymbol{x- \mu_x}) \right)\\
-        &amp;amp;=\dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T ~ \Sigma_{\boldsymbol{xx}} ^{-1} ~ (\boldsymbol{x- \mu_x}) \right)\\
-    \end{align*}
-\]
-である．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;(\(\ref{sigma}\)) より
-\[\notag
-    \begin{align*}
-        \det \Sigma_{\boldsymbol{xx}} &amp;amp;= (\det A ) (\det A^T ) = (\det A )^2 \\
-        |\det A| &amp;amp;= \sqrt{\det \Sigma_{\boldsymbol{xx}}}
-    \end{align*}
-\]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;であることと (\(\ref{XtoZ}\)) より
-\[\notag
-    \begin{align*}
-        \left| \det \left( \dfrac{\partial \boldsymbol{z}}{\partial \boldsymbol{x}} \right)\right| &amp;amp;= \left| \det \left( A^{-1}\right) \right|\\
-        &amp;amp;= \left| \dfrac{1}{\det A} \right| = \dfrac{1}{|\det A|} \\
-        &amp;amp;= \sqrt{\det \Sigma_{\boldsymbol{xx}}}
-    \end{align*}
-\]
-となる．&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;以上より\(p\) 次元確率変数ベクトル \(\boldsymbol{X} = ( X_1, X_2 , \dotsc , X_p)^T\) が 従う分布 \(f_{\boldsymbol{X}}( \boldsymbol{x})\) は
-\[\notag
-    \begin{align*}
-        f_{\boldsymbol{X}}( \boldsymbol{x}) &amp;amp;= f_{\boldsymbol{Z}}(A^{-1} \boldsymbol{ (\boldsymbol{X -\mu_x})}) \left| \det \left( \dfrac{\partial \boldsymbol{z}}{\partial \boldsymbol{x}} \right)\right|\\
-        &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p \sqrt{\det \Sigma_{\boldsymbol{xx}}}} \exp \left(-\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T ~ \Sigma_{\boldsymbol{xx}} ^{-1} ~ (\boldsymbol{x- \mu_x}) \right)
-    \end{align*}
-\]
-ここで重積分の変数変換公式を用いた．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;モーメント母関数-2&quot;&gt;3.2. モーメント母関数&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;\(\boldsymbol{t}\)を \(p\) 次元ベクトル \(\boldsymbol{t} = ( t_1, t_2 , \dotsc , t_p)^T\) とする．\(p\) 次元正規分布\(f_{\boldsymbol{X}}( \boldsymbol{x})\) のモーメント母関数\(M_\boldsymbol{X}(\boldsymbol{t})\)は
-\[\notag
-    \begin{align*}
-        M_\boldsymbol{X}(\boldsymbol{t}) &amp;amp;= E[\boldsymbol{t}^T \boldsymbol{X}]\\
-        &amp;amp;= \int_{D_\boldsymbol{X}}\dfrac{1}{(\sqrt{2 \pi}) ^p \sqrt{\det \Sigma_{\boldsymbol{xx}}}} \exp \left(-\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T ~ \Sigma_{\boldsymbol{xx}} ^{-1} ~ (\boldsymbol{x- \mu_x}) \right) \exp\left( \boldsymbol{t}^T \boldsymbol{x} \right)  d\boldsymbol{x}
-    \end{align*}
-\]
-指数関数 の中は
-\[\notag
-    \begin{align*}
-        &amp;amp; \quad -\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T ~ \Sigma_{\boldsymbol{xx}} ^{-1} ~ (\boldsymbol{x- \mu_x}) + \boldsymbol{t}^T \boldsymbol{x}\\
-        &amp;amp;=
-    \end{align*}
-\]
-ここの計算ができませんでした．&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist bibliography&quot;&gt;
-&lt;ul class=&quot;bibliography&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a id=&quot;ref:kuroki&quot;&gt;&lt;/a&gt;[Kuroki] 黒木学. 数理統計学&amp;#8212;統計的推論の基礎&amp;#8212; . 初版, 東京, 共立出版株式会社, 2020, 246p., ISBN 978-4-320-11429-6.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.eng.niigata-u.ac.jp/~nomoto/7.html&quot; class=&quot;bare&quot;&gt;http://www.eng.niigata-u.ac.jp/~nomoto/7.html&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.hellocybernetics.tech/entry/2016/10/06/111153#%E7%89%B9%E5%88%A5%E3%81%AA%E5%A4%9A%E6%AC%A1%E5%85%83%E6%A8%99%E6%BA%96%E6%AD%A3%E8%A6%8F%E5%88%86%E5%B8%83&quot; class=&quot;bare&quot;&gt;https://www.hellocybernetics.tech/entry/2016/10/06/111153#%E7%89%B9%E5%88%A5%E3%81%AA%E5%A4%9A%E6%AC%A1%E5%85%83%E6%A8%99%E6%BA%96%E6%AD%A3%E8%A6%8F%E5%88%86%E5%B8%83&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://agirobots.com/multivariate-standard-normal-distribution/&quot; class=&quot;bare&quot;&gt;https://agirobots.com/multivariate-standard-normal-distribution/&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name>福田 誠</name></author><summary type="html">1. 今回の目標 正規分布の定義・性質を確認 多次元正規分布の定義・性質を確認 二次元正規分布の性質 1.1. 言葉の確認 正規分布 標準正規分布 多次元正規分布 単回帰係数 ボックス・ミュラー法 2. 正規分布 2.1. 導出 偶然誤差 観測するごとに独立に発生する誤差 偶然誤差に関するガウスの公理 大きさの等しい正と負の誤差は等しい確率で生じる 小さい誤差は大きい誤差より起こりやすい ある限界値より大きな誤差は実際上怒らない 何かしらの値を測定するとき，真の値 \(X\) から誤差 \(\varepsilon\) だけ離れた値 \(x\) を観測するとする．すなわち \[ \begin{align} \label{x:e} x = X + \varepsilon \end{align} \] である． 確率変数 \(\varepsilon\) の従う分布 \(f(\varepsilon)\) を考える． \( (\varepsilon, \varepsilon + d \varepsilon ) \) の範囲の誤差が観測される確率は \[ \begin{align} \label{f:e} f(\varepsilon) d \varepsilon \end{align} \] である．(\(\ref{x:e}\))より \( dx = d \varepsilon \) だから (\(\ref{f:e}\))は \[\notag \begin{align*} f(x -X) d x \end{align*} \] と書ける． ここで \(n\) 個の標本を観測することを考える．それぞれの観測値は確率変数と見ることができる．これを \(X_1, X_2, \cdots , X_n\) とおく．誤差 \(\varepsilon\) は観測するごとにそれぞれ独立に生じている．誤差が \(n\) 個の観測値 \(X_1, X_2, \dotsc , X_n\) から \(dx\) 内に入いる確率は \[\notag \begin{align*} f(X_1 -X) d x f(X_2 -X) d x \cdots f(X_n -X) d x \end{align*} \] とかける．これを \(P(X_1, X_2, \dotsc , X_n)dx^n\) と表すと \(X_1, X_2, \dotsc , X_n\) の同時確率密度関数 \(P(X_1, X_2, \dotsc , X_n)\) は \[ \begin{align} \label{p} P(X_1, X_2, \cdots , X_n) = f(X_1 -X) f(X_2 -X) \cdots f(X_n -X) \end{align} \] であることがわかる． 公理1,2 より \(P\) は \(X_1 = X_2 = \cdots = X_n = X\) で最大値をとる． 一方， (\(\ref{p}\)) を \(X\) の関数 \(P(X)\) とみるとどのような \(X\) で\(P\) が最大となるかはわからない．そこで 経験則による仮定 \({\rm P}(X)\)は\(X = \dfrac{x_1 + x_2 + \dotsb + x_n}{n} = \overline{X}\)で最大値をとる．すなわち \[ \begin{align} \label{hyp} \dfrac{d {\rm P}}{dX}(\overline{X}) = 0 \end{align} \] という仮定をおいてみる． (\(\ref{p}\))の対数をとって \[\notag \begin{align*} \ln P = \sum_{i=1}^{n} \ln f(X_i - X) \end{align*} \] 両辺微分して \[\notag \begin{align*} \dfrac{P'}{P} = -\sum_{i=1}^{n} \dfrac{f'(X_i - X)}{f(X_i - X)} \end{align*} \] ここで \(X = \overline{X}\) とおくと(\ref{hyp})より \[ \begin{align} \label{gen} \sum_{i=1}^{n} \dfrac{f'(X_i - \overline{X})}{f(X_i - \overline{X})} = 0 \end{align} \] を得る． また定義より \[\notag \begin{align*} \sum_{i=1}^{n} (X_i - \overline{X}) = 0 \end{align*} \] を満たす． ここで次の補題を示す． 補題 関数 \(\phi ~ \colon ~ \mathbb{R} \to \mathbb{R}\) は二階微分可能であるとする．任意の \(n ~ (\geq 3)\) 個の独立な実数 \(x_1, x_2, \dotsc ,x_n\) が \[ \begin{align} \label{sum} x_1 + x_2 + \dotsb + x_n = 0 \end{align} \] なる関係を満たし，関数 \(\phi\) が \[ \begin{align} \label{dphi} \sum_{i=1}^{n} \phi(x_i) = 0 \end{align} \] を満たすとき定数 \(a\) をもちいて \(\phi (x) = ax \) とかける． 証明 (\(\ref{dphi}\))を \(x_i ~ (1 \leq i \leq n-1)\) で偏微分して \[\notag \begin{align*} \phi'(x_i) + \phi'(x_n) \dfrac{\partial x_n}{\partial x_i} = 0 \end{align*} \] となる． (\(\ref{sum}\)) より \( \displaystyle x_n = -\sum_{i=1}^{n-1} x_i \) だから \(\dfrac{\partial x_n}{\partial x_i} = -1\) ．よって \[ \begin{align} \label{n} \phi'(x_i) = \phi'(x_n) \end{align} \] が成り立つ． \(1 \leq j \leq n-1, ~ j\not = i\) を満たす \(j\) についても同様に \[ \begin{align} \label{m} \phi'(x_j) = \phi'(x_n) \end{align} \] (\(\ref{n}, \ref{m}\))より\(1 \leq j \leq n-1, ~ j\not = i\) を満たす \(i, j\) について \[\notag \begin{align*} \phi'(x_i) = \phi'(x_j) \end{align*} \] 両辺を\(x_i\)で偏微分すると，各 \(x_1, x_2, \dotsc , x_n\) は独立であったから \[\notag \begin{align*} \phi''(x_i) = 0 \end{align*} \] これより \(\phi(x) = ax+b\) とかける．(\(\ref{sum}, \ref{dphi}\)) より \(b=0\) を得る．\(\Box\) \(\phi = \dfrac{f'}{f}\) として(\(\ref{gen}\))に補題を適用すると \[\notag \begin{align*} \dfrac{f'(x_i-X)}{f(x_i-X)} = a(x_i-X) \end{align*} \] ここで \(x_i\) を \(x\) ，\(X\) を \(\mu\) とおきなおすと \[\notag \begin{align*} \dfrac{f'(x)}{f(x)} &amp;amp;= a(x-\mu)\\ \therefore \quad f(x) &amp;amp;= C \exp\left(\dfrac{a(x-\mu)^2}{2}\right) \end{align*} \] 公理3.より \( \displaystyle \lim_{x \to \pm \infty} f(x) = 0\) だから \(a&amp;lt;0\)とわかる．そこで \( a = -\dfrac{1}{\sigma^2} \) とおく． 規格化条件とガウス積分の公式から\(C = \dfrac{1}{\sqrt{2 \pi \sigma^2}}\) とわかる． 以上より偶然誤差は確率密度関数が \[ \begin{align} \label{reg} f_X(x) = \dfrac{1}{\sqrt{2 \pi \sigma^2}} \exp\left(- \dfrac{(x-\mu)^2}{2 \sigma^2 }\right) \end{align} \] で与えられる分布に従う． ガウス分布とはガウスの公理を満たす確率密度関数のうち特に \(P'(\overline{X}) = 0\) を満たすものである． 注意 \(n=2\) のとき，\(\phi\)は任意の奇関数となる．\(\phi(x) = ax\) は奇関数だから \(n=2\) の場合も \(\phi(x)=ax\) としてよい． \(n=1\) のとき，\(\overline{X} = X_1\) で，仮定は公理1,2そのものである． よって\(n=1,2\) に対しても(\(\ref{reg}\)) としても矛盾を生じない． 2.2. パラメタ 確率変数 \(X\) の確率密度関数が (\(\ref{reg}\)) で表されるとき，\(X\) は平均 \(\mu\) 分散 \(\sigma ^2\) の正規分布に従うといい，\(X \sim N(\mu, \sigma ^2)\) とかく． \[\notag \begin{align*} E[X] = \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{+ \infty} x \exp\left(- \dfrac{(x-\mu)^2}{2 \sigma^2 }\right)dx \end{align*} \] \(z = \dfrac{x-\mu}{\sigma}\) と変数変換して \[\notag \begin{align*} E[X] = \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{+ \infty} \left( \sigma^2 z + \mu \sigma \right) \exp\left(- \dfrac{z ^2}{2}\right)dz \end{align*} \] \(\displaystyle \int_{- \infty} ^{+ \infty} z^{} \exp\left( - \dfrac{z^2}{2}\right)dz = \left[ - \exp\left( - \dfrac{z^2}{2}\right) \right]^{\infty}_{-\infty} = 0\) より \[\notag \begin{align*} E[X] &amp;amp;= \dfrac{\mu}{\sqrt{2 \pi}} \int_{- \infty} ^{ +\infty} \exp\left(- \dfrac{z ^2}{2}\right)dz\\ &amp;amp;= \dfrac{\mu}{\sqrt{2 \pi}} \sqrt{2 \pi} = \mu \end{align*} \] また \[\notag \begin{align*} E[X^2] &amp;amp;= \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{ + \infty} x^2 \exp\left(- \dfrac{(x-\mu)^2}{2 \sigma^2 }\right)dx\\ &amp;amp;= \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{ \infty} \left( \sigma^2 z + \mu \sigma \right)^2 \exp\left(- \dfrac{z ^2}{2}\right)dz \end{align*} \] ここで \[\notag \begin{align*} \int_{- \infty} ^{ + \infty} z^2 \exp\left( - \dfrac{z^2}{2}\right)dz &amp;amp;= \int_{- \infty} ^{+ \infty} \left(-z\right) \left(- \exp\left( - \dfrac{z^2}{2}\right) \right) dz\\ &amp;amp;= \left[ - z\exp\left( - \dfrac{z^2}{2}\right) \right]^{+\infty}_{-\infty} + \int_{- \infty} ^{ + \infty} \exp\left( - \dfrac{z^2}{2}\right)dz\\ &amp;amp;= \sqrt{2\pi} \end{align*} \] より \[\notag \begin{align*} E[X^2] &amp;amp;= \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{ + \infty} \left( \sigma^2 z + \mu \sigma \right)^2 \exp\left(- \dfrac{z ^2}{2}\right)dz\\ &amp;amp;= \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{ + \infty} \left( \sigma^4 z ^2 + 2\mu \sigma ^3 z + \mu ^2 \sigma ^2 \right) \exp\left(- \dfrac{z ^2}{2}\right)dz\\ &amp;amp;= \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \left\{\sigma ^4 \sqrt{2\pi} + \mu ^2 \sigma ^2 \sqrt{2\pi} \right\} = \sigma ^2 + \mu ^2 \end{align*} \] だから \[\notag \begin{align*} V[X] &amp;amp;= E[X ^2] - E[X]^2\\ &amp;amp;= \sigma ^2 + \mu ^2 - \mu ^2 = \sigma ^2 \end{align*} \] \(X \sim N(0, 1)\) のとき\(X\) は標準正規分布に従うという． 2.3. モーメント母関数 \[\notag \begin{align*} M_X[t] &amp;amp;= \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{+ \infty} \exp\left(xt\right) \exp\left(- \dfrac{(x-\mu)^2}{2 \sigma^2 }\right)dx\\ &amp;amp;= \exp\left( \mu t + \dfrac{\sigma ^2 t^2}{2} \right) \dfrac{1}{\sqrt{2 \pi \sigma ^2}} \int_{- \infty} ^{+ \infty} \exp\left(- \dfrac{1}{2 \sigma^2 } \left\{ x- \left( \mu + \sigma ^2 t \right) \right\}\right)dx\\ &amp;amp;= \exp\left( \mu t + \dfrac{\sigma ^2 t^2}{2} \right) \end{align*} \] 2.4. 再生性 \(X \sim N(\mu_{x}, \sigma_{xx}), Y \sim N(\mu_{y}, \sigma_{yy})\) のとき \(Z = X + Y\) の従う分布は \(N(\mu_{x} + \mu_{y}, \sigma_{xx} + \sigma_{yy})\) \[\notag \begin{align*} f_Z (z) = \dfrac{1}{\sqrt{2 \pi \sigma_{xx} ^2}} \dfrac{1}{\sqrt{2 \pi \sigma_{yy} ^2}} \int_{-\infty}^{+\infty} \exp\left( - \dfrac{(x-\mu_{xx})^2 }{2 \sigma_{xx}} \right) \exp\left( - \dfrac{(z - x - \mu_{yy})^2 }{2 \sigma_{xx}} \right) dx \end{align*} \] \(\dfrac{1}{\sigma ^2} = \dfrac{1}{\sigma_{xx}} + \dfrac{1}{\sigma_{yy}}\) とおくと \[\notag \begin{align*} &amp;amp; - \dfrac{(x-\mu_{x})^2 }{2 \sigma_{xx}} - \dfrac{(z - x - \mu_{y})^2 }{2 \sigma_{xx}}\\ &amp;amp;= -\dfrac{1}{2\sigma ^2} \left\{ x - \sigma ^2 \left( \dfrac{\mu_x}{\sigma_{xx}} + \dfrac{z - \mu_y}{\sigma_{yy}} \right) \right\} ^2 \\ &amp;amp; \quad + \dfrac{\sigma^2}{2} \left( \dfrac{\mu_x}{\sigma_{xx}} + \dfrac{z - \mu_y}{\sigma_{yy}} \right) -\dfrac{1}{2} \left( \dfrac{\mu_x ^2}{\sigma_{xx}} + \dfrac{(z - \mu_y) ^2}{\sigma_{yy}} \right)\\ &amp;amp;= -\dfrac{1}{2\sigma ^2} \left\{ x - \sigma ^2 \left( \dfrac{\mu_x}{\sigma_{xx}} + \dfrac{z - \mu_y}{\sigma_{yy}} \right) \right\} ^2 - \dfrac{1}{2} \dfrac{(z - \mu_{x} - \mu_{y}) ^2}{\sigma_{xx} + \sigma_{yy}} \end{align*} \] より \[\notag \begin{align*} f_Z(z) &amp;amp;= \dfrac{1}{\sqrt{2 \pi \sigma_{xx} ^2}} \dfrac{1}{\sqrt{2 \pi \sigma_{yy} ^2}} \sqrt{2\pi \sigma ^2} \exp \left( - \dfrac{1}{2} \dfrac{(z - \mu_{x} - \mu_{y}) ^2}{\sigma_{xx} + \sigma_{yy}} \right)\\ &amp;amp;= \dfrac{1}{\sqrt{2 \pi (\sigma_{xx} ^2 + \sigma_{yy} ^2)}} \exp \left( - \dfrac{1}{2} \dfrac{(z - \mu_{x} - \mu_{y}) ^2}{\sigma_{xx} + \sigma_{yy}} \right) \end{align*} \] だから \(Z \sim N(\mu_{x} + \mu_{y}, \sigma_{xx} + \sigma_{yy})\) 3. 多次元正規分布 3.1. 導出 \(p\) 個の確率変数 \(Z_1, Z_2, \dotsc , Z_p\) が独立に同一の分布 \(N(1,0)\) に従うとする．\(\boldsymbol{z} = (z_1, z_2, \dotsc , z_p)^T\) として確率変数ベクトル \(\boldsymbol{Z} = (Z_1, Z_2, \dotsc , Z_p)\) の同時確率密度関数 \(f_{\boldsymbol{Z}}(\boldsymbol{z})\) は \[ \begin{align} f_{\boldsymbol{Z}}(\boldsymbol{z}) &amp;amp;=\prod_{i=1} ^{n} \dfrac{1}{\sqrt{2 \pi}} \exp \left(-\dfrac{z_i ^2}{2}\right)\notag\\ &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2} \sum_{i=0} ^{p} z_i^2 \right)\notag\\ \label{fz} &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2}\boldsymbol{z}^T \boldsymbol{z} \right) \end{align} \] である． 各 \(z_i \sim N(0,1)\) より \[\notag \begin{align*} \boldsymbol{\mu_z} = \begin{pmatrix} \mu_{z_1} \\ \mu_{z_2}\\ \vdots\\ \mu_{z_p} \end{pmatrix} = \begin{pmatrix} 0 \\ 0\\ \vdots\\ 0 \end{pmatrix} \end{align*} \] 及び \[\notag \begin{align*} \Sigma_{\boldsymbol{zz}} = E\left[ (\boldsymbol{z} - \boldsymbol{\mu}) (\boldsymbol{z} - \boldsymbol{\mu})^T \right] = \begin{pmatrix} 1 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 0\\ 0 &amp;amp; 1 &amp;amp; \cdots &amp;amp; 0\\ \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots\\ 0 &amp;amp; 0 &amp;amp; \cdots &amp;amp; 1\\ \end{pmatrix} = E \end{align*} \] が成り立つ． ここで正則な実対称行列 \(A\) を用いて \(\boldsymbol{Z}\) を \[ \begin{align} \label{ZtoA} \boldsymbol{X} = A \boldsymbol{Z} + \boldsymbol{b} \end{align} \] のように正則アフィン変換したときの\(p\) 次元確率変数ベクトル \(\boldsymbol{X} = ( X_1, X_2 , \dotsc , X_p)^T\) が 従う分布 \(f_{\boldsymbol{X}}( x_1, x_2, \cdots , x_n)\) を求める． このとき \[ \begin{align} \label{mu} \boldsymbol{\mu_x} = E[\boldsymbol{X}] = A E[\boldsymbol{Z}] + \boldsymbol{b} = \boldsymbol{b} \end{align} \] である．また \[ \begin{align} \Sigma_{\boldsymbol{xx}} &amp;amp;= V[\boldsymbol{X}]\\ &amp;amp;= E\left[ (A \boldsymbol{Z} + \boldsymbol{b} - E[\boldsymbol{X}]) (A \boldsymbol{Z} + \boldsymbol{b} - E[\boldsymbol{X}])^T \right]\notag\\ &amp;amp;= E\left[ A \boldsymbol{Z} \boldsymbol{Z}^T A ^T \right]\notag\\ &amp;amp;= A E\left[ \boldsymbol{Z} \boldsymbol{Z}^T \right] A^T\notag\\ \label{sigma} &amp;amp;= A E A^T = AA^T \end{align} \] である． (\(\ref{ZtoA}\), \(\ref{mu}\)) および\(A\) が正則であることより \[ \begin{align} \label{XtoZ} \boldsymbol{Z} = A ^{-1} \left( \boldsymbol{X - \mu_x} \right) \end{align} \] である． (\(\ref{XtoZ}\)) を (\(\ref{fz}\)) に代入すると \[\notag \begin{align*} f_{\boldsymbol{Z}}(A^{-1} \boldsymbol{ (\boldsymbol{X -\mu_x})}) &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2}\boldsymbol{z}^T \boldsymbol{z} \right)\\ &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2} \left\{A^{-1} (\boldsymbol{x- \mu_x})\right\}^T \left\{A^{-1} (\boldsymbol{x- \mu_x})\right\} \right)\\ &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T (A ^{-1}) ^T A^{-1} (\boldsymbol{x- \mu_x}) \right)\\ &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T (AA^T) ^{-1} (\boldsymbol{x- \mu_x}) \right)\\ &amp;amp;=\dfrac{1}{(\sqrt{2 \pi}) ^p} \exp \left(-\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T ~ \Sigma_{\boldsymbol{xx}} ^{-1} ~ (\boldsymbol{x- \mu_x}) \right)\\ \end{align*} \] である． (\(\ref{sigma}\)) より \[\notag \begin{align*} \det \Sigma_{\boldsymbol{xx}} &amp;amp;= (\det A ) (\det A^T ) = (\det A )^2 \\ |\det A| &amp;amp;= \sqrt{\det \Sigma_{\boldsymbol{xx}}} \end{align*} \] であることと (\(\ref{XtoZ}\)) より \[\notag \begin{align*} \left| \det \left( \dfrac{\partial \boldsymbol{z}}{\partial \boldsymbol{x}} \right)\right| &amp;amp;= \left| \det \left( A^{-1}\right) \right|\\ &amp;amp;= \left| \dfrac{1}{\det A} \right| = \dfrac{1}{|\det A|} \\ &amp;amp;= \sqrt{\det \Sigma_{\boldsymbol{xx}}} \end{align*} \] となる． 以上より\(p\) 次元確率変数ベクトル \(\boldsymbol{X} = ( X_1, X_2 , \dotsc , X_p)^T\) が 従う分布 \(f_{\boldsymbol{X}}( \boldsymbol{x})\) は \[\notag \begin{align*} f_{\boldsymbol{X}}( \boldsymbol{x}) &amp;amp;= f_{\boldsymbol{Z}}(A^{-1} \boldsymbol{ (\boldsymbol{X -\mu_x})}) \left| \det \left( \dfrac{\partial \boldsymbol{z}}{\partial \boldsymbol{x}} \right)\right|\\ &amp;amp;= \dfrac{1}{(\sqrt{2 \pi}) ^p \sqrt{\det \Sigma_{\boldsymbol{xx}}}} \exp \left(-\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T ~ \Sigma_{\boldsymbol{xx}} ^{-1} ~ (\boldsymbol{x- \mu_x}) \right) \end{align*} \] ここで重積分の変数変換公式を用いた． 3.2. モーメント母関数 \(\boldsymbol{t}\)を \(p\) 次元ベクトル \(\boldsymbol{t} = ( t_1, t_2 , \dotsc , t_p)^T\) とする．\(p\) 次元正規分布\(f_{\boldsymbol{X}}( \boldsymbol{x})\) のモーメント母関数\(M_\boldsymbol{X}(\boldsymbol{t})\)は \[\notag \begin{align*} M_\boldsymbol{X}(\boldsymbol{t}) &amp;amp;= E[\boldsymbol{t}^T \boldsymbol{X}]\\ &amp;amp;= \int_{D_\boldsymbol{X}}\dfrac{1}{(\sqrt{2 \pi}) ^p \sqrt{\det \Sigma_{\boldsymbol{xx}}}} \exp \left(-\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T ~ \Sigma_{\boldsymbol{xx}} ^{-1} ~ (\boldsymbol{x- \mu_x}) \right) \exp\left( \boldsymbol{t}^T \boldsymbol{x} \right) d\boldsymbol{x} \end{align*} \] 指数関数 の中は \[\notag \begin{align*} &amp;amp; \quad -\dfrac{1}{2} (\boldsymbol{x- \mu_x})^T ~ \Sigma_{\boldsymbol{xx}} ^{-1} ~ (\boldsymbol{x- \mu_x}) + \boldsymbol{t}^T \boldsymbol{x}\\ &amp;amp;= \end{align*} \] ここの計算ができませんでした． 参考文献 [Kuroki] 黒木学. 数理統計学&amp;#8212;統計的推論の基礎&amp;#8212; . 初版, 東京, 共立出版株式会社, 2020, 246p., ISBN 978-4-320-11429-6. http://www.eng.niigata-u.ac.jp/~nomoto/7.html https://www.hellocybernetics.tech/entry/2016/10/06/111153#%E7%89%B9%E5%88%A5%E3%81%AA%E5%A4%9A%E6%AC%A1%E5%85%83%E6%A8%99%E6%BA%96%E6%AD%A3%E8%A6%8F%E5%88%86%E5%B8%83 https://agirobots.com/multivariate-standard-normal-distribution/</summary></entry><entry><title type="html">連続写像の定義</title><link href="/posts/define-cont" rel="alternate" type="text/html" title="連続写像の定義" /><published>2021-04-07T14:00:00+09:00</published><updated>2021-04-07T14:00:00+09:00</updated><id>/posts/define-cont</id><content type="html" xml:base="/posts/define-cont">&lt;h2 id=&quot;要約&quot;&gt;要約&lt;/h2&gt;
+&lt;/div&gt;</content><author><name>福田 誠</name></author><summary type="html">数学関連の記事を書くために最低限必要な構文です． 1. 文字装飾 Table 1. 書式一覧 修飾の名前 構文 表示 用途 太字 **bold** bold 強調，用語の定義 斜体[1] _italic_ italic 引用文献の名前，定理の名前 打消し線 [line-through#打消し線#] 打消し線 訂正 コメントアウト //この部分は表示されない 表示したくないとき 2. 章・節の区分 Example 1. 章・節の区分 = Document Title (Level 0) ページタイトル 最も大きい見出し == Level 1 Section Title 見出し1 「章」だとおもって差支えない． === Level 2 Section Title 見出し2 + 「小節」だと思って差支えない． 表示例 Document Title (Level 0) ページタイトル 最も大きい見出し Level 1 Section Title 見出し1 「章」だとおもって差支えない． Level 2 Section Title 見出し2 「小節」だと思って差支えない． 解説 空行を1行加えると段落とみなされる．(level 0 の下の文) 空行を入れないと，続きの文章とみなされる．(level 1 の下の文) 同じ段落で改行したいときは行末に+を置く．(level 2 の下の文) 数式の利用 タイトル(level 0 要素)のすぐ下に，空行をはさまずに:stem:と書くと \( \)でインライン，\[ \]で別行立ての数式を\(\LaTeX\)記法で入力できる. :stem:の下の行に:eqnums: allとすると自動的に別行立て数式に番号を表示する. Example 2. 数式の利用 インライン数式：\(F = ma\) 別行立て数式： \[\notag \left(\dfrac{1}{2}\right)\times \cdots \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0. \] 表示例 インライン数式：\(F = ma\) 別行立て数式： \[\notag \left(\dfrac{1}{2}\right)\times \cdots \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0. \] 解説 このようにすることでlabel{}や\ref{}が使え，自動で番号付けされ，リンクもつけられる. 番号を表示したくないときは\[のあとに\notagをおく． 定理環境 初めての節（level 1 Section）の前に:dummy: {counter2:section:0}と記述し，節の初めに :dummy: {counter2:section} :num: 0 という文字をおくことで実現できる．詳細は述べない．（述べられない．） Example 3. 定理環境 :def-add: 定義{section}.{counter:num}. 加法族 [#def:add.definition, title='{def-add}'] **** \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という． \[ \begin{align} \Omega &amp;amp; \in G \label{def:certain}\\ E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\ E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive} \end{align} \] **** &amp;lt;&amp;lt;def:add&amp;gt;&amp;gt;は重要． 表示例 定義4.1. 加法族 \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の加法族という． \[ \begin{align} \Omega &amp;amp; \in G \label{def:certain}\\ E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\ E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive} \end{align} \] 定義4.1. 加法族は重要． 解説 :def-add:という部分でタイトルを指定する． :def-add:という部分のdef-addという文字列はなんでも良い．ただし，何を表しているのかわかりやすいほうがいいのでdef-hogeやthm-hogeなどのようにすることを推奨する． {section}という部分で節番号を表示する． {counter:num}という部分で連続した番号を表示する． #def:addという部分で定理環境のidを作成する．&amp;lt;&amp;lt; &amp;gt;&amp;gt;で参照すると自動でリンクが作成される． #def:addのdef:addという部分はなんでもいいが，何を表しているのかわかりやすいほうがいいのでdef:hogeやthmhogeなどのようにすることを推奨する． .definitionという部分はこの文字列でなければならない． 定義なら.definition 定理なら.theorem などとする. ※ cssのクラスを指定することに相当．未実装だが，いずれ必要． 参考文献 AsciiDoc入門 1. 厳密にはイタリックと斜体は異なるらしい．参考： 斜体とイタリック体は違うのか</summary></entry><entry><title type="html">連続写像の定義</title><link href="/posts/define-cont" rel="alternate" type="text/html" title="連続写像の定義" /><published>2021-04-07T14:00:00+09:00</published><updated>2021-04-07T14:00:00+09:00</updated><id>/posts/define-cont</id><content type="html" xml:base="/posts/define-cont">&lt;h2 id=&quot;要約&quot;&gt;要約&lt;/h2&gt;
 
 &lt;p&gt;$(X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)$を位相空間とする．写像$f:X_1\to X_2$が連続であるとは，任意の$Q\in \mathcal{O}_2$に対して，$f^{-1}(Q)\in \mathcal{O}_1$となることである．&lt;/p&gt;
 
