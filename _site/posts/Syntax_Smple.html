@@ -3,8 +3,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Ascii Doc 構文解説 - 横浜国立大学数学サークル</title>
 
-<meta name="description" content="数学関連の記事を書くために最低限必要な構文です．1. 文字装飾Table 1. 書式一覧修飾の名前構文表示用途太字**bold**bold強調，用語の定義斜体[1]_italic_italic引用文献の名前，定理の名前打消し線[line-through#打消し線#]打消し線訂正コメントアウト//この部分は表示され...">
-<link rel="canonical" href="/2021/08/23/Syntax_Sample.html"><link rel="alternate" type="application/rss+xml" title="横浜国立大学数学サークル" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
+<meta name="description" content="数学関連の記事を書くために最低限必要な構文です．1. 文字装飾表 1. 書式一覧修飾の名前構文表示用途太字**bold**bold強調，用語の定義斜体[1]_italic_italic引用文献の名前，定理の名前打消し線[line-through#打消し線#]打消し線訂正コメントアウト//この部分は表示されない表示...">
+<link rel="canonical" href="/posts/Syntax_Smple"><link rel="alternate" type="application/rss+xml" title="横浜国立大学数学サークル" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
 
@@ -276,8 +276,12 @@
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Ascii Doc 構文解説</h1></header></div><meta itemprop="headline" content="Ascii Doc 構文解説"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="fas fa-user"></i> <span>柴犬レオ</span></li><li><i class="far fa-calendar-alt"></i> <span>Aug 23, 2021</span>
-            </li></ul></div><meta itemprop="author" content="柴犬レオ"/><meta itemprop="datePublished" content="2021-08-23T00:00:00+09:00"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Ascii Doc 構文解説</h1></header></div><meta itemprop="headline" content="Ascii Doc 構文解説"><div class="article__info clearfix"><ul class="left-col menu"><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=Asciidoc">Asciidoc</a>
+            </li></ul><ul class="right-col menu"><li><i class="fas fa-user"></i> <span>柴犬レオ</span></li><li><i class="far fa-calendar-alt"></i> <span>Aug 20, 2021</span>
+            </li></ul></div><meta itemprop="author" content="柴犬レオ"/><meta itemprop="datePublished" content="2021-08-20T14:00:00+09:00">
+    <meta itemprop="keywords" content="Asciidoc"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet -->
 <div class="article__content" itemprop="articleBody"><div id="preamble">
@@ -291,7 +295,7 @@
 <h2 id="文字装飾">1. 文字装飾</h2>
 <div class="sectionbody">
 <table id="tab-dec" class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 1. 書式一覧</caption>
+<caption class="title">表 1. 書式一覧</caption>
 <colgroup>
 <col style="width: 25%;">
 <col style="width: 25%;">
@@ -338,10 +342,8 @@
 <div class="sect1">
 <h2 id="章節の区分">2. 章・節の区分</h2>
 <div class="sectionbody">
-<div class="exampleblock">
-<div class="title">Example 1. 章・節の区分</div>
-<div class="content">
-<div class="listingblock">
+<div id="ex-dec" class="listingblock">
+<div class="title">章・節の区分</div>
 <div class="content">
 <pre>= Document Title (Level 0)
 
@@ -360,37 +362,8 @@
 「小節」だと思って差支えない．</pre>
 </div>
 </div>
-</div>
-</div>
-<div class="paragraph">
-<p><strong>表示例</strong></p>
-</div>
-</div>
-</div>
-<h1 id="document-title-level-0" class="sect0">Document Title (Level 0)</h1>
-<div class="paragraph">
-<p>ページタイトル</p>
-</div>
-<div class="paragraph">
-<p>最も大きい見出し</p>
-</div>
-<div class="sect1">
-<h2 id="level-1-section-title">Level 1 Section Title</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>見出し1
-「章」だとおもって差支えない．</p>
-</div>
 <div class="sect2">
-<h3 id="level-2-section-title">Level 2 Section Title</h3>
-<div class="paragraph">
-<p>見出し2<br>
-「小節」だと思って差支えない．</p>
-</div>
-<hr>
-<div class="paragraph">
-<p><strong>解説</strong></p>
-</div>
+<h3 id="解説">2.1. 解説</h3>
 <div class="paragraph">
 <p>空行を1行加えると段落とみなされる．(level 0 の下の文)<br>
 空行を入れないと，続きの文章とみなされる．(level 1 の下の文)<br>
@@ -400,31 +373,29 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="数式の利用">数式の利用</h2>
+<h2 id="数式の利用">3. 数式の利用</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>タイトル(level 0 要素)のすぐ下に，空行をはさまずに<code>:stem:</code>と書くと<br>
 <code>\( \)</code>でインライン，<code>\[ \]</code>で別行立ての数式を\(\LaTeX\)記法で入力できる.<br>
 <code>:stem:</code>の下の行に<code>:eqnums: all</code>とすると自動的に別行立て数式に番号を表示する.</p>
 </div>
-<div class="exampleblock">
-<div class="title">Example 2. 数式の利用</div>
-<div class="content">
 <div class="listingblock">
+<div class="title">ソースコード</div>
 <div class="content">
 <pre>インライン数式：\(F = ma\)
 
 別行立て数式：
 \[\notag
-    \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+    \begin{align*}
+        \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+    \end{align*}
 \]</pre>
 </div>
 </div>
-</div>
-</div>
-<div class="paragraph">
-<p><strong>表示例</strong></p>
-</div>
+<div id="ex_show" class="sidebarblock">
+<div class="content">
+<div class="title">表示例</div>
 <div class="paragraph">
 <p>インライン数式：\(F = ma\)</p>
 </div>
@@ -434,9 +405,10 @@
     \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
 \]</p>
 </div>
-<div class="paragraph">
-<p><strong>解説</strong></p>
 </div>
+</div>
+<div class="sect2">
+<h3 id="解説-2">3.1. 解説</h3>
 <div class="paragraph">
 <p>このようにすることで<code>label{}</code>や<code>\ref{}</code>が使え，自動で番号付けされ，リンクもつけられる.</p>
 </div>
@@ -445,8 +417,9 @@
 </div>
 </div>
 </div>
+</div>
 <div class="sect1">
-<h2 id="定理環境">定理環境</h2>
+<h2 id="定理環境">4. 定理環境</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>初めての節（level 1 Section）の<strong>前</strong>に<code>:dummy: {counter2:section:0}</code>と記述し，節の初めに</p>
@@ -460,13 +433,10 @@
 <div class="paragraph">
 <p>という文字をおくことで実現できる．詳細は述べない．（述べられない．）</p>
 </div>
-<div class="exampleblock">
-<div class="title">Example 3. 定理環境</div>
-<div class="content">
 <div class="listingblock">
 <div class="content">
-<pre>:def-add: 定義{section}.{counter:num}. 加法族
-[#def:add.definition, title='{def-add}']
+<pre>:def-add: 定義 {section}.{counter:num}.
+[#def_add.definition, title='{def-add}']
 ****
 \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という．
 
@@ -479,17 +449,15 @@
 \]
 ****
 
-&lt;&lt;def:add&gt;&gt;は重要．</pre>
+&lt;&lt;def_add&gt;&gt;は重要．\((\ref{def:additive})\) を加法性という．</pre>
 </div>
 </div>
-</div>
-</div>
-<div class="paragraph">
-<p><strong>表示例</strong></p>
-</div>
-<div id="def:add" class="sidebarblock definition">
+<div id="ex_show" class="sidebarblock">
 <div class="content">
-<div class="title">定義4.1. 加法族</div>
+<div class="title">表示例</div>
+<div id="def_add" class="sidebarblock definition">
+<div class="content">
+<div class="title">定義 4.1.</div>
 <div class="paragraph">
 <p>\(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の<strong>加法族</strong>という．</p>
 </div>
@@ -505,12 +473,12 @@
 </div>
 </div>
 <div class="paragraph">
-<p><a href="#def:add">定義4.1. 加法族</a>は重要．</p>
+<p><a href="#def_add">定義 4.1.</a>は重要．\((\ref{def:additive})\) を加法性という．</p>
 </div>
-<hr>
-<div class="paragraph">
-<p><strong>解説</strong></p>
 </div>
+</div>
+<div class="sect2">
+<h3 id="解説-3">4.1. 解説</h3>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -526,10 +494,10 @@
 <p><code>{counter:num}</code>という部分で連続した番号を表示する．</p>
 </li>
 <li>
-<p><code>#def:add</code>という部分で定理環境のidを作成する．<code>&lt;&lt; &gt;&gt;</code>で参照すると自動でリンクが作成される．</p>
+<p><code>#def_add</code>という部分で定理環境のidを作成する．<code>&lt;&lt; &gt;&gt;</code>で参照すると自動でリンクが作成される．</p>
 </li>
 <li>
-<p><code>#def:add</code>の<code>def:add</code>という部分はなんでもいいが，何を表しているのかわかりやすいほうがいいので<code>def:hoge</code>や<code>thmhoge</code>などのようにすることを推奨する．</p>
+<p><code>#def_add</code>の<code>def_add</code>という部分はなんでもいいが，何を表しているのかわかりやすいほうがいいので<code>def_hoge</code>や<code>thm_hoge</code>などのようにすることを推奨する．</p>
 </li>
 <li>
 <p><code>.definition</code>という部分はこの文字列<strong>でなければならない</strong>．</p>
@@ -539,9 +507,17 @@
 <p><strong>定義</strong>なら<code>.definition</code></p>
 </li>
 <li>
+<p><strong>命題</strong>なら<code>.proposition</code></p>
+</li>
+<li>
+<p><strong>証明</strong>なら<code>.proof</code></p>
+</li>
+<li>
+<p><strong>例</strong>なら<code>.example</code></p>
+</li>
+<li>
 <p><strong>定理</strong>なら<code>.theorem</code><br>
-などとする.<br>
-※ cssのクラスを指定することに相当．未実装だが，いずれ必要．</p>
+などとする. その他必要なものがあれば実装するので行ってください．</p>
 </li>
 </ul>
 </div>
@@ -550,8 +526,9 @@
 </div>
 </div>
 </div>
+</div>
 <div class="sect1">
-<h2 id="参考文献">参考文献</h2>
+<h2 id="参考文献">5. 参考文献</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -567,7 +544,9 @@
 <div class="footnote" id="_footnotedef_1">
 <a href="#_footnoteref_1">1</a>. 厳密にはイタリックと斜体は異なるらしい．参考：  <a href="https://www.nishishi.com/css/font-italic-oblique.html#:~:text=%E6%AC%A7%E6%96%87%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%AD%E3%81%AB,%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%BD%A2%E3%81%A7%E3%81%99%E3%80%82&amp;text=%E3%81%9D%E3%81%AE%E5%A0%B4%E5%90%88%E3%80%81%E3%82%82%E3%81%97%E3%82%A4%E3%82%BF%E3%83%AA%E3%83%83%E3%82%AF%E4%BD%93,%E3%81%9D%E3%82%8C%E3%81%8C%E4%BD%BF%E3%82%8F%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82">斜体とイタリック体は違うのか</a>
 </div>
-</div></div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2021-08-23T00:00:00+09:00"><!-- start custom article footer snippet -->
+</div></div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><span>Last updated
+      <time itemprop="dateModified" datetime="2021-08-23T00:00:00+09:00">Aug 23, 2021</time>
+    </span><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
 <div itemscope itemtype="http://schema.org/Person" class="author-profile card card--flat item"><img class="author-profile__avatar" itemprop="image" src="https://raw.githubusercontent.com/ynu-math/ynu-math.github.io/gh-pages/assets/images/authors/shiba_dog_leo.jpg" /><div class="item__content"><meta itemprop="name" content="柴犬レオ">

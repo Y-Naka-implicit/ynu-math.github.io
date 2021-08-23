@@ -1,15 +1,17 @@
 = Ascii Doc 構文解説
-shiba <fukuda-makoto-vb@ynu.jp>
-v0.1 2021-05-14
-//:toc:
-//:toc-title: 内容
+:author: shiba
+:page-layout: article
+:page-permalink: /posts/Syntax_Smple
+:page-date: 2021-08-20 14:00:00 +0900
+:page-modify_date: 2021-08-23 00:00:00 +0900
+:page-tags: ["Asciidoc",]
 :sectnums:
 :sectnumlevels: 2
 :stem:
 :eqnums: all
-:linkcss:
-:stylesdir: ./assets/css
-:stylesheet: adoc-github.css
+:dummy: {counter2:section:0}
+:example-caption: 例
+:table-caption: 表
 
 数学関連の記事を書くために最低限必要な構文です．
 
@@ -20,8 +22,7 @@ v0.1 2021-05-14
 
 //https://darshandsoni.com/asciidoctor-skins/css
 
-[#tab-dec]
-.書式一覧
+[#tab-dec, title='書式一覧']
 |====
 |修飾の名前 | 構文 | 表示 | 用途
 
@@ -51,10 +52,7 @@ v0.1 2021-05-14
 :dummy: {counter2:section}
 :num: 0
 
-
-
-.章・節の区分
-====
+[#ex-dec, title='章・節の区分']
 ----
 = Document Title (Level 0)
 
@@ -73,32 +71,9 @@ v0.1 2021-05-14
 「小節」だと思って差支えない．
 
 ----
-====
 
-**表示例**
 
-= Document Title (Level 0)
-:sectnums!:
-
-ページタイトル
-
-最も大きい見出し
-
-== Level 1 Section Title
-:sectnums!:
-
-見出し1
-「章」だとおもって差支えない．
-
-=== Level 2 Section Title
-:sectnums!:
-
-見出し2 +
-「小節」だと思って差支えない．
-
-***
-
-*解説*
+=== 解説
 
 空行を1行加えると段落とみなされる．(level 0 の下の文) +
 空行を入れないと，続きの文章とみなされる．(level 1 の下の文) +
@@ -113,29 +88,33 @@ v0.1 2021-05-14
 ``\( \)``でインライン，``\[ \]``で別行立ての数式を\(\LaTeX\)記法で入力できる. +
 ``:stem:``の下の行に``:eqnums: all``とすると自動的に別行立て数式に番号を表示する.
 
-.数式の利用
-====
+[title='ソースコード']
 ----
+インライン数式：\(F = ma\)
+
+別行立て数式：
+\[\notag
+    \begin{align*}
+        \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+    \end{align*}
+\]
+
+----
+
+
+:ex-show: 表示例 
+[#ex_show, title='{ex-show}']
+****
 インライン数式：\(F = ma\)
 
 別行立て数式：
 \[\notag
     \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
 \]
+****
 
-----
-====
 
-**表示例**
-
-インライン数式：\(F = ma\)
-
-別行立て数式：
-\[\notag
-    \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
-\]
-
-*解説*
+=== 解説
 
 このようにすることで``label{}``や``\ref{}``が使え，自動で番号付けされ，リンクもつけられる. 
 
@@ -153,11 +132,10 @@ v0.1 2021-05-14
 ----
 という文字をおくことで実現できる．詳細は述べない．（述べられない．）
 
-.定理環境
-====
+[定理環境]
 ----
-:def-add: 定義{section}.{counter:num}. 加法族
-[#def:add.definition, title='{def-add}']
+:def-add: 定義 {section}.{counter:num}.
+[#def_add.definition, title='{def-add}']
 ****
 \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という．
 
@@ -170,15 +148,14 @@ v0.1 2021-05-14
 \]
 ****
 
-<<def:add>>は重要．
-
+<<def_add>>は重要．\((\ref{def:additive})\) を加法性という．
 ----
-====
 
-**表示例**
-
-:def-add: 定義{section}.{counter:num}. 加法族
-[#def:add.definition, title='{def-add}']
+:ex-show: 表示例 
+[#ex_show, title='{ex-show}']
+******
+:def-add: 定義 {section}.{counter:num}.
+[#def_add.definition, title='{def-add}']
 ****
 \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という．
 
@@ -191,23 +168,25 @@ v0.1 2021-05-14
 \]
 ****
 
-<<def:add>>は重要．
+<<def_add>>は重要．\((\ref{def:additive})\) を加法性という．
+******
 
-***
 
-**解説**
+=== 解説
 
 . ``:def-add:``という部分でタイトルを指定する．
 . ``:def-add:``という部分の``def-add``という文字列はなんでも良い．ただし，何を表しているのかわかりやすいほうがいいので``def-hoge``や``thm-hoge``などのようにすることを推奨する．
 . ``pass:[{section}]``という部分で節番号を表示する．
 . ``pass:[{counter:num}]``という部分で連続した番号を表示する．
-. ``#def:add``という部分で定理環境のidを作成する．``<< >>``で参照すると自動でリンクが作成される．
-. ``#def:add``の``def:add``という部分はなんでもいいが，何を表しているのかわかりやすいほうがいいので``def:hoge``や``thmhoge``などのようにすることを推奨する．
+. ``#def_add``という部分で定理環境のidを作成する．``<< >>``で参照すると自動でリンクが作成される．
+. ``#def_add``の``def_add``という部分はなんでもいいが，何を表しているのかわかりやすいほうがいいので``def_hoge``や``thm_hoge``などのようにすることを推奨する．
 . ``.definition``という部分はこの文字列**でなければならない**．
     * **定義**なら``.definition``
+    * **命題**なら``.proposition``
+    * **証明**なら``.proof``
+    * **例**なら``.example``
     * **定理**なら``.theorem`` +
-    などとする. +
-    ※ cssのクラスを指定することに相当．未実装だが，いずれ必要．
+    などとする. その他必要なものがあれば実装するので行ってください．
 
 == 参考文献
 * https://qiita.com/xmeta/items/de667a8b8a0f982e123a[AsciiDoc入門]

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-24T00:22:54+09:00</updated><id>/feed.xml</id><title type="html">横浜国立大学数学サークル</title><subtitle>学生有志による数学のゼミ活動を行っています．</subtitle><author><name>{&quot;type&quot;=&gt;&quot;organization&quot;, &quot;url&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;ynu.integral@gmail.com&quot;, &quot;facebook&quot;=&gt;nil, &quot;twitter&quot;=&gt;&quot;ynu_integral&quot;, &quot;weibo&quot;=&gt;nil, &quot;googleplus&quot;=&gt;nil, &quot;telegram&quot;=&gt;nil, &quot;medium&quot;=&gt;nil, &quot;zhihu&quot;=&gt;nil, &quot;douban&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;github&quot;=&gt;&quot;ynu-math&quot;, &quot;npm&quot;=&gt;nil}</name><email>ynu.integral@gmail.com</email></author><entry><title type="html">Ascii Doc 構文解説</title><link href="/2021/08/23/Syntax_Sample.html" rel="alternate" type="text/html" title="Ascii Doc 構文解説" /><published>2021-08-23T00:00:00+09:00</published><updated>2021-08-23T00:00:00+09:00</updated><id>/2021/08/23/Syntax_Sample</id><content type="html" xml:base="/2021/08/23/Syntax_Sample.html">&lt;div id=&quot;preamble&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-24T01:27:54+09:00</updated><id>/feed.xml</id><title type="html">横浜国立大学数学サークル</title><subtitle>学生有志による数学のゼミ活動を行っています．</subtitle><author><name>{&quot;type&quot;=&gt;&quot;organization&quot;, &quot;url&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;ynu.integral@gmail.com&quot;, &quot;facebook&quot;=&gt;nil, &quot;twitter&quot;=&gt;&quot;ynu_integral&quot;, &quot;weibo&quot;=&gt;nil, &quot;googleplus&quot;=&gt;nil, &quot;telegram&quot;=&gt;nil, &quot;medium&quot;=&gt;nil, &quot;zhihu&quot;=&gt;nil, &quot;douban&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;github&quot;=&gt;&quot;ynu-math&quot;, &quot;npm&quot;=&gt;nil}</name><email>ynu.integral@gmail.com</email></author><entry><title type="html">Ascii Doc 構文解説</title><link href="/posts/Syntax_Smple" rel="alternate" type="text/html" title="Ascii Doc 構文解説" /><published>2021-08-20T14:00:00+09:00</published><updated>2021-08-20T14:00:00+09:00</updated><id>/posts/Syntax_Sample</id><content type="html" xml:base="/posts/Syntax_Smple">&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;数学関連の記事を書くために最低限必要な構文です．&lt;/p&gt;
@@ -9,7 +9,7 @@
 &lt;h2 id=&quot;文字装飾&quot;&gt;1. 文字装飾&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;table id=&quot;tab-dec&quot; class=&quot;tableblock frame-all grid-all stretch&quot;&gt;
-&lt;caption class=&quot;title&quot;&gt;Table 1. 書式一覧&lt;/caption&gt;
+&lt;caption class=&quot;title&quot;&gt;表 1. 書式一覧&lt;/caption&gt;
 &lt;colgroup&gt;
 &lt;col style=&quot;width: 25%;&quot;&gt;
 &lt;col style=&quot;width: 25%;&quot;&gt;
@@ -56,10 +56,8 @@
 &lt;div class=&quot;sect1&quot;&gt;
 &lt;h2 id=&quot;章節の区分&quot;&gt;2. 章・節の区分&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;exampleblock&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;Example 1. 章・節の区分&lt;/div&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div id=&quot;ex-dec&quot; class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;章・節の区分&lt;/div&gt;
 &lt;div class=&quot;content&quot;&gt;
 &lt;pre&gt;= Document Title (Level 0)
 
@@ -78,37 +76,8 @@
 「小節」だと思って差支えない．&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;strong&gt;表示例&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h1 id=&quot;document-title-level-0&quot; class=&quot;sect0&quot;&gt;Document Title (Level 0)&lt;/h1&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ページタイトル&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;最も大きい見出し&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;level-1-section-title&quot;&gt;Level 1 Section Title&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;見出し1
-「章」だとおもって差支えない．&lt;/p&gt;
-&lt;/div&gt;
 &lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;level-2-section-title&quot;&gt;Level 2 Section Title&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;見出し2&lt;br&gt;
-「小節」だと思って差支えない．&lt;/p&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;strong&gt;解説&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;h3 id=&quot;解説&quot;&gt;2.1. 解説&lt;/h3&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;空行を1行加えると段落とみなされる．(level 0 の下の文)&lt;br&gt;
 空行を入れないと，続きの文章とみなされる．(level 1 の下の文)&lt;br&gt;
@@ -118,31 +87,29 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;数式の利用&quot;&gt;数式の利用&lt;/h2&gt;
+&lt;h2 id=&quot;数式の利用&quot;&gt;3. 数式の利用&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;タイトル(level 0 要素)のすぐ下に，空行をはさまずに&lt;code&gt;:stem:&lt;/code&gt;と書くと&lt;br&gt;
 &lt;code&gt;\( \)&lt;/code&gt;でインライン，&lt;code&gt;\[ \]&lt;/code&gt;で別行立ての数式を\(\LaTeX\)記法で入力できる.&lt;br&gt;
 &lt;code&gt;:stem:&lt;/code&gt;の下の行に&lt;code&gt;:eqnums: all&lt;/code&gt;とすると自動的に別行立て数式に番号を表示する.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;exampleblock&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;Example 2. 数式の利用&lt;/div&gt;
-&lt;div class=&quot;content&quot;&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;ソースコード&lt;/div&gt;
 &lt;div class=&quot;content&quot;&gt;
 &lt;pre&gt;インライン数式：\(F = ma\)
 
 別行立て数式：
 \[\notag
-    \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+    \begin{align*}
+        \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+    \end{align*}
 \]&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;strong&gt;表示例&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
+&lt;div id=&quot;ex_show&quot; class=&quot;sidebarblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;表示例&lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;インライン数式：\(F = ma\)&lt;/p&gt;
 &lt;/div&gt;
@@ -152,9 +119,10 @@
     \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
 \]&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;strong&gt;解説&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;解説-2&quot;&gt;3.1. 解説&lt;/h3&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;このようにすることで&lt;code&gt;label{}&lt;/code&gt;や&lt;code&gt;\ref{}&lt;/code&gt;が使え，自動で番号付けされ，リンクもつけられる.&lt;/p&gt;
 &lt;/div&gt;
@@ -163,8 +131,9 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
 &lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;定理環境&quot;&gt;定理環境&lt;/h2&gt;
+&lt;h2 id=&quot;定理環境&quot;&gt;4. 定理環境&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;初めての節（level 1 Section）の&lt;strong&gt;前&lt;/strong&gt;に&lt;code&gt;:dummy: {counter2:section:0}&lt;/code&gt;と記述し，節の初めに&lt;/p&gt;
@@ -178,13 +147,10 @@
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;という文字をおくことで実現できる．詳細は述べない．（述べられない．）&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;exampleblock&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;Example 3. 定理環境&lt;/div&gt;
-&lt;div class=&quot;content&quot;&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre&gt;:def-add: 定義{section}.{counter:num}. 加法族
-[#def:add.definition, title='{def-add}']
+&lt;pre&gt;:def-add: 定義 {section}.{counter:num}.
+[#def_add.definition, title='{def-add}']
 ****
 \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という．
 
@@ -197,17 +163,15 @@
 \]
 ****
 
-&amp;lt;&amp;lt;def:add&amp;gt;&amp;gt;は重要．&lt;/pre&gt;
+&amp;lt;&amp;lt;def_add&amp;gt;&amp;gt;は重要．\((\ref{def:additive})\) を加法性という．&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;strong&gt;表示例&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&quot;def:add&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div id=&quot;ex_show&quot; class=&quot;sidebarblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;div class=&quot;title&quot;&gt;定義4.1. 加法族&lt;/div&gt;
+&lt;div class=&quot;title&quot;&gt;表示例&lt;/div&gt;
+&lt;div id=&quot;def_add&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 4.1.&lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;\(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の&lt;strong&gt;加法族&lt;/strong&gt;という．&lt;/p&gt;
 &lt;/div&gt;
@@ -223,12 +187,12 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;#def:add&quot;&gt;定義4.1. 加法族&lt;/a&gt;は重要．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#def_add&quot;&gt;定義 4.1.&lt;/a&gt;は重要．\((\ref{def:additive})\) を加法性という．&lt;/p&gt;
 &lt;/div&gt;
-&lt;hr&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;strong&gt;解説&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;解説-3&quot;&gt;4.1. 解説&lt;/h3&gt;
 &lt;div class=&quot;olist arabic&quot;&gt;
 &lt;ol class=&quot;arabic&quot;&gt;
 &lt;li&gt;
@@ -244,10 +208,10 @@
 &lt;p&gt;&lt;code&gt;{counter:num}&lt;/code&gt;という部分で連続した番号を表示する．&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;#def:add&lt;/code&gt;という部分で定理環境のidを作成する．&lt;code&gt;&amp;lt;&amp;lt; &amp;gt;&amp;gt;&lt;/code&gt;で参照すると自動でリンクが作成される．&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;#def_add&lt;/code&gt;という部分で定理環境のidを作成する．&lt;code&gt;&amp;lt;&amp;lt; &amp;gt;&amp;gt;&lt;/code&gt;で参照すると自動でリンクが作成される．&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;#def:add&lt;/code&gt;の&lt;code&gt;def:add&lt;/code&gt;という部分はなんでもいいが，何を表しているのかわかりやすいほうがいいので&lt;code&gt;def:hoge&lt;/code&gt;や&lt;code&gt;thmhoge&lt;/code&gt;などのようにすることを推奨する．&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;#def_add&lt;/code&gt;の&lt;code&gt;def_add&lt;/code&gt;という部分はなんでもいいが，何を表しているのかわかりやすいほうがいいので&lt;code&gt;def_hoge&lt;/code&gt;や&lt;code&gt;thm_hoge&lt;/code&gt;などのようにすることを推奨する．&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;.definition&lt;/code&gt;という部分はこの文字列&lt;strong&gt;でなければならない&lt;/strong&gt;．&lt;/p&gt;
@@ -257,9 +221,17 @@
 &lt;p&gt;&lt;strong&gt;定義&lt;/strong&gt;なら&lt;code&gt;.definition&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
+&lt;p&gt;&lt;strong&gt;命題&lt;/strong&gt;なら&lt;code&gt;.proposition&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;証明&lt;/strong&gt;なら&lt;code&gt;.proof&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;例&lt;/strong&gt;なら&lt;code&gt;.example&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;定理&lt;/strong&gt;なら&lt;code&gt;.theorem&lt;/code&gt;&lt;br&gt;
-などとする.&lt;br&gt;
-※ cssのクラスを指定することに相当．未実装だが，いずれ必要．&lt;/p&gt;
+などとする. その他必要なものがあれば実装するので行ってください．&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -268,8 +240,9 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
 &lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
+&lt;h2 id=&quot;参考文献&quot;&gt;5. 参考文献&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
@@ -285,7 +258,7 @@
 &lt;div class=&quot;footnote&quot; id=&quot;_footnotedef_1&quot;&gt;
 &lt;a href=&quot;#_footnoteref_1&quot;&gt;1&lt;/a&gt;. 厳密にはイタリックと斜体は異なるらしい．参考：  &lt;a href=&quot;https://www.nishishi.com/css/font-italic-oblique.html#:~:text=%E6%AC%A7%E6%96%87%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%AD%E3%81%AB,%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%BD%A2%E3%81%A7%E3%81%99%E3%80%82&amp;amp;text=%E3%81%9D%E3%81%AE%E5%A0%B4%E5%90%88%E3%80%81%E3%82%82%E3%81%97%E3%82%A4%E3%82%BF%E3%83%AA%E3%83%83%E3%82%AF%E4%BD%93,%E3%81%9D%E3%82%8C%E3%81%8C%E4%BD%BF%E3%82%8F%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82&quot;&gt;斜体とイタリック体は違うのか&lt;/a&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name>柴犬レオ</name><email>fukuda-makoto-vb@ynu.jp</email></author><summary type="html">数学関連の記事を書くために最低限必要な構文です． 1. 文字装飾 Table 1. 書式一覧 修飾の名前 構文 表示 用途 太字 **bold** bold 強調，用語の定義 斜体[1] _italic_ italic 引用文献の名前，定理の名前 打消し線 [line-through#打消し線#] 打消し線 訂正 コメントアウト //この部分は表示されない 表示したくないとき 2. 章・節の区分 Example 1. 章・節の区分 = Document Title (Level 0) ページタイトル 最も大きい見出し == Level 1 Section Title 見出し1 「章」だとおもって差支えない． === Level 2 Section Title 見出し2 + 「小節」だと思って差支えない． 表示例 Document Title (Level 0) ページタイトル 最も大きい見出し Level 1 Section Title 見出し1 「章」だとおもって差支えない． Level 2 Section Title 見出し2 「小節」だと思って差支えない． 解説 空行を1行加えると段落とみなされる．(level 0 の下の文) 空行を入れないと，続きの文章とみなされる．(level 1 の下の文) 同じ段落で改行したいときは行末に+を置く．(level 2 の下の文) 数式の利用 タイトル(level 0 要素)のすぐ下に，空行をはさまずに:stem:と書くと \( \)でインライン，\[ \]で別行立ての数式を\(\LaTeX\)記法で入力できる. :stem:の下の行に:eqnums: allとすると自動的に別行立て数式に番号を表示する. Example 2. 数式の利用 インライン数式：\(F = ma\) 別行立て数式： \[\notag \left(\dfrac{1}{2}\right)\times \cdots \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0. \] 表示例 インライン数式：\(F = ma\) 別行立て数式： \[\notag \left(\dfrac{1}{2}\right)\times \cdots \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0. \] 解説 このようにすることでlabel{}や\ref{}が使え，自動で番号付けされ，リンクもつけられる. 番号を表示したくないときは\[のあとに\notagをおく． 定理環境 初めての節（level 1 Section）の前に:dummy: {counter2:section:0}と記述し，節の初めに :dummy: {counter2:section} :num: 0 という文字をおくことで実現できる．詳細は述べない．（述べられない．） Example 3. 定理環境 :def-add: 定義{section}.{counter:num}. 加法族 [#def:add.definition, title='{def-add}'] **** \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という． \[ \begin{align} \Omega &amp;amp; \in G \label{def:certain}\\ E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\ E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive} \end{align} \] **** &amp;lt;&amp;lt;def:add&amp;gt;&amp;gt;は重要． 表示例 定義4.1. 加法族 \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の加法族という． \[ \begin{align} \Omega &amp;amp; \in G \label{def:certain}\\ E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\ E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive} \end{align} \] 定義4.1. 加法族は重要． 解説 :def-add:という部分でタイトルを指定する． :def-add:という部分のdef-addという文字列はなんでも良い．ただし，何を表しているのかわかりやすいほうがいいのでdef-hogeやthm-hogeなどのようにすることを推奨する． {section}という部分で節番号を表示する． {counter:num}という部分で連続した番号を表示する． #def:addという部分で定理環境のidを作成する．&amp;lt;&amp;lt; &amp;gt;&amp;gt;で参照すると自動でリンクが作成される． #def:addのdef:addという部分はなんでもいいが，何を表しているのかわかりやすいほうがいいのでdef:hogeやthmhogeなどのようにすることを推奨する． .definitionという部分はこの文字列でなければならない． 定義なら.definition 定理なら.theorem などとする. ※ cssのクラスを指定することに相当．未実装だが，いずれ必要． 参考文献 AsciiDoc入門 1. 厳密にはイタリックと斜体は異なるらしい．参考： 斜体とイタリック体は違うのか</summary></entry><entry><title type="html">連続写像の定義</title><link href="/posts/define-cont" rel="alternate" type="text/html" title="連続写像の定義" /><published>2021-08-20T14:00:00+09:00</published><updated>2021-08-20T14:00:00+09:00</updated><id>/posts/define-cont</id><content type="html" xml:base="/posts/define-cont">&lt;div class=&quot;sect1&quot;&gt;
+&lt;/div&gt;</content><author><name>柴犬レオ</name><email>fukuda-makoto-vb@ynu.jp</email></author><category term="Asciidoc" /><summary type="html">数学関連の記事を書くために最低限必要な構文です． 1. 文字装飾 表 1. 書式一覧 修飾の名前 構文 表示 用途 太字 **bold** bold 強調，用語の定義 斜体[1] _italic_ italic 引用文献の名前，定理の名前 打消し線 [line-through#打消し線#] 打消し線 訂正 コメントアウト //この部分は表示されない 表示したくないとき 2. 章・節の区分 章・節の区分 = Document Title (Level 0) ページタイトル 最も大きい見出し == Level 1 Section Title 見出し1 「章」だとおもって差支えない． === Level 2 Section Title 見出し2 + 「小節」だと思って差支えない． 2.1. 解説 空行を1行加えると段落とみなされる．(level 0 の下の文) 空行を入れないと，続きの文章とみなされる．(level 1 の下の文) 同じ段落で改行したいときは行末に+を置く．(level 2 の下の文) 3. 数式の利用 タイトル(level 0 要素)のすぐ下に，空行をはさまずに:stem:と書くと \( \)でインライン，\[ \]で別行立ての数式を\(\LaTeX\)記法で入力できる. :stem:の下の行に:eqnums: allとすると自動的に別行立て数式に番号を表示する. ソースコード インライン数式：\(F = ma\) 別行立て数式： \[\notag \begin{align*} \left(\dfrac{1}{2}\right)\times \cdots \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0. \end{align*} \] 表示例 インライン数式：\(F = ma\) 別行立て数式： \[\notag \left(\dfrac{1}{2}\right)\times \cdots \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0. \] 3.1. 解説 このようにすることでlabel{}や\ref{}が使え，自動で番号付けされ，リンクもつけられる. 番号を表示したくないときは\[のあとに\notagをおく． 4. 定理環境 初めての節（level 1 Section）の前に:dummy: {counter2:section:0}と記述し，節の初めに :dummy: {counter2:section} :num: 0 という文字をおくことで実現できる．詳細は述べない．（述べられない．） :def-add: 定義 {section}.{counter:num}. [#def_add.definition, title='{def-add}'] **** \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という． \[ \begin{align} \Omega &amp;amp; \in G \label{def:certain}\\ E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\ E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive} \end{align} \] **** &amp;lt;&amp;lt;def_add&amp;gt;&amp;gt;は重要．\((\ref{def:additive})\) を加法性という． 表示例 定義 4.1. \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の加法族という． \[ \begin{align} \Omega &amp;amp; \in G \label{def:certain}\\ E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\ E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive} \end{align} \] 定義 4.1.は重要．\((\ref{def:additive})\) を加法性という． 4.1. 解説 :def-add:という部分でタイトルを指定する． :def-add:という部分のdef-addという文字列はなんでも良い．ただし，何を表しているのかわかりやすいほうがいいのでdef-hogeやthm-hogeなどのようにすることを推奨する． {section}という部分で節番号を表示する． {counter:num}という部分で連続した番号を表示する． #def_addという部分で定理環境のidを作成する．&amp;lt;&amp;lt; &amp;gt;&amp;gt;で参照すると自動でリンクが作成される． #def_addのdef_addという部分はなんでもいいが，何を表しているのかわかりやすいほうがいいのでdef_hogeやthm_hogeなどのようにすることを推奨する． .definitionという部分はこの文字列でなければならない． 定義なら.definition 命題なら.proposition 証明なら.proof 例なら.example 定理なら.theorem などとする. その他必要なものがあれば実装するので行ってください． 5. 参考文献 AsciiDoc入門 1. 厳密にはイタリックと斜体は異なるらしい．参考： 斜体とイタリック体は違うのか</summary></entry><entry><title type="html">連続写像の定義</title><link href="/posts/define-cont" rel="alternate" type="text/html" title="連続写像の定義" /><published>2021-08-20T14:00:00+09:00</published><updated>2021-08-20T14:00:00+09:00</updated><id>/posts/define-cont</id><content type="html" xml:base="/posts/define-cont">&lt;div class=&quot;sect1&quot;&gt;
 &lt;h2 id=&quot;要約&quot;&gt;1. 要約&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
