@@ -1,5 +1,5 @@
 = Ascii Doc 構文解説
-福田 誠 <fukuda-makoto-vb@ynu.jp>
+shiba <fukuda-makoto-vb@ynu.jp>
 v0.1 2021-05-14
 //:toc:
 //:toc-title: 内容
@@ -8,7 +8,7 @@ v0.1 2021-05-14
 :stem:
 :eqnums: all
 :linkcss:
-:stylesdir: ./css
+:stylesdir: ./assets/css
 :stylesheet: adoc-github.css
 
 数学関連の記事を書くために最低限必要な構文です．

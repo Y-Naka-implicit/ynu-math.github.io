@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-23T17:52:52+09:00</updated><id>/feed.xml</id><title type="html">横浜国立大学数学サークル</title><subtitle>学生有志による数学のゼミ活動を行っています．</subtitle><author><name>{&quot;type&quot;=&gt;&quot;organization&quot;, &quot;url&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;ynu.integral@gmail.com&quot;, &quot;facebook&quot;=&gt;nil, &quot;twitter&quot;=&gt;&quot;ynu_integral&quot;, &quot;weibo&quot;=&gt;nil, &quot;googleplus&quot;=&gt;nil, &quot;telegram&quot;=&gt;nil, &quot;medium&quot;=&gt;nil, &quot;zhihu&quot;=&gt;nil, &quot;douban&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;github&quot;=&gt;&quot;ynu-math&quot;, &quot;npm&quot;=&gt;nil}</name><email>ynu.integral@gmail.com</email></author><entry><title type="html">Ascii Doc 構文解説</title><link href="/2021/08/23/Syntax_Sample.html" rel="alternate" type="text/html" title="Ascii Doc 構文解説" /><published>2021-08-23T00:00:00+09:00</published><updated>2021-08-23T00:00:00+09:00</updated><id>/2021/08/23/Syntax_Sample</id><content type="html" xml:base="/2021/08/23/Syntax_Sample.html">&lt;div id=&quot;preamble&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-24T00:22:54+09:00</updated><id>/feed.xml</id><title type="html">横浜国立大学数学サークル</title><subtitle>学生有志による数学のゼミ活動を行っています．</subtitle><author><name>{&quot;type&quot;=&gt;&quot;organization&quot;, &quot;url&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;ynu.integral@gmail.com&quot;, &quot;facebook&quot;=&gt;nil, &quot;twitter&quot;=&gt;&quot;ynu_integral&quot;, &quot;weibo&quot;=&gt;nil, &quot;googleplus&quot;=&gt;nil, &quot;telegram&quot;=&gt;nil, &quot;medium&quot;=&gt;nil, &quot;zhihu&quot;=&gt;nil, &quot;douban&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;github&quot;=&gt;&quot;ynu-math&quot;, &quot;npm&quot;=&gt;nil}</name><email>ynu.integral@gmail.com</email></author><entry><title type="html">Ascii Doc 構文解説</title><link href="/2021/08/23/Syntax_Sample.html" rel="alternate" type="text/html" title="Ascii Doc 構文解説" /><published>2021-08-23T00:00:00+09:00</published><updated>2021-08-23T00:00:00+09:00</updated><id>/2021/08/23/Syntax_Sample</id><content type="html" xml:base="/2021/08/23/Syntax_Sample.html">&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;数学関連の記事を書くために最低限必要な構文です．&lt;/p&gt;
@@ -285,595 +285,725 @@
 &lt;div class=&quot;footnote&quot; id=&quot;_footnotedef_1&quot;&gt;
 &lt;a href=&quot;#_footnoteref_1&quot;&gt;1&lt;/a&gt;. 厳密にはイタリックと斜体は異なるらしい．参考：  &lt;a href=&quot;https://www.nishishi.com/css/font-italic-oblique.html#:~:text=%E6%AC%A7%E6%96%87%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%AD%E3%81%AB,%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%BD%A2%E3%81%A7%E3%81%99%E3%80%82&amp;amp;text=%E3%81%9D%E3%81%AE%E5%A0%B4%E5%90%88%E3%80%81%E3%82%82%E3%81%97%E3%82%A4%E3%82%BF%E3%83%AA%E3%83%83%E3%82%AF%E4%BD%93,%E3%81%9D%E3%82%8C%E3%81%8C%E4%BD%BF%E3%82%8F%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82&quot;&gt;斜体とイタリック体は違うのか&lt;/a&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name>福田 誠</name></author><summary type="html">数学関連の記事を書くために最低限必要な構文です． 1. 文字装飾 Table 1. 書式一覧 修飾の名前 構文 表示 用途 太字 **bold** bold 強調，用語の定義 斜体[1] _italic_ italic 引用文献の名前，定理の名前 打消し線 [line-through#打消し線#] 打消し線 訂正 コメントアウト //この部分は表示されない 表示したくないとき 2. 章・節の区分 Example 1. 章・節の区分 = Document Title (Level 0) ページタイトル 最も大きい見出し == Level 1 Section Title 見出し1 「章」だとおもって差支えない． === Level 2 Section Title 見出し2 + 「小節」だと思って差支えない． 表示例 Document Title (Level 0) ページタイトル 最も大きい見出し Level 1 Section Title 見出し1 「章」だとおもって差支えない． Level 2 Section Title 見出し2 「小節」だと思って差支えない． 解説 空行を1行加えると段落とみなされる．(level 0 の下の文) 空行を入れないと，続きの文章とみなされる．(level 1 の下の文) 同じ段落で改行したいときは行末に+を置く．(level 2 の下の文) 数式の利用 タイトル(level 0 要素)のすぐ下に，空行をはさまずに:stem:と書くと \( \)でインライン，\[ \]で別行立ての数式を\(\LaTeX\)記法で入力できる. :stem:の下の行に:eqnums: allとすると自動的に別行立て数式に番号を表示する. Example 2. 数式の利用 インライン数式：\(F = ma\) 別行立て数式： \[\notag \left(\dfrac{1}{2}\right)\times \cdots \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0. \] 表示例 インライン数式：\(F = ma\) 別行立て数式： \[\notag \left(\dfrac{1}{2}\right)\times \cdots \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0. \] 解説 このようにすることでlabel{}や\ref{}が使え，自動で番号付けされ，リンクもつけられる. 番号を表示したくないときは\[のあとに\notagをおく． 定理環境 初めての節（level 1 Section）の前に:dummy: {counter2:section:0}と記述し，節の初めに :dummy: {counter2:section} :num: 0 という文字をおくことで実現できる．詳細は述べない．（述べられない．） Example 3. 定理環境 :def-add: 定義{section}.{counter:num}. 加法族 [#def:add.definition, title='{def-add}'] **** \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という． \[ \begin{align} \Omega &amp;amp; \in G \label{def:certain}\\ E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\ E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive} \end{align} \] **** &amp;lt;&amp;lt;def:add&amp;gt;&amp;gt;は重要． 表示例 定義4.1. 加法族 \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の加法族という． \[ \begin{align} \Omega &amp;amp; \in G \label{def:certain}\\ E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\ E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive} \end{align} \] 定義4.1. 加法族は重要． 解説 :def-add:という部分でタイトルを指定する． :def-add:という部分のdef-addという文字列はなんでも良い．ただし，何を表しているのかわかりやすいほうがいいのでdef-hogeやthm-hogeなどのようにすることを推奨する． {section}という部分で節番号を表示する． {counter:num}という部分で連続した番号を表示する． #def:addという部分で定理環境のidを作成する．&amp;lt;&amp;lt; &amp;gt;&amp;gt;で参照すると自動でリンクが作成される． #def:addのdef:addという部分はなんでもいいが，何を表しているのかわかりやすいほうがいいのでdef:hogeやthmhogeなどのようにすることを推奨する． .definitionという部分はこの文字列でなければならない． 定義なら.definition 定理なら.theorem などとする. ※ cssのクラスを指定することに相当．未実装だが，いずれ必要． 参考文献 AsciiDoc入門 1. 厳密にはイタリックと斜体は異なるらしい．参考： 斜体とイタリック体は違うのか</summary></entry><entry><title type="html">連続写像の定義</title><link href="/posts/define-cont" rel="alternate" type="text/html" title="連続写像の定義" /><published>2021-04-07T14:00:00+09:00</published><updated>2021-04-07T14:00:00+09:00</updated><id>/posts/define-cont</id><content type="html" xml:base="/posts/define-cont">&lt;h2 id=&quot;要約&quot;&gt;要約&lt;/h2&gt;
-
-&lt;p&gt;$(X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)$を位相空間とする．写像$f:X_1\to X_2$が連続であるとは，任意の$Q\in \mathcal{O}_2$に対して，$f^{-1}(Q)\in \mathcal{O}_1$となることである．&lt;/p&gt;
-
-&lt;h2 id=&quot;はじめに&quot;&gt;はじめに&lt;/h2&gt;
-
+&lt;/div&gt;</content><author><name>柴犬レオ</name><email>fukuda-makoto-vb@ynu.jp</email></author><summary type="html">数学関連の記事を書くために最低限必要な構文です． 1. 文字装飾 Table 1. 書式一覧 修飾の名前 構文 表示 用途 太字 **bold** bold 強調，用語の定義 斜体[1] _italic_ italic 引用文献の名前，定理の名前 打消し線 [line-through#打消し線#] 打消し線 訂正 コメントアウト //この部分は表示されない 表示したくないとき 2. 章・節の区分 Example 1. 章・節の区分 = Document Title (Level 0) ページタイトル 最も大きい見出し == Level 1 Section Title 見出し1 「章」だとおもって差支えない． === Level 2 Section Title 見出し2 + 「小節」だと思って差支えない． 表示例 Document Title (Level 0) ページタイトル 最も大きい見出し Level 1 Section Title 見出し1 「章」だとおもって差支えない． Level 2 Section Title 見出し2 「小節」だと思って差支えない． 解説 空行を1行加えると段落とみなされる．(level 0 の下の文) 空行を入れないと，続きの文章とみなされる．(level 1 の下の文) 同じ段落で改行したいときは行末に+を置く．(level 2 の下の文) 数式の利用 タイトル(level 0 要素)のすぐ下に，空行をはさまずに:stem:と書くと \( \)でインライン，\[ \]で別行立ての数式を\(\LaTeX\)記法で入力できる. :stem:の下の行に:eqnums: allとすると自動的に別行立て数式に番号を表示する. Example 2. 数式の利用 インライン数式：\(F = ma\) 別行立て数式： \[\notag \left(\dfrac{1}{2}\right)\times \cdots \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0. \] 表示例 インライン数式：\(F = ma\) 別行立て数式： \[\notag \left(\dfrac{1}{2}\right)\times \cdots \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0. \] 解説 このようにすることでlabel{}や\ref{}が使え，自動で番号付けされ，リンクもつけられる. 番号を表示したくないときは\[のあとに\notagをおく． 定理環境 初めての節（level 1 Section）の前に:dummy: {counter2:section:0}と記述し，節の初めに :dummy: {counter2:section} :num: 0 という文字をおくことで実現できる．詳細は述べない．（述べられない．） Example 3. 定理環境 :def-add: 定義{section}.{counter:num}. 加法族 [#def:add.definition, title='{def-add}'] **** \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という． \[ \begin{align} \Omega &amp;amp; \in G \label{def:certain}\\ E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\ E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive} \end{align} \] **** &amp;lt;&amp;lt;def:add&amp;gt;&amp;gt;は重要． 表示例 定義4.1. 加法族 \(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の加法族という． \[ \begin{align} \Omega &amp;amp; \in G \label{def:certain}\\ E \in G &amp;amp; \implies E^c \in G \label{def:complement}\\ E_1, E_2 \in G &amp;amp; \implies E_1 \cup E_2 \in G \label{def:additive} \end{align} \] 定義4.1. 加法族は重要． 解説 :def-add:という部分でタイトルを指定する． :def-add:という部分のdef-addという文字列はなんでも良い．ただし，何を表しているのかわかりやすいほうがいいのでdef-hogeやthm-hogeなどのようにすることを推奨する． {section}という部分で節番号を表示する． {counter:num}という部分で連続した番号を表示する． #def:addという部分で定理環境のidを作成する．&amp;lt;&amp;lt; &amp;gt;&amp;gt;で参照すると自動でリンクが作成される． #def:addのdef:addという部分はなんでもいいが，何を表しているのかわかりやすいほうがいいのでdef:hogeやthmhogeなどのようにすることを推奨する． .definitionという部分はこの文字列でなければならない． 定義なら.definition 定理なら.theorem などとする. ※ cssのクラスを指定することに相当．未実装だが，いずれ必要． 参考文献 AsciiDoc入門 1. 厳密にはイタリックと斜体は異なるらしい．参考： 斜体とイタリック体は違うのか</summary></entry><entry><title type="html">連続写像の定義</title><link href="/posts/define-cont" rel="alternate" type="text/html" title="連続写像の定義" /><published>2021-08-20T14:00:00+09:00</published><updated>2021-08-20T14:00:00+09:00</updated><id>/posts/define-cont</id><content type="html" xml:base="/posts/define-cont">&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;要約&quot;&gt;1. 要約&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\((X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)\)を位相空間とする．写像\(f:X_1\to X_2\)が連続であるとは，任意の\(Q\in \mathcal{O}_2\)に対して，\(f^{-1}(Q)\in \mathcal{O}_1\)となることである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;はじめに&quot;&gt;2. はじめに&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;今回の主題は，連続写像の定義から&lt;strong&gt;距離&lt;/strong&gt;や&lt;strong&gt;極限&lt;/strong&gt;といった概念を取り払い，位相空間の間の連続写像を定義することです．&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;まず，高校数学までの素朴な定義を確認し，距離空間における連続写像を取り扱います．&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;次に，距離空間における開集合系の性質を述べ，慣例に則って，位相を開集合系によって定義します．&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;最後に，位相を用いた連続写像の表現を定義します．&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;本編では，語尾はである調で統一しています．&lt;/p&gt;
-
-&lt;h2 id=&quot;varepsilon-delta論法による連続性の定義&quot;&gt;$\varepsilon-\delta$論法による連続性の定義&lt;/h2&gt;
-
-&lt;p&gt;ここでは，距離空間の連続写像を考えるために，高校での連続の定義の問題点を挙げ，$\varepsilon - \delta$論法による連続の定義を行う．&lt;/p&gt;
-
-&lt;p&gt;高校までで学んだ連続の定義は，次のようであった．&lt;sup id=&quot;fnref:oshima&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:oshima&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-$a$を$f(x)$の定義域に属する値とするとき，関数$f(x)$が$x=a$で&lt;b&gt;連続&lt;/b&gt;であるとは，次の2つのことが満たされていることである．
-&lt;br /&gt; 
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1. 極限値$\displaystyle \lim_{x\to a}f(x)$が存在する．
-&lt;br /&gt; 
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2. $\displaystyle \lim_{x\to a}f(x)=f(a)$が成立する．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;高校までの数学では「極限値$\displaystyle \lim_{x\to a}f(x)$が存在する」ということが，はっきりとは定義されていない．そのため，1つ目の条件について議論することができない．&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;varepsilon-delta-論法による連続性の定義&quot;&gt;3. \(\varepsilon-\delta\) 論法による連続性の定義&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ここでは，距離空間の連続写像を考えるために，高校での連続の定義の問題点を挙げ，\(\varepsilon-\delta\) 論法による連続の定義を行う．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;高校までで学んだ連続の定義は，次のようであった．&lt;sup class=&quot;footnote&quot;&gt;[&lt;a id=&quot;_footnoteref_1&quot; class=&quot;footnote&quot; href=&quot;#_footnotedef_1&quot; title=&quot;View footnote.&quot;&gt;1&lt;/a&gt;]&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def_highschool&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 3.1.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(a\)を\(f(x)\)の定義域に属する値とするとき，関数\(f(x)\)が\(x=a\)で&lt;strong&gt;連続&lt;/strong&gt;であるとは，次の2つのことが満たされていることである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;極限値\(\displaystyle \lim_{x\to a}f(x)\)が存在する．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\(\displaystyle \lim_{x\to a}f(x)=f(a)\)が成立する&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;高校までの数学では「極限値\(\displaystyle \lim_{x\to a}f(x)\)が存在する」ということが，はっきりとは定義されていない．そのため，1つ目の条件について議論することができない．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;コーシー以後，現代数学では&lt;strong&gt;極限&lt;/strong&gt;と&lt;strong&gt;連続&lt;/strong&gt;を次のように定義する．&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;def:lim&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-&lt;b&gt;極限が存在すること&lt;/b&gt;
-&lt;p&gt;$I\subset \mathbb{R}$を区間とする．$f:I\to \mathbb{R}$に対して$\displaystyle \lim_{x\to a}f(x)=\alpha$とは次のことである．
-ある実数$\alpha$が存在し，任意の$\varepsilon&amp;gt;0$に対して，ある$\delta$が存在して，$0&amp;lt;|x-a|&amp;lt;\delta$ならば$|f(x)-\alpha|&amp;lt;\varepsilon$が成立する．
-&lt;/p&gt;
-&lt;b&gt;連続であること&lt;/b&gt;
-&lt;p&gt;$I\subset \mathbb{R}$を区間として，$a\in I$を固定する．関数$f:I\to \mathbb{R}$が点$a$で連続であるとは次のことである．
-任意の正の数$\varepsilon$に対して，正の数$\delta_{\varepsilon,a}$が存在し，$|x-a|&amp;lt;\delta_{\varepsilon,a}$ならば$|f(x)-f(a)|&amp;lt;\varepsilon$が成立する．
-&lt;/p&gt;
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;&lt;a href=&quot;#def:lim&quot;&gt;定義2&lt;/a&gt;によると，$f(a)$が定義されていなくても，点$a$における$f$の極限が定義できる．一方で，$f(a)$が定義されていなければ，点$a$において$f$は自動的に連続でないとわかる．&lt;/p&gt;
-
-&lt;p&gt;$f(a)$が定義されており，かつ点$a$における$f(x)$の極限が$f(a)$と一致して初めて「$f$は点$a$において&lt;strong&gt;連続&lt;/strong&gt;である」といえる．&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#def:lim&quot;&gt;定義2&lt;/a&gt;は一見すると，どのように利用するのかがわかりにくい．論理式を直訳したような形をとっているからである．そこで具体例を考えよう．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #eec362;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #eec362;&quot;&gt;例 &lt;/span&gt;
-        &lt;p&gt;
-$f$を$\mathbb{R}$から$\mathbb{R}$への写像として
-$
+&lt;/div&gt;
+&lt;div id=&quot;def_cauchy&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 3.2.&lt;/div&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;極限が存在すること&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;\(I\subset \mathbb{R}\)を区間とする．\(f:I\to \mathbb{R}\)に対して\(\displaystyle \lim_{x\to a}f(x)=\alpha\)とは次のことである．
+ある実数\(\alpha\)が存在し，任意の\(\varepsilon&amp;gt;0\)に対して，ある\(\delta\)が存在して，\(0&amp;lt;|x-a|&amp;lt;\delta\)ならば\(|f(x)-\alpha|&amp;lt;\varepsilon\)が成立する．&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;連続であること&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;\(I\subset \mathbb{R}\)を区間として，\(a\in I\)を固定する．関数\(f:I\to \mathbb{R}\)が点\(a\)で連続であるとは次のことである．
+任意の正の数\(\varepsilon\)に対して，正の数\(\delta_{\varepsilon,a}\)が存在し，\(|x-a|&amp;lt;\delta_{\varepsilon,a}\)ならば\(|f(x)-f(a)|&amp;lt;\varepsilon\)が成立する．&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;#def_cauchy&quot;&gt;定義 3.2.&lt;/a&gt;によると，\(f(a)\)が定義されていなくても，点\(a\)における\(f\)の極限が定義できる．一方で，\(f(a)\)が定義されていなければ，点\(a\)において\(f\)は自動的に連続でないとわかる．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(f(a)\)が定義されており，かつ点\(a\)における\(f(x)\)の極限が\(f(a)\)と一致して初めて「\(f\)は点\(a\)において&lt;strong&gt;連続&lt;/strong&gt;である」といえる．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;#def_cauchy&quot;&gt;定義 3.2.&lt;/a&gt;は一見すると，どのように利用するのかがわかりにくい．論理式を直訳したような形をとっているからである．そこで具体例を考えよう．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ex_conc&quot; class=&quot;sidebarblock example&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;例 3.3.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(f\)を\(\mathbb{R}\)から\(\mathbb{R}\)への写像として
+\(
     f(x)=\begin{cases}\dfrac{\sin x}{x}&amp;amp;(x\neq 0)\\
     1&amp;amp;(x=0)\end{cases}
-$
-とする．
-$f$が$x=0$で連続であることを示せ．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment-no-number&quot; style=&quot;border: solid 3px #b28c6e;&quot;&gt;
-        &lt;span class=&quot;environment-no-number-title&quot; style=&quot;background: #b28c6e;&quot;&gt;証明 &lt;/span&gt;
-        &lt;p&gt;
-$\varepsilon&amp;gt;0$を任意にとる．
-任意の$x\in \mathbb{R}$で
-\(
-    \left| \sin x-x \right|\le |x^2|=|x|^2
 \)
+とする．
+\(f\)が\(x=0\)で連続であることを示せ．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;proof_conc&quot; class=&quot;sidebarblock proof&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;例 3.3. の証明&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(\varepsilon&amp;gt;0\)を任意にとる．任意の\(x\in \mathbb{R}\)で
+\[\notag
+    \begin{align*}
+        \left| \sin x-x \right|\le |x ^2 |=|x| ^2
+    \end{align*}
+\]
 が成立することに注意する．
-$\delta=\varepsilon&amp;gt;0$とすれば，$0&amp;lt;|x|&amp;lt;\delta$ならば
-\[
-    |f(x)-f(0)|=\left|\dfrac{\sin x}{x}-1\right|=\dfrac{|\sin x-x|}{|x|}&amp;lt;|x|&amp;lt;\delta=\varepsilon
+\(\delta=\varepsilon&amp;gt;0\)とすれば，\(0&amp;lt;|x|&amp;lt;\delta\)ならば
+\[\notag
+    \begin{align*}
+        |f(x)-f(0)|=\left|\dfrac{\sin x}{x}-1\right|=\dfrac{|\sin x-x|}{|x|}&amp;lt;|x|&amp;lt;\delta=\varepsilon
+    \end{align*}
 \]
-が成立し，確かに$f$は$x=0$で連続である．
-$\Box$&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;&lt;a href=&quot;#def:lim&quot;&gt;定義2&lt;/a&gt;は関数$f$が点$a$で連続であるとは，「$f(x)$と$f(a)$の距離を限りなく$0$に近づけたとき，それに対応して$x$と$a$の距離も限りなく小さくできる」ということを意味している．ここでいう&lt;strong&gt;距離&lt;/strong&gt;とは何であろうか．（端的に言えば関数である．では，どのような関数なのか？この問いの答えは&lt;a href=&quot;#def:dist&quot;&gt;定義7&lt;/a&gt;で与えられる．）&lt;/p&gt;
-
-&lt;p&gt;さらに&lt;a href=&quot;#def:lim&quot;&gt;定義2&lt;/a&gt;を見ると，極限という概念において&lt;strong&gt;距離&lt;/strong&gt;は重要な役割を果たしている．つまり，2点間の&lt;strong&gt;距離&lt;/strong&gt;が定義できれば極限および連続性が定義できるのである．&lt;/p&gt;
-
+が成立し，確かに\(f\)は\(x=0\)で連続である．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;#def_cauchy&quot;&gt;定義 3.2.&lt;/a&gt;は関数\(f\)が点\(a\)で連続であるとは，「\(f(x)\)と\(f(a)\)の距離を限りなく\(0\)に近づけたとき，それに対応して\(x\)と\(a\)の距離も限りなく小さくできる」ということを意味している．ここでいう&lt;strong&gt;距離&lt;/strong&gt;とは何であろうか．（端的に言えば関数である．では，どのような関数なのか？この問いの答えは&lt;a href=&quot;#def_dist&quot;&gt;定義 4.3.&lt;/a&gt;で与えられる．）&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;さらに&lt;a href=&quot;#def_cauchy&quot;&gt;定義 3.2.&lt;/a&gt;を見ると，極限という概念において&lt;strong&gt;距離&lt;/strong&gt;は重要な役割を果たしている．つまり，2点間の&lt;strong&gt;距離&lt;/strong&gt;が定義できれば極限および連続性が定義できるのである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;実数を定義域としないような関数の例として，ベクトル空間を定義域に持つ関数がある．ベクトル空間を定義域に持つ関数でも，連続であることは定義できる．&lt;/p&gt;
-
-&lt;p&gt;ベクトル空間の例として一般の区間を考えよう．一般の区間とは$I\subset \mathbb{R}^n$であって，$I=I_1\times I_2\times \dots \times I_n(I_i\subset \mathbb{R}$は区間)となるものである．&lt;/p&gt;
-
-&lt;p&gt;$\boldsymbol{x}=(x_1,\dots,x_n)\in \mathbb{R}^n$に対して，写像$||\cdot ||_2:\mathbb{R}^n\to \mathbb{R}$を
-\(||\boldsymbol{x}||_2=\sqrt{\sum_{i=1}^n(x_i)^2}\)
-で定める．この写像を用いると写像$f:I\to \mathbb{R}$の連続性は次のように定義される．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #eec362;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #eec362;&quot;&gt;例 &lt;/span&gt;
-        &lt;p&gt;
-&lt;p&gt;$I\subset \mathbb{R}^n$を区間とする．関数$f:I\to \mathbb{R}$が点$\boldsymbol{a}\in I$で連続であるとは次のことである．
-任意の正の数$\varepsilon$に対して，
-正の数$\delta_{\varepsilon,\boldsymbol{a}}$が存在して，
-$$||\boldsymbol{x} - \boldsymbol{a}||_2&amp;lt;\delta_{\varepsilon,\boldsymbol{a}}$$ならば$|f(\boldsymbol{x})-f(\boldsymbol{a})|&amp;lt;\varepsilon$が成立する．
-&lt;/p&gt;
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ベクトル空間の例として一般の区間を考えよう．一般の区間とは\(I\subset \mathbb{R}^n\)であって，\(I=I_1\times I_2\times \dots \times I_n(I_i\subset \mathbb{R}\)は区間)となるものである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(\boldsymbol{x}=(x_1,\dots,x_n) \in \mathbb{R}^n \)に対して，写像 \({|| \cdot ||}_{2} : \mathbb{R}^n \to \mathbb{R}\)を&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\[\notag
+    \begin{align*}
+        {||\boldsymbol{x}||}_{2}=\sqrt{\sum_{i=1}^n(x_i) ^2}
+    \end{align*}
+\]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;で定める．この写像を用いると写像 \(f:I \to \mathbb{R}\) の連続性は次のように定義される．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def_delta&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 3.4.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(I\subset \mathbb{R}^n\)を区間とする．関数\(f:I\to \mathbb{R}\)が点\(\boldsymbol{a}\in I\)で連続であるとは次のことである．
+任意の正の数\(\varepsilon\)に対して，
+正の数\(\delta_{\varepsilon,\boldsymbol{a}}\)が存在して，&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\[\notag
+    \begin{align*}
+        {||\boldsymbol{x} - \boldsymbol{a}||}_{2} &amp;lt; \delta_{\varepsilon,\boldsymbol{a}}
+    \end{align*}
+\]
+ならば \(|f(\boldsymbol{x})-f(\boldsymbol{a})|&amp;lt;\varepsilon\) が成立する．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;このように，ベクトル空間を定義域に持つ関数にも連続性を定義することができる．そこで，距離をより一般的に捉えなおし,関数の連続性を定義することを考えよう．&lt;/p&gt;
-
-&lt;h2 id=&quot;距離空間&quot;&gt;距離空間&lt;/h2&gt;
-
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;距離空間&quot;&gt;4. 距離空間&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;ユークリッド空間以外の空間でも連続写像を考えるためには，2点間の距離を測れる必要がある．ここではユークリッド空間の距離を考察し，一般の距離空間を定義する．&lt;/p&gt;
-
-&lt;p&gt;たとえば$(1,1)\in \mathbb{R}^2$と$(2,3)\in \mathbb{R}^2$の距離は，$\sqrt{(2-1)^2+(3-1)^2}=\sqrt{1+4}=\sqrt{5}$と計算される．これを$d((1,1),(2,3))$と書けば，距離は，$d:\mathbb{R}^2\times \mathbb{R}^2\to \mathbb{R}$なる写像を考えているということである．ここからの一般化として，ユークリッド空間の間の距離を定義する．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-&lt;b&gt;ユークリッド距離&lt;/b&gt;
-&lt;p&gt;$d:\mathbb{R}^n\times \mathbb{R}^n\to \mathbb{R}$なる写像を
-\[
-    d(\boldsymbol{x},\boldsymbol{y})=\sqrt{\sum_{i=1}^n(x_i-y_i)^2}
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;たとえば \( (1,1) \in \mathbb{R} ^{2}\) と ((2,3)\in \mathbb{R} ^{2}\) の距離は，\(\sqrt{(2-1) ^2+(3-1) ^2}=\sqrt{1 + 4}=\sqrt{5}\) と計算される．これを\(d((1,1),(2,3))\)と書けば，距離は，\(d:\mathbb{R}^2\times \mathbb{R}^2\to \mathbb{R}\)なる写像を考えているということである．ここからの一般化として，ユークリッド空間の間の距離を定義する．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def_euclid&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 4.1.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(d:\mathbb{R} ^n\times \mathbb{R} ^n\to \mathbb{R}\) なる写像を
+\[\notag
+    \begin{align*}
+        d(\boldsymbol{x},\boldsymbol{y})=\sqrt{\sum_{i=1} ^n(x_i-y_i) ^2}
+    \end{align*}
 \]
-で定め，この$d$を距離とよぶ．ただし，$\boldsymbol{a} \in \mathbb{R}^n$に対し$\boldsymbol{a}=(a_1,\dots,a_n)$である．
-&lt;/p&gt;
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;距離$d$がユークリッド距離であることを強調するとき$d_E$とかく．&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;prop:dist&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #6f4b3e;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #6f4b3e;&quot;&gt;命題 &lt;/span&gt;
-        &lt;p&gt;
-$d_E$に対して次が成立する．
-\[
-    \begin{align}
-    d_E(\boldsymbol{x},\boldsymbol{y})&amp;amp;\ge 0.\\
-    d_E(\boldsymbol{x},\boldsymbol{y}) &amp;amp;= 0 \iff \boldsymbol{x}=\boldsymbol{y}.\\
-    d_E(\boldsymbol{x},\boldsymbol{y}) &amp;amp;= d_E(\boldsymbol{y},\boldsymbol{x}).\\
-    d_E(\boldsymbol{x},\boldsymbol{z}) &amp;amp;\le d_E(\boldsymbol{x},\boldsymbol{y})+d_E(\boldsymbol{y},\boldsymbol{z}).
-    \end{align}
-\]
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment-no-number&quot; style=&quot;border: solid 3px #b28c6e;&quot;&gt;
-        &lt;span class=&quot;environment-no-number-title&quot; style=&quot;background: #b28c6e;&quot;&gt;証明 &lt;/span&gt;
-        &lt;p&gt;
-定義から，上の3つは明らかに成立する．
-$d(\boldsymbol{x},\boldsymbol{y})=||\boldsymbol{x}-\boldsymbol{y}||_2$であり，コーシーシュワルツの不等式より，
-$||\boldsymbol{x}+\boldsymbol{y}||_2\le||\boldsymbol{x}||_2+||\boldsymbol{y}||_2$が成り立つ．
+で定め，この\(d\)を距離とよぶ．ただし，\(\boldsymbol{a} \in \mathbb{R}^n\)に対し\(\boldsymbol{a}=(a_1,\dots,a_n)\)である．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;#def_euclid&quot;&gt;定義 4.1.&lt;/a&gt;のような距離を&lt;strong&gt;ユークリッド距離&lt;/strong&gt;という．距離 \(d\) がユークリッド距離であることを強調するとき\(d_E\)とかく．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;prop_dist&quot; class=&quot;sidebarblock proposition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;命題 4.2.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(d_E\)に対して次が成立する．
+\[\notag
+    \begin{align*}
+        d_E(\boldsymbol{x},\boldsymbol{y})&amp;amp;\ge 0.\\
+        d_E(\boldsymbol{x},\boldsymbol{y}) &amp;amp;= 0 \iff \boldsymbol{x}=\boldsymbol{y}.\\
+        d_E(\boldsymbol{x},\boldsymbol{y}) &amp;amp;= d_E(\boldsymbol{y},\boldsymbol{x}).\\
+        d_E(\boldsymbol{x},\boldsymbol{z}) &amp;amp;\le d_E(\boldsymbol{x},\boldsymbol{y})+d_E(\boldsymbol{y},\boldsymbol{z}).
+    \end{align*}
+\]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;proof_dist&quot; class=&quot;sidebarblock proof&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;命題 4.2. の証明&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;定義から，上の3つは明らかに成立する．
+\(d(\boldsymbol{x},\boldsymbol{y})=||\boldsymbol{x}-\boldsymbol{y}||_2\)であり，コーシーシュワルツの不等式より，
+\(||\boldsymbol{x}\boldsymbol{y}||_2\le||\boldsymbol{x}||_2||\boldsymbol{y}||_2\)が成り立つ．
 ここから
-\[
-    \begin{align}
-    d_E(\boldsymbol{x},\boldsymbol{z})=||\boldsymbol{x}-\boldsymbol{z}||_2&amp;amp;=||\boldsymbol{x}-\boldsymbol{y}+\boldsymbol{y}-\boldsymbol{z}||_2\\
-    &amp;amp;\le ||\boldsymbol{x}-\boldsymbol{y}||_2+||\boldsymbol{y}-\boldsymbol{z}||_2\\
+\[\notag
+    \begin{align*}
+    d_E(\boldsymbol{x},\boldsymbol{z})=||\boldsymbol{x}-\boldsymbol{z}||_2&amp;amp;=||\boldsymbol{x}-\boldsymbol{y} + \boldsymbol{y}-\boldsymbol{z}||_2\\
+    &amp;amp;\le ||\boldsymbol{x}-\boldsymbol{y}||_2 + ||\boldsymbol{y}-\boldsymbol{z}||_2\\
     &amp;amp;\le d_E(\boldsymbol{x},\boldsymbol{y})+d_E(\boldsymbol{y},\boldsymbol{z})
-    \end{align}
+    \end{align*}
 \]
-であり，最後の不等式も成立する．
-$\Box$&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
+であり，最後の不等式も成立する．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;ユークリッド距離は，上のような性質を持つ．&lt;/p&gt;
-
-&lt;p&gt;しかし&lt;a href=&quot;#prop:dist&quot;&gt;命題6&lt;/a&gt;においては$d_E(\boldsymbol{x},\boldsymbol{z})$ユークリッド空間の間の写像であるという条件を明示的に用いていない．そこで&lt;a href=&quot;#prop:dist&quot;&gt;命題6&lt;/a&gt;を満たすような性質を持つ関数$d$を距離と定義することが考えられる．&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;しかし&lt;a href=&quot;#prop_dist&quot;&gt;命題 4.2.&lt;/a&gt;においては\(d_E(\boldsymbol{x},\boldsymbol{z})\)ユークリッド空間の間の写像であるという条件を明示的に用いていない．そこで&lt;a href=&quot;#prop_dist&quot;&gt;命題 4.2.&lt;/a&gt;を満たすような性質を持つ関数\(d\)を距離と定義することが考えられる．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;つまり，次のようにして一般の集合上に距離を定義する．&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;def:dist&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-一般の集合$X$について，写像$d:X\times X \to \mathbb{R}$が次の4つの公理を満たすとき，$d$を距離といい，対$(X,d)$を距離空間という．
-
-\[
-    \begin{aligned}
+&lt;/div&gt;
+&lt;div id=&quot;def_dist&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 4.3.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;一般の集合\(X\)について，写像\(d:X\times X \to \mathbb{R}\)が次の4つの公理を満たすとき，\(d\)を距離といい，対\((X,d)\)を距離空間という．
+\[\notag
+    \begin{align*}
         d(x,y)&amp;amp;\ge 0.\\
         d(x,y)&amp;amp;= 0 \iff x=y.\\
         d(x,y)&amp;amp;= d(y,x).\\
         d(x,z)&amp;amp;\le d(x,y)+d(y,z).
-    \end{aligned}
-\]
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;しばしば，距離空間$(X,d)$を$X$と略記する．&lt;/p&gt;
-
+    \end{align*}
+\]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;しばしば，距離空間\((X,d)\)を\(X\)と略記する．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;ここまでで，ユークリッド空間に対する考察から距離の概念を抽象化し，距離空間を定義した．&lt;/p&gt;
-
-&lt;h2 id=&quot;距離空間での連続性&quot;&gt;距離空間での連続性&lt;/h2&gt;
-
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;距離空間での連続性&quot;&gt;5. 距離空間での連続性&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;ユークリッド空間での連続性は，ユークリッド距離を用いて定義された．ここからの類推として，一般の距離空間に対しても距離を用いて連続性を定義することが考えられる．距離空間における関数の連続性の定義は次のようになる．&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;def:cont-map&quot;&gt;&lt;/a&gt;&lt;!--アンカー--&gt;&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-$(X_1,d_1),(X_2,d_2)$を距離空間とし，$f:X_1\to X_2$を写像とする．$f$が
-点$a\in X_1$で連続であるとは$f$が次を満たすことである．
-&lt;br /&gt;
-任意の正の数$\varepsilon$に対して，正の数$\delta_{\varepsilon,a}$が存して，$d(x,a)&amp;lt;\delta_{\varepsilon,a}$ならば$d(f(x),f(a))&amp;lt;\varepsilon$が成立する．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
+&lt;/div&gt;
+&lt;div id=&quot;def_cont_map&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 5.1.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\((X_1,d_1),(X_2,d_2)\)を距離空間とし，\(f:X_1\to X_2\)を写像とする．\(f\)が
+点\(a\in X_1\)で連続であるとは\(f\)が次を満たすことである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;&amp;nbsp;&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;任意の正の数\(\varepsilon\)に対して，正の数\(\delta_{\varepsilon,a}\)が存して，\(d(x,a)&amp;lt;\delta_{\varepsilon,a}\)ならば\(d(f(x),f(a))&amp;lt;\varepsilon\)が成立する．&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;連続性の概念は，ユークリッド空間におけるものから，距離が定まるより一般な集合への拡張を果たした．&lt;/p&gt;
-
-&lt;p&gt;今まで見てきた連続性は，定義域内の一点を固定したときに，その点に対して定まる概念であった．写像の連続性は定義域における各点での連続性に帰着される．すなわち，$(X_1,d_1),(X_2,d_2)$を距離空間とし，$f:X_1\to X_2$を写像とするとき，$f$が&lt;strong&gt;連続写像&lt;/strong&gt;であるとは，各$a\in X_1$で$f$が連続となることである．&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;今まで見てきた連続性は，定義域内の一点を固定したときに，その点に対して定まる概念であった．写像の連続性は定義域における各点での連続性に帰着される．すなわち，\((X_1,d_1),(X_2,d_2)\)を距離空間とし，\(f:X_1\to X_2\)を写像とするとき，\(f\)が&lt;strong&gt;連続写像&lt;/strong&gt;であるとは，各\(a\in X_1\)で\(f\)が連続となることである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;しかし関数の性質を調べるときには，定義域内の1点での性質ではなく，定義域全体での連続性を議論することが多い．そこで，定義域内の点をとって連続かどうかを議論するという視点を捨て，点によらない関数の連続性の定義を考えよう．距離は距離空間内の2つの点に対して定義されるものであったから，点によらずに関数の連続性を定義するために&lt;strong&gt;「距離をさらに抽象化することはできないか？」&lt;/strong&gt;という問いが考えられる．&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#def:cont-map&quot;&gt;定義8&lt;/a&gt;における連続性の定義は，集合上に定まる距離に依存している．距離を抽象化するために，連続性の定義から距離を隠す，すなわち距離に依存しない連続性の定義を考えよう．そのために，距離に依存しない概念を見つけることから始める．&lt;/p&gt;
-
-&lt;h2 id=&quot;距離空間における点列の収束&quot;&gt;距離空間における点列の収束&lt;/h2&gt;
-
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;#def_cont_map&quot;&gt;定義 5.1.&lt;/a&gt;における連続性の定義は，集合上に定まる距離に依存している．距離を抽象化するために，連続性の定義から距離を隠す，すなわち距離に依存しない連続性の定義を考えよう．そのために，距離に依存しない概念を見つけることから始める．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;距離空間における点列の収束&quot;&gt;6. 距離空間における点列の収束&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;距離空間において距離に依存しない概念が登場するのは，点列の収束について考えるときである．一次元の数列の収束は次のように定義されていた．&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-実数からなる数列$\{a_n\}_{n\in \mathbb{Z}^+}$が$\alpha\in \mathbb{R}$に収束するとは，
-任意の正の数$\varepsilon$に対して，ある正の整数$N(\varepsilon)$が存在し，$n\ge N$ならば，$|a_n-\alpha|&amp;lt;\varepsilon$が成立することである．
-
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;すなわち，「どんなに小さい正の数$\varepsilon$を選んでも，ある正の整数$N=N(\varepsilon)$より先の自然数に対する項は，極限値との距離を$\varepsilon$より小さくできる」ということである．数列の極限においても，収束概念の定式化には距離の概念が不可欠である．一般の距離を用いれば，距離空間の場合においても点列の収束を定義できる．&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-$X=(X,d)$を距離空間とする．Xの元からなる数列$\{a_n\}_{n\in \mathbb{Z}^+}$が$\alpha\in X$に収束するとは，
-任意の正の数$\varepsilon$に対して，ある正の整数$N=N(\varepsilon)$が存在し，$n\ge N$ならば，$d(a_n,\alpha)&amp;lt;\varepsilon$が成立することである．
-
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;ここで，距離空間における定義に別の解釈を与えてみよう．$d(a_n,\alpha)&amp;lt;\varepsilon$とは，$n\ge N$なる$n$に対しては$a_n$と$\alpha$の距離が$\varepsilon$未満である，ということだった．これはつまり，$\alpha$を中心とする半径$\varepsilon$の境界を含まない円板$B(\alpha;\varepsilon)$考えたとき，$N$より先の$n$に対して，全ての$a_n$が$B(\alpha;\varepsilon)$に含まれる，ということである．つまり，収束の定義は次のような書き換えが可能である．&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-$X=(X,d)$を距離空間とする．Xの元からなる数列$\{a_n\}_{n\in \mathbb{Z}^+}$が$\alpha\in X$に収束するとは，
-任意の正の数$\varepsilon$に対して，ある正の整数$N=N(\varepsilon)$が存在し，$n\ge N$ならば，$a_n \in B(\alpha;\varepsilon)$が成立することである．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
+&lt;/div&gt;
+&lt;div id=&quot;def_&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 6.1.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;実数からなる数列\( \{a_n \}_{n\in \mathbb{Z}^+}\)が\(\alpha\in \mathbb{R}\)に収束するとは，
+任意の正の数\(\varepsilon\)に対して，ある正の整数\(N(\varepsilon)\)が存在し，\(n\ge N\)ならば，\(|a_n-\alpha|&amp;lt;\varepsilon\)が成立することである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;すなわち，「どんなに小さい正の数\(\varepsilon\)を選んでも，ある正の整数\(N=N(\varepsilon)\)より先の自然数に対する項は，極限値との距離を\(\varepsilon\)より小さくできる」ということである．数列の極限においても，収束概念の定式化には距離の概念が不可欠である．一般の距離を用いれば，距離空間の場合においても点列の収束を定義できる．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def_converge&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 6.2.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(X=(X,d)\)を距離空間とする．\(X\)の元からなる数列\( \{a_n \}_{n\in \mathbb{Z}^+}\)が\(\alpha\in X\)に収束するとは，
+任意の正の数\(\varepsilon\)に対して，ある正の整数\(N=N(\varepsilon)\)が存在し，\(n\ge N\)ならば，\(d(a_n,\alpha)&amp;lt;\varepsilon\)が成立することである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ここで，距離空間における定義に別の解釈を与えてみよう．\(d(a_n,\alpha)&amp;lt;\varepsilon\)とは，\(n\ge N\)なる\(n\)に対しては\(a_n\)と\(\alpha\)の距離が\(\varepsilon\)未満である，ということだった．これはつまり，\(\alpha\)を中心とする半径\(\varepsilon\)の境界を含まない円板\(B(\alpha;\varepsilon)\)考えたとき，\(N\)より先の\(n\)に対して，全ての\(a_n\)が\(B(\alpha;\varepsilon)\)に含まれる，ということである．つまり，収束の定義は次のような書き換えが可能である．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def_conv&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 6.3.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(X=(X,d)\)を距離空間とする．Xの元からなる数列\( \{a_n \}_{n\in \mathbb{Z}^+}\)が\(\alpha\in X\)に収束するとは，
+任意の正の数\(\varepsilon\)に対して，ある正の整数\(N=N(\varepsilon)\)が存在し，\(n\ge N\)ならば，\(a_n \in B(\alpha;\varepsilon)\)が成立することである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;これは単なる定義の書き換えと思われるかもしれない．しかしながら，この集合は，距離空間において距離の抽象化を考えるときに，非常に有用である．距離の抽象化を与える概念が，この集合を用いて表現されることを見ていこう．&lt;/p&gt;
-
-&lt;h2 id=&quot;距離を抽象化する&quot;&gt;距離を抽象化する&lt;/h2&gt;
-
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;距離を抽象化する&quot;&gt;7. 距離を抽象化する&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;前節で現れた集合は，今後頻繁に現れる．そこで，この集合に名前をつけておこう．&lt;/p&gt;
-
-&lt;p&gt;距離空間$X=(X,d)$について，
-\(B(a;\varepsilon) = \left\{\, x\in X \, \mid d(a,x)&amp;lt;\varepsilon \,\right\}\)
-を$a\in X$の &lt;strong&gt;$\varepsilon$近傍&lt;/strong&gt;という．&lt;/p&gt;
-
-&lt;p&gt;以下に定義する，距離空間から定まる集合は，すべて$\varepsilon$近傍から定まる概念である．その意味で，$B(a;\varepsilon)$は基本的である．&lt;/p&gt;
-
-&lt;p&gt;$\varepsilon$近傍の定義を見れば，$\varepsilon$近傍は境界がなく”開いている”円板，という印象を受ける．$X$の任意の部分集合にも，”開いている”集合を定義することができる．ここで，$\varepsilon$近傍が本質的な役割を果たす．&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-$A$を距離空間$X$の部分集合とする．$a\in A$に対して，$B(a ;\delta)\subset A$なる$\delta$が存在するとき，$a$を$A$の&lt;b&gt;内点&lt;/b&gt;という．$A$の内点全体の集合を&lt;b&gt;内部&lt;/b&gt;とよび，$A^i$とかく．
-&lt;br /&gt;
-$A^c = X \backslash A$を$A$の&lt;b&gt;補集合&lt;/b&gt;という．
-&lt;br /&gt;
-$A^c$の内点を，$A$の&lt;b&gt;外点&lt;/b&gt;という．$A$の外点全体の集合を&lt;b&gt;外部&lt;/b&gt;とよび，$A^e$とかく．
-外部でも内部でもない点全体の集合を&lt;b&gt;境界&lt;/b&gt;とよび，$A^f$とかく．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;明らかに，$A^i\subset A$が成立する．また，この定義により，$X=A^i\cup A^e \cup A^f$が非交和として成り立つ．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-$X$を距離空間とし，$A$は$X$の部分集合とする．
-$A^i=A$を満たすとき，$A$を&lt;b&gt;開集合&lt;/b&gt;という．
-$A^c$が開集合のとき，$A$を&lt;b&gt;閉集合&lt;/b&gt;という．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;集合の相当条件から，$A$が開集合であることは，$A\subset A^i$と同値である．開集合かつ閉集合となる集合も存在することに注意する．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #eec362;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #eec362;&quot;&gt;例 &lt;/span&gt;
-        &lt;p&gt;
-$\varnothing,X$などは，開かつ閉集合である．
-&lt;br /&gt;
-開集合であり，かつ閉集合である集合を，&lt;b&gt;開閉集合（Clopen set）&lt;/b&gt; という．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
+&lt;/div&gt;
+&lt;div id=&quot;def_neighborhood&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 6.4.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;距離空間 \(X=(X,d)\) について，
+\(B(a;\varepsilon) = \left\{\, x\in X \, \mid d(a,x)&amp;lt;\varepsilon \,\right\}
+\) を\(a\in X\)の &lt;strong&gt;\(\varepsilon\)近傍&lt;/strong&gt;という．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;以下に定義する，距離空間から定まる集合は，すべて\(\varepsilon\)近傍から定まる概念である．その意味で，\(B(a;\varepsilon)\)は基本的である．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(\varepsilon\)近傍の定義を見れば，\(\varepsilon\)近傍は境界がなく”開いている”円板，という印象を受ける．\(X\)の任意の部分集合にも，”開いている”集合を定義することができる．ここで，\(\varepsilon\)近傍が本質的な役割を果たす．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def_bound&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 6.5.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(A\)を距離空間\(X\)の部分集合とする．\(a\in A\)に対して，\(B(a ;\delta)\subset A\)なる\(\delta\)が存在するとき，\(a\)を\(A\)の&lt;strong&gt;内点&lt;/strong&gt;という．\(A\)の内点全体の集合を&lt;strong&gt;内部&lt;/strong&gt;とよび，\(A^i\)とかく．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(A ^c = X \backslash A\)を\(A\)の&lt;strong&gt;補集合&lt;/strong&gt;という．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(A ^c\)の内点を，\(A\)の&lt;strong&gt;外点&lt;/strong&gt;という．\(A\)の外点全体の集合を&lt;strong&gt;外部&lt;/strong&gt;とよび，\(A ^e\)とかく．
+外部でも内部でもない点全体の集合を&lt;strong&gt;境界&lt;/strong&gt;とよび，\(A ^f\)とかく．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;明らかに，\(A ^i\subset A\)が成立する．また，この定義により，\(X=A ^i\cup A ^e \cup A ^f\)が非交和として成り立つ．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def_open&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 6.6.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(X\)を距離空間とし，\(A\)は\(X\)の部分集合とする．
+\(A^i=A\)を満たすとき，\(A\)を&lt;strong&gt;開集合&lt;/strong&gt;という．
+\(A^c\)が開集合のとき，\(A\)を&lt;strong&gt;閉集合&lt;/strong&gt;という．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;集合の相当条件から，\(A\)が開集合であることは，\(A\subset A^i\)と同値である．開集合かつ閉集合となる集合も存在することに注意する．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ex_clopen&quot; class=&quot;sidebarblock example&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;例 6.7.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(\varnothing,X\)などは，開かつ閉集合である．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;開集合であり，かつ閉集合である集合を，&lt;strong&gt;開閉集合（Clopen set）&lt;/strong&gt; という．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;距離空間における開集合は，境界がない集合として捉えられそうである．距離空間に対してはこの感覚は正しいと考えられる．しかし，ここまでの議論では，開集合が持つ性質として抽象化できそうなものは見られない．開集合を具体的に追うことで，開集合が持つ性質を調べよう．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #62c1ce;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #62c1ce;&quot;&gt;定理 &lt;/span&gt;
-        &lt;p&gt;
-$X$を距離空間とする．任意の$r$について$B(a;r)$は開集合である．
-さらに，$A^i$は開集合であり，$A$に包まれる開集合の中で最大のものである．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment-no-number&quot; style=&quot;border: solid 3px #b28c6e;&quot;&gt;
-        &lt;span class=&quot;environment-no-number-title&quot; style=&quot;background: #b28c6e;&quot;&gt;証明 &lt;/span&gt;
-        &lt;p&gt;
-略.
-$\Box$&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;&lt;a name=&quot;thm:open&quot;&gt;&lt;/a&gt;&lt;!--アンカー--&gt;&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #62c1ce;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #62c1ce;&quot;&gt;定理 &lt;/span&gt;
-        &lt;p&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. $(A_\lambda)_{\lambda\in \Lambda}$について，各$A_\lambda$が開集合なら$\displaystyle \bigcup_{\lambda\in \Lambda}A_\lambda$は開集合である．
-&lt;br /&gt; 
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. $(A_i)_{i=1}^N$について，各$A_i$が開集合なら$\displaystyle \bigcap_{i=1}^NA_i$は開集合である．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment-no-number&quot; style=&quot;border: solid 3px #b28c6e;&quot;&gt;
-        &lt;span class=&quot;environment-no-number-title&quot; style=&quot;background: #b28c6e;&quot;&gt;証明 &lt;/span&gt;
-        &lt;p&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. $a\in \bigcup_{\lambda\in \Lambda}A_\lambda=A$とする．ある$\lambda$が存在し，$a\in A_\lambda$であり，仮定から，$a\in A_\lambda$に対して，ある$r&amp;gt;0$が存在し，$B(a;r)\subset A_\lambda$となる．このとき，$B(a;r)\subset A$であり，$a$は$A$の内点である．よって，$A$は開集合である．
-&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. $a\in \bigcap_{i=1}^NA_i=A$とする．各$i\in \mathbb{Z}_N$に対して，$a\in A_i$であり，仮定より，ある$r_i&amp;gt;0$が存在して$B(a;r_i)\subset A_i$となる．$$r=\min\{r_1,\dots,r_N\}$$とすれば，すべての$i$で$B(a;r)\subset A_i$が成立する．すなわち，$B(a;r)\subset A$であり，$a$は$A$の内点である．よって，$A$は開集合である．
-$\Box$&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #62c1ce;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #62c1ce;&quot;&gt;定理 &lt;/span&gt;
-        &lt;p&gt;
-集合が開集合であることは，開球の和集合であることと同値である．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment-no-number&quot; style=&quot;border: solid 3px #b28c6e;&quot;&gt;
-        &lt;span class=&quot;environment-no-number-title&quot; style=&quot;background: #b28c6e;&quot;&gt;証明 &lt;/span&gt;
-        &lt;p&gt;
-開球は開集合であるから，定理13より，開球の和集合は開集合である．
-$A$を開集合とする．各$a\in A$について，$r_a$が存在して，$B(a;r_a)\subset A$
-となる．$\bigcup_{a\in A}B(a;r_a) \subset A,A \subset \bigcup_{a\in A}B(a;r_a)$である．よって，$A=\bigcup_{a\in A}B(a;r_a)$であり，$A$は開球の和集合である．
-$\Box$&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
+&lt;/div&gt;
+&lt;div id=&quot;thm_neighborhood&quot; class=&quot;sidebarblock theorem&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定理 6.8.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(X\)を距離空間とする．任意の\(r\)について\(B(a;r)\)は開集合である．
+さらに，\(A^i\)は開集合であり，\(A\)に包まれる開集合の中で最大のものである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;proof_neighborhood&quot; class=&quot;sidebarblock proof&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定理 6.8. の証明&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;略.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;thm_open&quot; class=&quot;sidebarblock theorem&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定理 6.9.&lt;/div&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;\({(A_\lambda)}_{\lambda \in \Lambda}\) について，各\(A_\lambda\)が開集合なら\(\displaystyle \bigcup_{\lambda\in \Lambda}A_\lambda\)は開集合である．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\({(A_i)}_{i=1} ^N\) について，各 \(A_i\) が開集合なら \(\displaystyle \bigcap_{i=1} ^N A_i\)は開集合である．&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;proof_open&quot; class=&quot;sidebarblock proof&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定理 6.9. の証明&lt;/div&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;\(a\in \bigcup_{\lambda\in \Lambda}A_\lambda=A\)とする．ある\(\lambda\)が存在し，\(a\in A_\lambda\)であり，仮定から，\(a\in A_\lambda\)に対して，ある\(r&amp;gt;0\)が存在し，\(B(a;r)\subset A_\lambda\)となる．このとき，\(B(a;r)\subset A\)であり，\(a\)は\(A\)の内点である．よって，\(A\)は開集合である．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\(a\in \bigcap_{i=1}^NA_i=A\)とする．各\(i\in \mathbb{Z}_N\)に対して，\(a\in A_i\)であり，仮定より，ある\(r_i&amp;gt;0\)が存在して\(B(a;r_i)\subset A_i\)となる．\[r=\min\{r_1,\dots,r_N\}\]とすれば，すべての\(i\)で\(B(a;r)\subset A_i\)が成立する．すなわち，\(B(a;r)\subset A\)であり，\(a\)は\(A\)の内点である．よって，\(A\)は開集合である．&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;thm_union&quot; class=&quot;sidebarblock theorem&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定理 6.10.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;集合が開集合であることは，開球の和集合であることと同値である．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;proof_union&quot; class=&quot;sidebarblock proof&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定理 6.10. の証明&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;開球は開集合であるから，定理13より，開球の和集合は開集合である．
+\(A\)を開集合とする．各\(a\in A\)について，\(r_a\)が存在して，\(B(a;r_a)\subset A\)
+となる．\(\bigcup_{a\in A}B(a;r_a) \subset A,A \subset \bigcup_{a\in A}B(a;r_a)\)である．よって，\(A=\bigcup_{a\in A}B(a;r_a)\)であり，\(A\)は開球の和集合である．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;開集合に対して成立する種々の定理を見てきた．ここで，距離空間における開集合の性質をまとめる．&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;thm:op-sys&quot;&gt;&lt;/a&gt;&lt;!--アンカー--&gt;&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #62c1ce;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #62c1ce;&quot;&gt;定理 &lt;/span&gt;
-        &lt;p&gt;
-距離空間$X=(X,d)$において，$d$から定まる開集合全体を$\mathcal{O}_d$とかき，$(X,d)$の&lt;b&gt;開集合系&lt;/b&gt;という．$\mathcal{O}_d\subset \mathscr{P}(X)$である．さらに，開集合系にたいして次が成立する．
+&lt;/div&gt;
+&lt;div id=&quot;thm_op-sys&quot; class=&quot;sidebarblock theorem&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定理 6.11.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;距離空間\(X=(X,d)\)において，\(d\)から定まる開集合全体を\(\mathcal{O}_d\)とかき，\((X,d)\)の&lt;strong&gt;開集合系&lt;/strong&gt;という．\(\mathcal{O}_d\subset \mathscr{P}(X)\)である．さらに，開集合系にたいして次が成立する．
 \[
     \begin{align}
-        \tag{1}\label{axiom:1}
-        &amp;amp; \varnothing,X\in \mathcal{O}_d.\\
-        \tag{2}\label{axiom:2}
-        &amp;amp; O_1,O_2\in \mathcal{O}_d ~ \implies O_1\cap O_2\in \mathcal{O}_d.\\
-        \tag{3}\label{axiom:3}
-        &amp;amp; (\forall \lambda\in \Lambda\,(O_\lambda \in \mathcal{O}_d) )\implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}_d.
+        \varnothing,X &amp;amp; \in \mathcal{O}_d. \label{axiom:1}\\
+        O_1,O_2\in \mathcal{O}_d ~ &amp;amp;\implies O_1\cap O_2\in \mathcal{O}_d. \label{axiom:2}\\
+        (\forall \lambda\in \Lambda\,(O_\lambda \in \mathcal{O}_d) ) &amp;amp; \implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}_d. \label{axiom:3}
     \end{align}
-\]
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;&lt;a href=&quot;#thm:op-sys&quot;&gt;定理18&lt;/a&gt;&lt;!--参照--&gt;は，$\mathcal{O}_d$が距離から定まる集合であるという条件を明示的に用いていない．ここで，距離空間における開集合が満たす性質$(\ref{axiom:1})$～$(\ref{axiom:3})$を公理として採用できないか，ということを考える．詳しくは，次の節で述べよう．&lt;/p&gt;
-
+\]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;#thm_op-sys&quot;&gt;定理 6.11.&lt;/a&gt;は，\(\mathcal{O}_d\)が距離から定まる集合であるという条件を明示的に用いていない．ここで，距離空間における開集合が満たす性質\((\ref{axiom:1})\)～\((\ref{axiom:3})\)を公理として採用できないか，ということを考える．詳しくは，次の節で述べよう．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;ここで，開集合と似た概念である近傍に関するいくつかの定義を確認しておこう．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-$X$を距離空間とする．$a\in X$が$X$の部分集合$U$の内点となるとき，$U$を$a$の&lt;b&gt;近傍&lt;/b&gt;という．点$a$の近傍全体の集合を$\mathfrak{N}(a)$とかき，&lt;b&gt;近傍系&lt;/b&gt;という．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;近傍を用いて&lt;a href=&quot;#def:cont-map&quot;&gt;定義8&lt;/a&gt;における連続性の定義を書き直す．&lt;sup id=&quot;fnref:neighborhood&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:neighborhood&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;def:cont&quot;&gt;&lt;/a&gt;&lt;!--アンカー--&gt;&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-$(X_1,d_1),(X_2,d_2)$を距離空間とし，$f:X_1\to X_2$を写像とする．$f$が
-点$a\in X_1$で連続であるとは次のことである．&lt;br /&gt;
-
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;「任意の正の数$\varepsilon$に対して$d(x,a)&amp;lt;\delta_{\varepsilon,a}$ならば，$d(f(x),f(a))&amp;lt;\varepsilon$を満たす正の数$\delta_{\varepsilon,a}$が存在する．」
-&lt;br /&gt;
-$\iff$
-「任意の正の数$\varepsilon$に対して$x\in B(a;\delta_{\varepsilon,a})$ならば，$f(x)\in B(f(a);\varepsilon)$を満たす正の数$\delta_{\varepsilon,a}$が存在する．」
-&lt;br /&gt;
-$\iff$
-「任意の正の数$\varepsilon$に対して$x\in B(a;\delta_{\varepsilon,a})$ならば，$x\in f^{-1}(B(f(a);\varepsilon))$を満たす正の数$\delta_{\varepsilon,a}$が存在する．」
-&lt;br /&gt;
-$\iff$
-「任意の正の数$\varepsilon$に対して$B(a;\delta_{\varepsilon,a})\subset 
-f^{-1}(B(f(a);\varepsilon))$を満たす正の数$\delta_{\varepsilon,a}$が存在する．」
-&lt;br /&gt;
-$\iff$ 「$f(a)$の近傍$U$について，$f^{-1}(U)$が$a$の近傍になる．」
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;&lt;a href=&quot;#def:cont-map&quot;&gt;定義8&lt;/a&gt;のあとで注意したように，写像の連続性は定義域の各点の連続性の議論に帰着される．&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#def:cont&quot;&gt;定義20&lt;/a&gt;の1,2,3,4は任意の$\varepsilon&amp;gt;0$に対しての定義となっているが，$\varepsilon’&amp;gt;\varepsilon&amp;gt;0$に対して，$f^{-1}(B(f(a);\varepsilon))\subset f^{-1}(B(f(a);\varepsilon’))$となるから，十分小さい$\varepsilon$にたいして，$d(x,a)&amp;lt;\delta_{\varepsilon,a}$ならば，$d(f(x),f(a))&amp;lt;\varepsilon$を満たす正の数$\delta_{\varepsilon,a}$が存在することを確認すればよい．&lt;/p&gt;
-
-&lt;p&gt;ここまで距離空間と距離空間上に定まる開集合を見てきた．&lt;a href=&quot;#def:cont&quot;&gt;定義20&lt;/a&gt;の書き換えを念頭に置けば，開集合を用いて連続写像を簡明に表現できる．&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;thm:cont-op&quot;&gt;&lt;/a&gt;&lt;!--アンカー--&gt;&lt;/p&gt;
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #62c1ce;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #62c1ce;&quot;&gt;定理 &lt;/span&gt;
-        &lt;p&gt;
-$(X_1,d_1),(X_2,d_2)$を距離空間とし，$f:X_1\to X_2$を写像とする．&lt;i&gt;TFAE.&lt;/i&gt;
-&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. $f$は連続である．
-&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. $X_2$の開集合$Q$について$f^{-1}(Q)$は$X_1$の開集合である．
-&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;3. $X_2$の閉集合$Q$について$f^{-1}(Q)$は$X_1$の閉集合である．
-&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;4. $f\left(\overline{A}\right)\subset \overline{f(A)}.$
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;ここで&lt;i&gt;&lt;b&gt;TFAE&lt;/b&gt;&lt;/i&gt;は”The Followings Are Equivalent”（以下はすべて互いに同値）の略である．&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div id=&quot;def_neigh&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 6.12.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(X\)を距離空間とする．\(a\in X\)が\(X\)の部分集合\(U\)の内点となるとき，\(U\)を\(a\)の&lt;strong&gt;近傍&lt;/strong&gt;という．点\(a\)の近傍全体の集合を\(\mathfrak{N}(a)\)とかき，&lt;strong&gt;近傍系&lt;/strong&gt;という．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;近傍を用いて&lt;a href=&quot;#def_cont_map&quot;&gt;定義 5.1.&lt;/a&gt;における連続性の定義を書き直す． &lt;sup class=&quot;footnote&quot;&gt;[&lt;a id=&quot;_footnoteref_2&quot; class=&quot;footnote&quot; href=&quot;#_footnotedef_2&quot; title=&quot;View footnote.&quot;&gt;2&lt;/a&gt;]&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def_neighborhood-dist&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 6.13.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\((X_1,d_1),(X_2,d_2)\)を距離空間とし，\(f:X_1\to X_2\)を写像とする．\(f\)が
+点\(a\in X_1\)で連続であるとは次のことである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;「任意の正の数\(\varepsilon\)に対して\(d(x,a)&amp;lt;\delta_{\varepsilon,a}\)ならば，&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(d(f(x),f(a))&amp;lt;\varepsilon\)を満たす正の数\(\delta_{\varepsilon,a}\)が存在する．」(1)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(\iff\)
+「任意の正の数\(\varepsilon\)に対して\(x\in B(a;\delta_{\varepsilon,a})\)ならば，&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(f(x)\in B(f(a);\varepsilon)\)を満たす正の数\(\delta_{\varepsilon,a}\)が存在する．」(2)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(\iff\)
+「任意の正の数\(\varepsilon\)に対して\(x\in B(a;\delta_{\varepsilon,a})\)ならば，&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(x\in f^{-1}(B(f(a);\varepsilon))\) を満たす正の数\(\delta_{\varepsilon,a}\)が存在する．」(3)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(\iff\)
+「任意の正の数\(\varepsilon\)に対して\(B(a;\delta_{\varepsilon,a})\subset f^{-1}(B(f(a);\varepsilon))\)&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;を満たす正の数\(\delta_{\varepsilon,a}\)が存在する．」(4)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\(\iff\) 「\(f(a)\)の近傍\(U\)について，\(f^{-1}(U)\)が\(a\)の近傍になる．」&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;#def_cont_map&quot;&gt;定義 5.1.&lt;/a&gt;のあとで注意したように，写像の連続性は定義域の各点の連続性の議論に帰着される．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;#def_neighborhood-dist&quot;&gt;定義 6.13.&lt;/a&gt;の1,2,3,4は任意の\(\varepsilon&amp;gt;0\)に対しての定義となっているが，\(\varepsilon'&amp;gt;\varepsilon&amp;gt;0\)に対して，\(f^{-1}(B(f(a);\varepsilon))\subset f^{-1}(B(f(a);\varepsilon'))\)となるから，十分小さい\(\varepsilon\)にたいして，\(d(x,a)&amp;lt;\delta_{\varepsilon,a}\)ならば，\(d(f(x),f(a))&amp;lt;\varepsilon\)を満たす正の数\(\delta_{\varepsilon,a}\)が存在することを確認すればよい．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ここまで距離空間と距離空間上に定まる開集合を見てきた．&lt;a href=&quot;#def_neighborhood-dist&quot;&gt;定義 6.13.&lt;/a&gt;の書き換えを念頭に置けば，開集合を用いて連続写像を簡明に表現できる．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;thm_cont-op&quot; class=&quot;sidebarblock theorem&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定理 6.14.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\((X_1,d_1),(X_2,d_2)\)を距離空間とし，\(f:X_1\to X_2\)を写像とする．&lt;strong&gt;&lt;em&gt;TFAE.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;\(f\)は連続である．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\(X_2\)の開集合\(Q\)について\(f^{-1}(Q)\)は\(X_1\)の開集合である．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\(X_2\)の閉集合\(Q\)について\(f^{-1}(Q)\)は\(X_1\)の閉集合である．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;\(f\left(\overline{A}\right)\subset \overline{f(A)}.\)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ここで&lt;strong&gt;&lt;em&gt;TFAE.&lt;/em&gt;&lt;/strong&gt;は&quot;The Followings Are Equivalent&quot;（以下はすべて互いに同値）の略である．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;簡単に1,2,3の同値性を述べる．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment-no-number&quot; style=&quot;border: solid 3px #b28c6e;&quot;&gt;
-        &lt;span class=&quot;environment-no-number-title&quot; style=&quot;background: #b28c6e;&quot;&gt;証明 &lt;/span&gt;
-        &lt;p&gt;
-&lt;b&gt;1$\implies$2を示す．&lt;/b&gt;
-&lt;br /&gt;
-$Q$を$X_2$の開集合とし，$P=f^{-1}(Q)$とおく．
-$a\in P\iff f(a)\in Q$であり，$a\in P$ならば，ある$\varepsilon&amp;gt;0$によって，
-$B(f(a);\varepsilon)\subset Q$とできる．$f$は連続であるから，$\varepsilon$に対して，
-$B(a;\delta) \subset f^{-1}(B(f(a);\varepsilon))$となる$\delta$が存在する．
-よって，$B(a;\delta) \subset f^{-1}(B(f(a);\varepsilon))\subset f^{-1}(Q)=P$であり，
-$P$は開集合である．
-&lt;br /&gt;
-&lt;b&gt;2$\implies $1を示す．&lt;/b&gt;
-&lt;br /&gt;
-任意の$\varepsilon&amp;gt;0$に対して，$B(f(a);\varepsilon)$は開集合である．
-よって，$f^{-1}(B(f(a);\varepsilon))$も開集合であり，$\varepsilon$にたいして，$B(a;\delta)\subset f^{-1}(B(f(a);\varepsilon))$とな$\delta$が存在する．これは，$f$が連続であることを示している．
-&lt;br /&gt;
-&lt;b&gt;2$\iff $3を示す．&lt;/b&gt;
-&lt;br /&gt;$(f^{-1}(Q))^c=f^{-1}(Q^c)$に注意すれば，「$Q$が閉集合ならば，$f^{-1}(Q)$は閉集合である．」$\iff$「$Q^c$が開集合ならば，$f^{-1}(Q^c)$は開集合である．」であり，同値性が示される．
-$\Box$&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;&lt;a href=&quot;#thm:cont-op&quot;&gt;定理21&lt;/a&gt;&lt;!--参照--&gt;により，距離空間の間の連続写像は，開集合の概念のみを用いて表現されることがわかった．&lt;/p&gt;
-
-&lt;p&gt;つまり，開集合を距離によらず定義できれば&lt;a href=&quot;#thm:cont-op&quot;&gt;定理21&lt;/a&gt;の命題のうちの一つを連続写像の定義として採用できるということである．&lt;/p&gt;
-
-&lt;h2 id=&quot;位相空間での連続写像&quot;&gt;位相空間での連続写像&lt;/h2&gt;
-
-&lt;p&gt;距離空間における開集合全体の集合は，&lt;a href=&quot;#thm:op-sys&quot;&gt;定理18&lt;/a&gt;の性質を満たす．そこからの抽象化として，距離空間における開集合が満たすべき性質を取り出し，開集合の定義とする．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-集合$X$と$\mathcal{O}\subset \mathscr{P}(X)$について，$\mathcal{O}$が&lt;b&gt;位相&lt;/b&gt;であるとは次の3つの公理を満たすことである．
-\[
-    \begin{align}
-        (1) \quad &amp;amp; \varnothing,X\in \mathcal{O}.\\
-        (2) \quad &amp;amp; O_1,O_2\in \mathcal{O} ~ \implies O_1\cap O_2\in \mathcal{O}.\\
-        (3) \quad &amp;amp; (\forall \lambda\in \Lambda\,(O_\lambda \in \mathcal{O}) )\implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}.
-    \end{align}
-\]
-このとき，組$(X,\mathcal{O})$を$\mathcal{O}$を&lt;b&gt;開集合系&lt;/b&gt;とする&lt;b&gt;位相空間&lt;/b&gt;という．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;しばしば，位相空間$(X,\mathcal{O})$を，位相空間$X$と略記する．$U\in \mathcal{O}$なる$U$を$\mathcal{O}$-開集合という．位相が明らかである場合には，単に開集合ということもある．2つ目の公理より，$\mathcal{O}$は有限個の交叉で閉じている．&lt;/p&gt;
-
-&lt;p&gt;上の公理は，距離空間の開集合系に対して成り立つ性質(&lt;a href=&quot;#thm:op-sys&quot;&gt;定理18&lt;/a&gt;)からの類推によって得られた．以上により距離の定まっていない集合に対しても開集合を導入することができた．同じように，距離空間に対する連続写像の定理を援用し，位相空間の間の連続写像の定義とする．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #c0c6c9;;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #c0c6c9;&quot;&gt;定義 &lt;/span&gt;
-        &lt;p&gt;
-$(X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)$を位相空間とする．写像$f:X_1\to X_2$が連続であるとは，任意の$Q\in \mathcal{O}_2$に対して，$f^{-1}(Q)\in \mathcal{O}_1$となることである．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
+&lt;/div&gt;
+&lt;div id=&quot;proof_cont-op&quot; class=&quot;sidebarblock proof&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定理 6.14. の証明&lt;/div&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;1\(\implies\)2を示す．&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;\(Q\)を\(X_2\)の開集合とし，\(P=f^{-1}(Q)\)とおく．
+\(a\in P\iff f(a)\in Q\)であり，\(a\in P\)ならば，ある\(\varepsilon&amp;gt;0\)によって，
+\(B(f(a);\varepsilon)\subset Q\)とできる．\(f\)は連続であるから，\(\varepsilon\)に対して，
+\(B(a;\delta) \subset f^{-1}(B(f(a);\varepsilon))\)となる\(\delta\)が存在する．
+よって，\(B(a;\delta) \subset f^{-1}(B(f(a);\varepsilon))\subset f^{-1}(Q)=P\)であり，
+\(P\)は開集合である．&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;2\(\implies \)1を示す．&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;任意の\(\varepsilon&amp;gt;0\)に対して，\(B(f(a);\varepsilon)\)は開集合である．
+よって，\(f^{-1}(B(f(a);\varepsilon))\)も開集合であり，\(\varepsilon\)にたいして，\(B(a;\delta)\subset f^{-1}(B(f(a);\varepsilon))\)とな\(\delta\)が存在する．これは，\(f\)が連続であることを示している．&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;2\(\iff\)3を示す．&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;\({(f ^{-1}(Q))} ^c = f ^{-1} (Q ^c)\) に注意すれば，「\(Q\)が閉集合ならば，\(f ^{-1}(Q)\)は閉集合である．」\(\iff\)「\( {Q} ^c \) が開集合ならば，\( f^{-1}(Q ^c) \)は開集合である．」であり，同値性が示される．&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;#thm_cont-op&quot;&gt;定理 6.14.&lt;/a&gt;により，距離空間の間の連続写像は，開集合の概念のみを用いて表現されることがわかった．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;つまり，開集合を距離によらず定義できれば&lt;a href=&quot;#thm_cont-op&quot;&gt;定理 6.14.&lt;/a&gt;の命題のうちの一つを連続写像の定義として採用できるということである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;位相空間での連続写像&quot;&gt;8. 位相空間での連続写像&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;距離空間における開集合全体の集合は，&lt;a href=&quot;#thm_op-sys&quot;&gt;定理 6.11.&lt;/a&gt;の性質を満たす．そこからの抽象化として，距離空間における開集合が満たすべき性質を取り出し，開集合の定義とする．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def_topology&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 6.15.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;集合\(X\)と\(\mathcal{O}\subset \mathscr{P}(X)\)について，\(\mathcal{O}\)が&lt;strong&gt;位相&lt;/strong&gt;であるとは次の3つの公理を満たすことである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\[\notag
+    \begin{align*}
+        \varnothing,X &amp;amp;\in \mathcal{O}.\\
+        O_1,O_2\in \mathcal{O} ~ &amp;amp;\implies O_1\cap O_2\in \mathcal{O}.\\
+        (\forall \lambda\in \Lambda\,(O_\lambda \in \mathcal{O}) ) &amp;amp;\implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}.
+    \end{align*}
+\]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;このとき，組\((X,\mathcal{O})\)を\(\mathcal{O}\)を&lt;strong&gt;開集合系&lt;/strong&gt;とする&lt;strong&gt;位相空間&lt;/strong&gt;という．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;しばしば，位相空間\((X,\mathcal{O})\)を，位相空間\(X\)と略記する．\(U\in \mathcal{O}\) なる \(U\) を \(\mathcal{O}\) -開集合という．位相が明らかである場合には，単に開集合ということもある．2つ目の公理より， \(\mathcal{O}\) は有限個の交叉で閉じている．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;上の公理は，距離空間の開集合系に対して成り立つ性質(&lt;a href=&quot;#thm_op-sys&quot;&gt;定理 6.11.&lt;/a&gt;)からの類推によって得られた．以上により距離の定まっていない集合に対しても開集合を導入することができた．同じように，距離空間に対する連続写像の定理を援用し，位相空間の間の連続写像の定義とする．&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;def_top2&quot; class=&quot;sidebarblock definition&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;定義 6.16.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\((X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)\)を位相空間とする．写像\(f:X_1\to X_2\)が連続であるとは，任意の\(Q\in \mathcal{O}_2\)に対して，\(f^{-1}(Q)\in \mathcal{O}_1\)となることである．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;以上で，位相空間の間の連続写像が定義できた．&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;異なる位相を入れた位相空間の間の恒等写像に対しては，次のような性質がある．&lt;/p&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment&quot; style=&quot;border: solid 3px #eec362;&quot;&gt;
-        &lt;span class=&quot;environment-title&quot; style=&quot;background: #eec362;&quot;&gt;例 &lt;/span&gt;
-        &lt;p&gt;
-$(X,\mathcal{O}_1,(X,\mathcal{O}_2)$を位相空間とし，$f:(X,\mathcal{O}_1)\to (X,\mathcal{O}_2)$を恒等写像とする．$f$が連続写像であることは，$\mathcal{O}_2\subseteq \mathcal{O}_1$となることと同値である．
-&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;body&gt;
-    &lt;div class=&quot;environment-no-number&quot; style=&quot;border: solid 3px #b28c6e;&quot;&gt;
-        &lt;span class=&quot;environment-no-number-title&quot; style=&quot;background: #b28c6e;&quot;&gt;証明 &lt;/span&gt;
-        &lt;p&gt;
-各$x\in X$に対して，$f(x)=x$であることに注意すれば，定義より，$f$が連続であるとは，$\mathcal{O}_2$-開集合$Q$について，$f^{-1}(Q)=Q$が$\mathcal{O}_1$-開集合となることであり，これは，$Q\in \mathcal{O}_2\implies Q\in \mathcal{O}_1$となることと同値であるから，$f$が連続であることは，$\mathcal{O}_2\subseteq \mathcal{O}_1$となることと同値である．
-$\Box$&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-
-&lt;p&gt;距離空間$(X,d)$において，$d$から定まる開集合全体を$\mathcal{O}_d$とおくと，$\mathcal{O}_d$は位相である．よって，すべての距離空間は位相空間となる．すなわち位相空間は距離空間を一般化したものと捉えられる．&lt;/p&gt;
-
-&lt;h2 id=&quot;おわりに&quot;&gt;おわりに&lt;/h2&gt;
-
+&lt;/div&gt;
+&lt;div id=&quot;ex_top3&quot; class=&quot;sidebarblock example&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;例 6.17.&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;\((X,\mathcal{O}_1,(X,\mathcal{O}_2)\)を位相空間とし，\(f:(X,\mathcal{O}_1)\to (X,\mathcal{O}_2)\)を恒等写像とする．\(f\)が連続写像であることは，\(\mathcal{O}_2\subseteq \mathcal{O}_1\)となることと同値である．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;proof_top3&quot; class=&quot;sidebarblock proof&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;例 6.17. の証明&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;各\(x\in X\)に対して，\(f(x)=x\)であることに注意すれば，定義より，\(f\)が連続であるとは，\(\mathcal{O}_2\)-開集合\(Q\)について，\(f^{-1}(Q)=Q\)が\(\mathcal{O}_1\)-開集合となることであり，これは，\(Q\in \mathcal{O}_2\implies Q\in \mathcal{O}_1\)となることと同値であるから，\(f\)が連続であることは，\(\mathcal{O}_2\subseteq \mathcal{O}_1\)となることと同値である．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;距離空間\((X,d)\)において，\( d \)から定まる開集合全体を\(\mathcal{O}_d\)とおくと，\(\mathcal{O}_d\)は位相である．よって，すべての距離空間は位相空間となる．すなわち位相空間は距離空間を一般化したものと捉えられる．&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;おわりに&quot;&gt;9. おわりに&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;今回は，位相空間の一般論に踏み込まず，連続写像に焦点を当てました．位相空間のことはあまり知らないため，勉強してまた何か書くことができればいいと思います．
 ありがとうございました．&lt;/p&gt;
-
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
 &lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;内田伏一　(1986).『数学シリーズ　集合と位相』,裳華房．&lt;/li&gt;
-  &lt;li&gt;松坂和夫　(2018).『解析入門　中』,岩波書店.&lt;/li&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;olist arabic&quot;&gt;
+&lt;ol class=&quot;arabic&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;内田伏一　(1986).『数学シリーズ　集合と位相』,裳華房．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;松坂和夫　(2018).『解析入門　中』,岩波書店.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:oshima&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;大島利雄ほか13名著 (2018).極限,『改訂版　数学III』,数研出版,pp.141-142.より引用． &lt;a href=&quot;#fnref:oshima&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:neighborhood&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;近傍系を用いて開集合を定義し，位相空間を定義することもできる．(またの機会に……) &lt;a href=&quot;#fnref:neighborhood&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>zab</name><email>zabuzabu3232@gmail.com</email></author><category term="位相空間論" /><category term="解析学" /><summary type="html">要約 $(X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)$を位相空間とする．写像$f:X_1\to X_2$が連続であるとは，任意の$Q\in \mathcal{O}_2$に対して，$f^{-1}(Q)\in \mathcal{O}_1$となることである． はじめに 今回の主題は，連続写像の定義から距離や極限といった概念を取り払い，位相空間の間の連続写像を定義することです． まず，高校数学までの素朴な定義を確認し，距離空間における連続写像を取り扱います． 次に，距離空間における開集合系の性質を述べ，慣例に則って，位相を開集合系によって定義します． 最後に，位相を用いた連続写像の表現を定義します． 本編では，語尾はである調で統一しています． $\varepsilon-\delta$論法による連続性の定義 ここでは，距離空間の連続写像を考えるために，高校での連続の定義の問題点を挙げ，$\varepsilon - \delta$論法による連続の定義を行う． 高校までで学んだ連続の定義は，次のようであった．1 定義 $a$を$f(x)$の定義域に属する値とするとき，関数$f(x)$が$x=a$で連続であるとは，次の2つのことが満たされていることである． &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1. 極限値$\displaystyle \lim_{x\to a}f(x)$が存在する． &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2. $\displaystyle \lim_{x\to a}f(x)=f(a)$が成立する． 高校までの数学では「極限値$\displaystyle \lim_{x\to a}f(x)$が存在する」ということが，はっきりとは定義されていない．そのため，1つ目の条件について議論することができない． コーシー以後，現代数学では極限と連続を次のように定義する． 定義 極限が存在すること $I\subset \mathbb{R}$を区間とする．$f:I\to \mathbb{R}$に対して$\displaystyle \lim_{x\to a}f(x)=\alpha$とは次のことである． ある実数$\alpha$が存在し，任意の$\varepsilon&amp;gt;0$に対して，ある$\delta$が存在して，$0&amp;lt;|x-a|&amp;lt;\delta$ならば$|f(x)-\alpha|&amp;lt;\varepsilon$が成立する． 連続であること $I\subset \mathbb{R}$を区間として，$a\in I$を固定する．関数$f:I\to \mathbb{R}$が点$a$で連続であるとは次のことである． 任意の正の数$\varepsilon$に対して，正の数$\delta_{\varepsilon,a}$が存在し，$|x-a|&amp;lt;\delta_{\varepsilon,a}$ならば$|f(x)-f(a)|&amp;lt;\varepsilon$が成立する． 定義2によると，$f(a)$が定義されていなくても，点$a$における$f$の極限が定義できる．一方で，$f(a)$が定義されていなければ，点$a$において$f$は自動的に連続でないとわかる． $f(a)$が定義されており，かつ点$a$における$f(x)$の極限が$f(a)$と一致して初めて「$f$は点$a$において連続である」といえる． 定義2は一見すると，どのように利用するのかがわかりにくい．論理式を直訳したような形をとっているからである．そこで具体例を考えよう． 例 $f$を$\mathbb{R}$から$\mathbb{R}$への写像として $ f(x)=\begin{cases}\dfrac{\sin x}{x}&amp;amp;(x\neq 0)\\ 1&amp;amp;(x=0)\end{cases} $ とする． $f$が$x=0$で連続であることを示せ． 証明 $\varepsilon&amp;gt;0$を任意にとる． 任意の$x\in \mathbb{R}$で \( \left| \sin x-x \right|\le |x^2|=|x|^2 \) が成立することに注意する． $\delta=\varepsilon&amp;gt;0$とすれば，$0&amp;lt;|x|&amp;lt;\delta$ならば \[ |f(x)-f(0)|=\left|\dfrac{\sin x}{x}-1\right|=\dfrac{|\sin x-x|}{|x|}&amp;lt;|x|&amp;lt;\delta=\varepsilon \] が成立し，確かに$f$は$x=0$で連続である． $\Box$ 定義2は関数$f$が点$a$で連続であるとは，「$f(x)$と$f(a)$の距離を限りなく$0$に近づけたとき，それに対応して$x$と$a$の距離も限りなく小さくできる」ということを意味している．ここでいう距離とは何であろうか．（端的に言えば関数である．では，どのような関数なのか？この問いの答えは定義7で与えられる．） さらに定義2を見ると，極限という概念において距離は重要な役割を果たしている．つまり，2点間の距離が定義できれば極限および連続性が定義できるのである． 実数を定義域としないような関数の例として，ベクトル空間を定義域に持つ関数がある．ベクトル空間を定義域に持つ関数でも，連続であることは定義できる． ベクトル空間の例として一般の区間を考えよう．一般の区間とは$I\subset \mathbb{R}^n$であって，$I=I_1\times I_2\times \dots \times I_n(I_i\subset \mathbb{R}$は区間)となるものである． $\boldsymbol{x}=(x_1,\dots,x_n)\in \mathbb{R}^n$に対して，写像$||\cdot ||_2:\mathbb{R}^n\to \mathbb{R}$を \(||\boldsymbol{x}||_2=\sqrt{\sum_{i=1}^n(x_i)^2}\) で定める．この写像を用いると写像$f:I\to \mathbb{R}$の連続性は次のように定義される． 例 $I\subset \mathbb{R}^n$を区間とする．関数$f:I\to \mathbb{R}$が点$\boldsymbol{a}\in I$で連続であるとは次のことである． 任意の正の数$\varepsilon$に対して， 正の数$\delta_{\varepsilon,\boldsymbol{a}}$が存在して， $$||\boldsymbol{x} - \boldsymbol{a}||_2&amp;lt;\delta_{\varepsilon,\boldsymbol{a}}$$ならば$|f(\boldsymbol{x})-f(\boldsymbol{a})|&amp;lt;\varepsilon$が成立する． このように，ベクトル空間を定義域に持つ関数にも連続性を定義することができる．そこで，距離をより一般的に捉えなおし,関数の連続性を定義することを考えよう． 距離空間 ユークリッド空間以外の空間でも連続写像を考えるためには，2点間の距離を測れる必要がある．ここではユークリッド空間の距離を考察し，一般の距離空間を定義する． たとえば$(1,1)\in \mathbb{R}^2$と$(2,3)\in \mathbb{R}^2$の距離は，$\sqrt{(2-1)^2+(3-1)^2}=\sqrt{1+4}=\sqrt{5}$と計算される．これを$d((1,1),(2,3))$と書けば，距離は，$d:\mathbb{R}^2\times \mathbb{R}^2\to \mathbb{R}$なる写像を考えているということである．ここからの一般化として，ユークリッド空間の間の距離を定義する． 定義 ユークリッド距離 $d:\mathbb{R}^n\times \mathbb{R}^n\to \mathbb{R}$なる写像を \[ d(\boldsymbol{x},\boldsymbol{y})=\sqrt{\sum_{i=1}^n(x_i-y_i)^2} \] で定め，この$d$を距離とよぶ．ただし，$\boldsymbol{a} \in \mathbb{R}^n$に対し$\boldsymbol{a}=(a_1,\dots,a_n)$である． 距離$d$がユークリッド距離であることを強調するとき$d_E$とかく． 命題 $d_E$に対して次が成立する． \[ \begin{align} d_E(\boldsymbol{x},\boldsymbol{y})&amp;amp;\ge 0.\\ d_E(\boldsymbol{x},\boldsymbol{y}) &amp;amp;= 0 \iff \boldsymbol{x}=\boldsymbol{y}.\\ d_E(\boldsymbol{x},\boldsymbol{y}) &amp;amp;= d_E(\boldsymbol{y},\boldsymbol{x}).\\ d_E(\boldsymbol{x},\boldsymbol{z}) &amp;amp;\le d_E(\boldsymbol{x},\boldsymbol{y})+d_E(\boldsymbol{y},\boldsymbol{z}). \end{align} \] 証明 定義から，上の3つは明らかに成立する． $d(\boldsymbol{x},\boldsymbol{y})=||\boldsymbol{x}-\boldsymbol{y}||_2$であり，コーシーシュワルツの不等式より， $||\boldsymbol{x}+\boldsymbol{y}||_2\le||\boldsymbol{x}||_2+||\boldsymbol{y}||_2$が成り立つ． ここから \[ \begin{align} d_E(\boldsymbol{x},\boldsymbol{z})=||\boldsymbol{x}-\boldsymbol{z}||_2&amp;amp;=||\boldsymbol{x}-\boldsymbol{y}+\boldsymbol{y}-\boldsymbol{z}||_2\\ &amp;amp;\le ||\boldsymbol{x}-\boldsymbol{y}||_2+||\boldsymbol{y}-\boldsymbol{z}||_2\\ &amp;amp;\le d_E(\boldsymbol{x},\boldsymbol{y})+d_E(\boldsymbol{y},\boldsymbol{z}) \end{align} \] であり，最後の不等式も成立する． $\Box$ ユークリッド距離は，上のような性質を持つ． しかし命題6においては$d_E(\boldsymbol{x},\boldsymbol{z})$ユークリッド空間の間の写像であるという条件を明示的に用いていない．そこで命題6を満たすような性質を持つ関数$d$を距離と定義することが考えられる． つまり，次のようにして一般の集合上に距離を定義する． 定義 一般の集合$X$について，写像$d:X\times X \to \mathbb{R}$が次の4つの公理を満たすとき，$d$を距離といい，対$(X,d)$を距離空間という． \[ \begin{aligned} d(x,y)&amp;amp;\ge 0.\\ d(x,y)&amp;amp;= 0 \iff x=y.\\ d(x,y)&amp;amp;= d(y,x).\\ d(x,z)&amp;amp;\le d(x,y)+d(y,z). \end{aligned} \] しばしば，距離空間$(X,d)$を$X$と略記する． ここまでで，ユークリッド空間に対する考察から距離の概念を抽象化し，距離空間を定義した． 距離空間での連続性 ユークリッド空間での連続性は，ユークリッド距離を用いて定義された．ここからの類推として，一般の距離空間に対しても距離を用いて連続性を定義することが考えられる．距離空間における関数の連続性の定義は次のようになる． 定義 $(X_1,d_1),(X_2,d_2)$を距離空間とし，$f:X_1\to X_2$を写像とする．$f$が 点$a\in X_1$で連続であるとは$f$が次を満たすことである． 任意の正の数$\varepsilon$に対して，正の数$\delta_{\varepsilon,a}$が存して，$d(x,a)&amp;lt;\delta_{\varepsilon,a}$ならば$d(f(x),f(a))&amp;lt;\varepsilon$が成立する． 連続性の概念は，ユークリッド空間におけるものから，距離が定まるより一般な集合への拡張を果たした． 今まで見てきた連続性は，定義域内の一点を固定したときに，その点に対して定まる概念であった．写像の連続性は定義域における各点での連続性に帰着される．すなわち，$(X_1,d_1),(X_2,d_2)$を距離空間とし，$f:X_1\to X_2$を写像とするとき，$f$が連続写像であるとは，各$a\in X_1$で$f$が連続となることである． しかし関数の性質を調べるときには，定義域内の1点での性質ではなく，定義域全体での連続性を議論することが多い．そこで，定義域内の点をとって連続かどうかを議論するという視点を捨て，点によらない関数の連続性の定義を考えよう．距離は距離空間内の2つの点に対して定義されるものであったから，点によらずに関数の連続性を定義するために「距離をさらに抽象化することはできないか？」という問いが考えられる． 定義8における連続性の定義は，集合上に定まる距離に依存している．距離を抽象化するために，連続性の定義から距離を隠す，すなわち距離に依存しない連続性の定義を考えよう．そのために，距離に依存しない概念を見つけることから始める． 距離空間における点列の収束 距離空間において距離に依存しない概念が登場するのは，点列の収束について考えるときである．一次元の数列の収束は次のように定義されていた． 定義 実数からなる数列$\{a_n\}_{n\in \mathbb{Z}^+}$が$\alpha\in \mathbb{R}$に収束するとは， 任意の正の数$\varepsilon$に対して，ある正の整数$N(\varepsilon)$が存在し，$n\ge N$ならば，$|a_n-\alpha|&amp;lt;\varepsilon$が成立することである． すなわち，「どんなに小さい正の数$\varepsilon$を選んでも，ある正の整数$N=N(\varepsilon)$より先の自然数に対する項は，極限値との距離を$\varepsilon$より小さくできる」ということである．数列の極限においても，収束概念の定式化には距離の概念が不可欠である．一般の距離を用いれば，距離空間の場合においても点列の収束を定義できる． 定義 $X=(X,d)$を距離空間とする．Xの元からなる数列$\{a_n\}_{n\in \mathbb{Z}^+}$が$\alpha\in X$に収束するとは， 任意の正の数$\varepsilon$に対して，ある正の整数$N=N(\varepsilon)$が存在し，$n\ge N$ならば，$d(a_n,\alpha)&amp;lt;\varepsilon$が成立することである． ここで，距離空間における定義に別の解釈を与えてみよう．$d(a_n,\alpha)&amp;lt;\varepsilon$とは，$n\ge N$なる$n$に対しては$a_n$と$\alpha$の距離が$\varepsilon$未満である，ということだった．これはつまり，$\alpha$を中心とする半径$\varepsilon$の境界を含まない円板$B(\alpha;\varepsilon)$考えたとき，$N$より先の$n$に対して，全ての$a_n$が$B(\alpha;\varepsilon)$に含まれる，ということである．つまり，収束の定義は次のような書き換えが可能である． 定義 $X=(X,d)$を距離空間とする．Xの元からなる数列$\{a_n\}_{n\in \mathbb{Z}^+}$が$\alpha\in X$に収束するとは， 任意の正の数$\varepsilon$に対して，ある正の整数$N=N(\varepsilon)$が存在し，$n\ge N$ならば，$a_n \in B(\alpha;\varepsilon)$が成立することである． これは単なる定義の書き換えと思われるかもしれない．しかしながら，この集合は，距離空間において距離の抽象化を考えるときに，非常に有用である．距離の抽象化を与える概念が，この集合を用いて表現されることを見ていこう． 距離を抽象化する 前節で現れた集合は，今後頻繁に現れる．そこで，この集合に名前をつけておこう． 距離空間$X=(X,d)$について， \(B(a;\varepsilon) = \left\{\, x\in X \, \mid d(a,x)&amp;lt;\varepsilon \,\right\}\) を$a\in X$の $\varepsilon$近傍という． 以下に定義する，距離空間から定まる集合は，すべて$\varepsilon$近傍から定まる概念である．その意味で，$B(a;\varepsilon)$は基本的である． $\varepsilon$近傍の定義を見れば，$\varepsilon$近傍は境界がなく”開いている”円板，という印象を受ける．$X$の任意の部分集合にも，”開いている”集合を定義することができる．ここで，$\varepsilon$近傍が本質的な役割を果たす． 定義 $A$を距離空間$X$の部分集合とする．$a\in A$に対して，$B(a ;\delta)\subset A$なる$\delta$が存在するとき，$a$を$A$の内点という．$A$の内点全体の集合を内部とよび，$A^i$とかく． $A^c = X \backslash A$を$A$の補集合という． $A^c$の内点を，$A$の外点という．$A$の外点全体の集合を外部とよび，$A^e$とかく． 外部でも内部でもない点全体の集合を境界とよび，$A^f$とかく． 明らかに，$A^i\subset A$が成立する．また，この定義により，$X=A^i\cup A^e \cup A^f$が非交和として成り立つ． 定義 $X$を距離空間とし，$A$は$X$の部分集合とする． $A^i=A$を満たすとき，$A$を開集合という． $A^c$が開集合のとき，$A$を閉集合という． 集合の相当条件から，$A$が開集合であることは，$A\subset A^i$と同値である．開集合かつ閉集合となる集合も存在することに注意する． 例 $\varnothing,X$などは，開かつ閉集合である． 開集合であり，かつ閉集合である集合を，開閉集合（Clopen set） という． 距離空間における開集合は，境界がない集合として捉えられそうである．距離空間に対してはこの感覚は正しいと考えられる．しかし，ここまでの議論では，開集合が持つ性質として抽象化できそうなものは見られない．開集合を具体的に追うことで，開集合が持つ性質を調べよう． 定理 $X$を距離空間とする．任意の$r$について$B(a;r)$は開集合である． さらに，$A^i$は開集合であり，$A$に包まれる開集合の中で最大のものである． 証明 略. $\Box$ 定理 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. $(A_\lambda)_{\lambda\in \Lambda}$について，各$A_\lambda$が開集合なら$\displaystyle \bigcup_{\lambda\in \Lambda}A_\lambda$は開集合である． &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. $(A_i)_{i=1}^N$について，各$A_i$が開集合なら$\displaystyle \bigcap_{i=1}^NA_i$は開集合である． 証明 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. $a\in \bigcup_{\lambda\in \Lambda}A_\lambda=A$とする．ある$\lambda$が存在し，$a\in A_\lambda$であり，仮定から，$a\in A_\lambda$に対して，ある$r&amp;gt;0$が存在し，$B(a;r)\subset A_\lambda$となる．このとき，$B(a;r)\subset A$であり，$a$は$A$の内点である．よって，$A$は開集合である． &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. $a\in \bigcap_{i=1}^NA_i=A$とする．各$i\in \mathbb{Z}_N$に対して，$a\in A_i$であり，仮定より，ある$r_i&amp;gt;0$が存在して$B(a;r_i)\subset A_i$となる．$$r=\min\{r_1,\dots,r_N\}$$とすれば，すべての$i$で$B(a;r)\subset A_i$が成立する．すなわち，$B(a;r)\subset A$であり，$a$は$A$の内点である．よって，$A$は開集合である． $\Box$ 定理 集合が開集合であることは，開球の和集合であることと同値である． 証明 開球は開集合であるから，定理13より，開球の和集合は開集合である． $A$を開集合とする．各$a\in A$について，$r_a$が存在して，$B(a;r_a)\subset A$ となる．$\bigcup_{a\in A}B(a;r_a) \subset A,A \subset \bigcup_{a\in A}B(a;r_a)$である．よって，$A=\bigcup_{a\in A}B(a;r_a)$であり，$A$は開球の和集合である． $\Box$ 開集合に対して成立する種々の定理を見てきた．ここで，距離空間における開集合の性質をまとめる． 定理 距離空間$X=(X,d)$において，$d$から定まる開集合全体を$\mathcal{O}_d$とかき，$(X,d)$の開集合系という．$\mathcal{O}_d\subset \mathscr{P}(X)$である．さらに，開集合系にたいして次が成立する． \[ \begin{align} \tag{1}\label{axiom:1} &amp;amp; \varnothing,X\in \mathcal{O}_d.\\ \tag{2}\label{axiom:2} &amp;amp; O_1,O_2\in \mathcal{O}_d ~ \implies O_1\cap O_2\in \mathcal{O}_d.\\ \tag{3}\label{axiom:3} &amp;amp; (\forall \lambda\in \Lambda\,(O_\lambda \in \mathcal{O}_d) )\implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}_d. \end{align} \] 定理18は，$\mathcal{O}_d$が距離から定まる集合であるという条件を明示的に用いていない．ここで，距離空間における開集合が満たす性質$(\ref{axiom:1})$～$(\ref{axiom:3})$を公理として採用できないか，ということを考える．詳しくは，次の節で述べよう． ここで，開集合と似た概念である近傍に関するいくつかの定義を確認しておこう． 定義 $X$を距離空間とする．$a\in X$が$X$の部分集合$U$の内点となるとき，$U$を$a$の近傍という．点$a$の近傍全体の集合を$\mathfrak{N}(a)$とかき，近傍系という． 近傍を用いて定義8における連続性の定義を書き直す．2 定義 $(X_1,d_1),(X_2,d_2)$を距離空間とし，$f:X_1\to X_2$を写像とする．$f$が 点$a\in X_1$で連続であるとは次のことである． &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;「任意の正の数$\varepsilon$に対して$d(x,a)&amp;lt;\delta_{\varepsilon,a}$ならば，$d(f(x),f(a))&amp;lt;\varepsilon$を満たす正の数$\delta_{\varepsilon,a}$が存在する．」 $\iff$ 「任意の正の数$\varepsilon$に対して$x\in B(a;\delta_{\varepsilon,a})$ならば，$f(x)\in B(f(a);\varepsilon)$を満たす正の数$\delta_{\varepsilon,a}$が存在する．」 $\iff$ 「任意の正の数$\varepsilon$に対して$x\in B(a;\delta_{\varepsilon,a})$ならば，$x\in f^{-1}(B(f(a);\varepsilon))$を満たす正の数$\delta_{\varepsilon,a}$が存在する．」 $\iff$ 「任意の正の数$\varepsilon$に対して$B(a;\delta_{\varepsilon,a})\subset f^{-1}(B(f(a);\varepsilon))$を満たす正の数$\delta_{\varepsilon,a}$が存在する．」 $\iff$ 「$f(a)$の近傍$U$について，$f^{-1}(U)$が$a$の近傍になる．」 定義8のあとで注意したように，写像の連続性は定義域の各点の連続性の議論に帰着される． 定義20の1,2,3,4は任意の$\varepsilon&amp;gt;0$に対しての定義となっているが，$\varepsilon’&amp;gt;\varepsilon&amp;gt;0$に対して，$f^{-1}(B(f(a);\varepsilon))\subset f^{-1}(B(f(a);\varepsilon’))$となるから，十分小さい$\varepsilon$にたいして，$d(x,a)&amp;lt;\delta_{\varepsilon,a}$ならば，$d(f(x),f(a))&amp;lt;\varepsilon$を満たす正の数$\delta_{\varepsilon,a}$が存在することを確認すればよい． ここまで距離空間と距離空間上に定まる開集合を見てきた．定義20の書き換えを念頭に置けば，開集合を用いて連続写像を簡明に表現できる． 定理 $(X_1,d_1),(X_2,d_2)$を距離空間とし，$f:X_1\to X_2$を写像とする．TFAE. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. $f$は連続である． &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. $X_2$の開集合$Q$について$f^{-1}(Q)$は$X_1$の開集合である． &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;3. $X_2$の閉集合$Q$について$f^{-1}(Q)$は$X_1$の閉集合である． &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;4. $f\left(\overline{A}\right)\subset \overline{f(A)}.$ ここでTFAEは”The Followings Are Equivalent”（以下はすべて互いに同値）の略である． 簡単に1,2,3の同値性を述べる． 証明 1$\implies$2を示す． $Q$を$X_2$の開集合とし，$P=f^{-1}(Q)$とおく． $a\in P\iff f(a)\in Q$であり，$a\in P$ならば，ある$\varepsilon&amp;gt;0$によって， $B(f(a);\varepsilon)\subset Q$とできる．$f$は連続であるから，$\varepsilon$に対して， $B(a;\delta) \subset f^{-1}(B(f(a);\varepsilon))$となる$\delta$が存在する． よって，$B(a;\delta) \subset f^{-1}(B(f(a);\varepsilon))\subset f^{-1}(Q)=P$であり， $P$は開集合である． 2$\implies $1を示す． 任意の$\varepsilon&amp;gt;0$に対して，$B(f(a);\varepsilon)$は開集合である． よって，$f^{-1}(B(f(a);\varepsilon))$も開集合であり，$\varepsilon$にたいして，$B(a;\delta)\subset f^{-1}(B(f(a);\varepsilon))$とな$\delta$が存在する．これは，$f$が連続であることを示している． 2$\iff $3を示す． $(f^{-1}(Q))^c=f^{-1}(Q^c)$に注意すれば，「$Q$が閉集合ならば，$f^{-1}(Q)$は閉集合である．」$\iff$「$Q^c$が開集合ならば，$f^{-1}(Q^c)$は開集合である．」であり，同値性が示される． $\Box$ 定理21により，距離空間の間の連続写像は，開集合の概念のみを用いて表現されることがわかった． つまり，開集合を距離によらず定義できれば定理21の命題のうちの一つを連続写像の定義として採用できるということである． 位相空間での連続写像 距離空間における開集合全体の集合は，定理18の性質を満たす．そこからの抽象化として，距離空間における開集合が満たすべき性質を取り出し，開集合の定義とする． 定義 集合$X$と$\mathcal{O}\subset \mathscr{P}(X)$について，$\mathcal{O}$が位相であるとは次の3つの公理を満たすことである． \[ \begin{align} (1) \quad &amp;amp; \varnothing,X\in \mathcal{O}.\\ (2) \quad &amp;amp; O_1,O_2\in \mathcal{O} ~ \implies O_1\cap O_2\in \mathcal{O}.\\ (3) \quad &amp;amp; (\forall \lambda\in \Lambda\,(O_\lambda \in \mathcal{O}) )\implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}. \end{align} \] このとき，組$(X,\mathcal{O})$を$\mathcal{O}$を開集合系とする位相空間という． しばしば，位相空間$(X,\mathcal{O})$を，位相空間$X$と略記する．$U\in \mathcal{O}$なる$U$を$\mathcal{O}$-開集合という．位相が明らかである場合には，単に開集合ということもある．2つ目の公理より，$\mathcal{O}$は有限個の交叉で閉じている． 上の公理は，距離空間の開集合系に対して成り立つ性質(定理18)からの類推によって得られた．以上により距離の定まっていない集合に対しても開集合を導入することができた．同じように，距離空間に対する連続写像の定理を援用し，位相空間の間の連続写像の定義とする． 定義 $(X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)$を位相空間とする．写像$f:X_1\to X_2$が連続であるとは，任意の$Q\in \mathcal{O}_2$に対して，$f^{-1}(Q)\in \mathcal{O}_1$となることである． 以上で，位相空間の間の連続写像が定義できた． 異なる位相を入れた位相空間の間の恒等写像に対しては，次のような性質がある． 例 $(X,\mathcal{O}_1,(X,\mathcal{O}_2)$を位相空間とし，$f:(X,\mathcal{O}_1)\to (X,\mathcal{O}_2)$を恒等写像とする．$f$が連続写像であることは，$\mathcal{O}_2\subseteq \mathcal{O}_1$となることと同値である． 証明 各$x\in X$に対して，$f(x)=x$であることに注意すれば，定義より，$f$が連続であるとは，$\mathcal{O}_2$-開集合$Q$について，$f^{-1}(Q)=Q$が$\mathcal{O}_1$-開集合となることであり，これは，$Q\in \mathcal{O}_2\implies Q\in \mathcal{O}_1$となることと同値であるから，$f$が連続であることは，$\mathcal{O}_2\subseteq \mathcal{O}_1$となることと同値である． $\Box$ 距離空間$(X,d)$において，$d$から定まる開集合全体を$\mathcal{O}_d$とおくと，$\mathcal{O}_d$は位相である．よって，すべての距離空間は位相空間となる．すなわち位相空間は距離空間を一般化したものと捉えられる． おわりに 今回は，位相空間の一般論に踏み込まず，連続写像に焦点を当てました．位相空間のことはあまり知らないため，勉強してまた何か書くことができればいいと思います． ありがとうございました． 参考文献 内田伏一　(1986).『数学シリーズ　集合と位相』,裳華房． 松坂和夫　(2018).『解析入門　中』,岩波書店. 大島利雄ほか13名著 (2018).極限,『改訂版　数学III』,数研出版,pp.141-142.より引用． &amp;#8617; 近傍系を用いて開集合を定義し，位相空間を定義することもできる．(またの機会に……) &amp;#8617;</summary></entry><entry><title type="html">VSCodeとCloud LaTeXの連携</title><link href="/posts/link-to-cloud-latex" rel="alternate" type="text/html" title="VSCodeとCloud LaTeXの連携" /><published>2021-04-03T14:00:00+09:00</published><updated>2021-04-03T14:00:00+09:00</updated><id>/posts/link-to-cloud-latex</id><content type="html" xml:base="/posts/link-to-cloud-latex">&lt;h2 id=&quot;要約&quot;&gt;要約&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;div class=&quot;footnote&quot; id=&quot;_footnotedef_1&quot;&gt;
+&lt;a href=&quot;#_footnoteref_1&quot;&gt;1&lt;/a&gt;. 大島利雄ほか13名著 (2018).極限,『改訂版　数学III』,数研出版,pp.141-142.より引用．
+&lt;/div&gt;
+&lt;div class=&quot;footnote&quot; id=&quot;_footnotedef_2&quot;&gt;
+&lt;a href=&quot;#_footnoteref_2&quot;&gt;2&lt;/a&gt;. 近傍系を用いて開集合を定義し，位相空間を定義することもできる．(またの機会に……)
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>zab</name><email>zabuzabu3232@gmail.com</email></author><category term="位相空間論" /><category term="解析学" /><summary type="html">1. 要約 \((X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)\)を位相空間とする．写像\(f:X_1\to X_2\)が連続であるとは，任意の\(Q\in \mathcal{O}_2\)に対して，\(f^{-1}(Q)\in \mathcal{O}_1\)となることである． 2. はじめに 今回の主題は，連続写像の定義から距離や極限といった概念を取り払い，位相空間の間の連続写像を定義することです． まず，高校数学までの素朴な定義を確認し，距離空間における連続写像を取り扱います． 次に，距離空間における開集合系の性質を述べ，慣例に則って，位相を開集合系によって定義します． 最後に，位相を用いた連続写像の表現を定義します． 本編では，語尾はである調で統一しています． 3. \(\varepsilon-\delta\) 論法による連続性の定義 ここでは，距離空間の連続写像を考えるために，高校での連続の定義の問題点を挙げ，\(\varepsilon-\delta\) 論法による連続の定義を行う． 高校までで学んだ連続の定義は，次のようであった．[1] 定義 3.1. \(a\)を\(f(x)\)の定義域に属する値とするとき，関数\(f(x)\)が\(x=a\)で連続であるとは，次の2つのことが満たされていることである． 極限値\(\displaystyle \lim_{x\to a}f(x)\)が存在する． \(\displaystyle \lim_{x\to a}f(x)=f(a)\)が成立する 高校までの数学では「極限値\(\displaystyle \lim_{x\to a}f(x)\)が存在する」ということが，はっきりとは定義されていない．そのため，1つ目の条件について議論することができない． コーシー以後，現代数学では極限と連続を次のように定義する． 定義 3.2. 極限が存在すること \(I\subset \mathbb{R}\)を区間とする．\(f:I\to \mathbb{R}\)に対して\(\displaystyle \lim_{x\to a}f(x)=\alpha\)とは次のことである． ある実数\(\alpha\)が存在し，任意の\(\varepsilon&amp;gt;0\)に対して，ある\(\delta\)が存在して，\(0&amp;lt;|x-a|&amp;lt;\delta\)ならば\(|f(x)-\alpha|&amp;lt;\varepsilon\)が成立する． 連続であること \(I\subset \mathbb{R}\)を区間として，\(a\in I\)を固定する．関数\(f:I\to \mathbb{R}\)が点\(a\)で連続であるとは次のことである． 任意の正の数\(\varepsilon\)に対して，正の数\(\delta_{\varepsilon,a}\)が存在し，\(|x-a|&amp;lt;\delta_{\varepsilon,a}\)ならば\(|f(x)-f(a)|&amp;lt;\varepsilon\)が成立する． 定義 3.2.によると，\(f(a)\)が定義されていなくても，点\(a\)における\(f\)の極限が定義できる．一方で，\(f(a)\)が定義されていなければ，点\(a\)において\(f\)は自動的に連続でないとわかる． \(f(a)\)が定義されており，かつ点\(a\)における\(f(x)\)の極限が\(f(a)\)と一致して初めて「\(f\)は点\(a\)において連続である」といえる． 定義 3.2.は一見すると，どのように利用するのかがわかりにくい．論理式を直訳したような形をとっているからである．そこで具体例を考えよう． 例 3.3. \(f\)を\(\mathbb{R}\)から\(\mathbb{R}\)への写像として \( f(x)=\begin{cases}\dfrac{\sin x}{x}&amp;amp;(x\neq 0)\\ 1&amp;amp;(x=0)\end{cases} \) とする． \(f\)が\(x=0\)で連続であることを示せ． 例 3.3. の証明 \(\varepsilon&amp;gt;0\)を任意にとる．任意の\(x\in \mathbb{R}\)で \[\notag \begin{align*} \left| \sin x-x \right|\le |x ^2 |=|x| ^2 \end{align*} \] が成立することに注意する． \(\delta=\varepsilon&amp;gt;0\)とすれば，\(0&amp;lt;|x|&amp;lt;\delta\)ならば \[\notag \begin{align*} |f(x)-f(0)|=\left|\dfrac{\sin x}{x}-1\right|=\dfrac{|\sin x-x|}{|x|}&amp;lt;|x|&amp;lt;\delta=\varepsilon \end{align*} \] が成立し，確かに\(f\)は\(x=0\)で連続である． 定義 3.2.は関数\(f\)が点\(a\)で連続であるとは，「\(f(x)\)と\(f(a)\)の距離を限りなく\(0\)に近づけたとき，それに対応して\(x\)と\(a\)の距離も限りなく小さくできる」ということを意味している．ここでいう距離とは何であろうか．（端的に言えば関数である．では，どのような関数なのか？この問いの答えは定義 4.3.で与えられる．） さらに定義 3.2.を見ると，極限という概念において距離は重要な役割を果たしている．つまり，2点間の距離が定義できれば極限および連続性が定義できるのである． 実数を定義域としないような関数の例として，ベクトル空間を定義域に持つ関数がある．ベクトル空間を定義域に持つ関数でも，連続であることは定義できる． ベクトル空間の例として一般の区間を考えよう．一般の区間とは\(I\subset \mathbb{R}^n\)であって，\(I=I_1\times I_2\times \dots \times I_n(I_i\subset \mathbb{R}\)は区間)となるものである． \(\boldsymbol{x}=(x_1,\dots,x_n) \in \mathbb{R}^n \)に対して，写像 \({|| \cdot ||}_{2} : \mathbb{R}^n \to \mathbb{R}\)を \[\notag \begin{align*} {||\boldsymbol{x}||}_{2}=\sqrt{\sum_{i=1}^n(x_i) ^2} \end{align*} \] で定める．この写像を用いると写像 \(f:I \to \mathbb{R}\) の連続性は次のように定義される． 定義 3.4. \(I\subset \mathbb{R}^n\)を区間とする．関数\(f:I\to \mathbb{R}\)が点\(\boldsymbol{a}\in I\)で連続であるとは次のことである． 任意の正の数\(\varepsilon\)に対して， 正の数\(\delta_{\varepsilon,\boldsymbol{a}}\)が存在して， \[\notag \begin{align*} {||\boldsymbol{x} - \boldsymbol{a}||}_{2} &amp;lt; \delta_{\varepsilon,\boldsymbol{a}} \end{align*} \] ならば \(|f(\boldsymbol{x})-f(\boldsymbol{a})|&amp;lt;\varepsilon\) が成立する． このように，ベクトル空間を定義域に持つ関数にも連続性を定義することができる．そこで，距離をより一般的に捉えなおし,関数の連続性を定義することを考えよう． 4. 距離空間 ユークリッド空間以外の空間でも連続写像を考えるためには，2点間の距離を測れる必要がある．ここではユークリッド空間の距離を考察し，一般の距離空間を定義する． たとえば \( (1,1) \in \mathbb{R} ^{2}\) と ((2,3)\in \mathbb{R} ^{2}\) の距離は，\(\sqrt{(2-1) ^2+(3-1) ^2}=\sqrt{1 + 4}=\sqrt{5}\) と計算される．これを\(d((1,1),(2,3))\)と書けば，距離は，\(d:\mathbb{R}^2\times \mathbb{R}^2\to \mathbb{R}\)なる写像を考えているということである．ここからの一般化として，ユークリッド空間の間の距離を定義する． 定義 4.1. \(d:\mathbb{R} ^n\times \mathbb{R} ^n\to \mathbb{R}\) なる写像を \[\notag \begin{align*} d(\boldsymbol{x},\boldsymbol{y})=\sqrt{\sum_{i=1} ^n(x_i-y_i) ^2} \end{align*} \] で定め，この\(d\)を距離とよぶ．ただし，\(\boldsymbol{a} \in \mathbb{R}^n\)に対し\(\boldsymbol{a}=(a_1,\dots,a_n)\)である． 定義 4.1.のような距離をユークリッド距離という．距離 \(d\) がユークリッド距離であることを強調するとき\(d_E\)とかく． 命題 4.2. \(d_E\)に対して次が成立する． \[\notag \begin{align*} d_E(\boldsymbol{x},\boldsymbol{y})&amp;amp;\ge 0.\\ d_E(\boldsymbol{x},\boldsymbol{y}) &amp;amp;= 0 \iff \boldsymbol{x}=\boldsymbol{y}.\\ d_E(\boldsymbol{x},\boldsymbol{y}) &amp;amp;= d_E(\boldsymbol{y},\boldsymbol{x}).\\ d_E(\boldsymbol{x},\boldsymbol{z}) &amp;amp;\le d_E(\boldsymbol{x},\boldsymbol{y})+d_E(\boldsymbol{y},\boldsymbol{z}). \end{align*} \] 命題 4.2. の証明 定義から，上の3つは明らかに成立する． \(d(\boldsymbol{x},\boldsymbol{y})=||\boldsymbol{x}-\boldsymbol{y}||_2\)であり，コーシーシュワルツの不等式より， \(||\boldsymbol{x}\boldsymbol{y}||_2\le||\boldsymbol{x}||_2||\boldsymbol{y}||_2\)が成り立つ． ここから \[\notag \begin{align*} d_E(\boldsymbol{x},\boldsymbol{z})=||\boldsymbol{x}-\boldsymbol{z}||_2&amp;amp;=||\boldsymbol{x}-\boldsymbol{y} + \boldsymbol{y}-\boldsymbol{z}||_2\\ &amp;amp;\le ||\boldsymbol{x}-\boldsymbol{y}||_2 + ||\boldsymbol{y}-\boldsymbol{z}||_2\\ &amp;amp;\le d_E(\boldsymbol{x},\boldsymbol{y})+d_E(\boldsymbol{y},\boldsymbol{z}) \end{align*} \] であり，最後の不等式も成立する． ユークリッド距離は，上のような性質を持つ． しかし命題 4.2.においては\(d_E(\boldsymbol{x},\boldsymbol{z})\)ユークリッド空間の間の写像であるという条件を明示的に用いていない．そこで命題 4.2.を満たすような性質を持つ関数\(d\)を距離と定義することが考えられる． つまり，次のようにして一般の集合上に距離を定義する． 定義 4.3. 一般の集合\(X\)について，写像\(d:X\times X \to \mathbb{R}\)が次の4つの公理を満たすとき，\(d\)を距離といい，対\((X,d)\)を距離空間という． \[\notag \begin{align*} d(x,y)&amp;amp;\ge 0.\\ d(x,y)&amp;amp;= 0 \iff x=y.\\ d(x,y)&amp;amp;= d(y,x).\\ d(x,z)&amp;amp;\le d(x,y)+d(y,z). \end{align*} \] しばしば，距離空間\((X,d)\)を\(X\)と略記する． ここまでで，ユークリッド空間に対する考察から距離の概念を抽象化し，距離空間を定義した． 5. 距離空間での連続性 ユークリッド空間での連続性は，ユークリッド距離を用いて定義された．ここからの類推として，一般の距離空間に対しても距離を用いて連続性を定義することが考えられる．距離空間における関数の連続性の定義は次のようになる． 定義 5.1. \((X_1,d_1),(X_2,d_2)\)を距離空間とし，\(f:X_1\to X_2\)を写像とする．\(f\)が 点\(a\in X_1\)で連続であるとは\(f\)が次を満たすことである． &amp;nbsp; 任意の正の数\(\varepsilon\)に対して，正の数\(\delta_{\varepsilon,a}\)が存して，\(d(x,a)&amp;lt;\delta_{\varepsilon,a}\)ならば\(d(f(x),f(a))&amp;lt;\varepsilon\)が成立する． 連続性の概念は，ユークリッド空間におけるものから，距離が定まるより一般な集合への拡張を果たした． 今まで見てきた連続性は，定義域内の一点を固定したときに，その点に対して定まる概念であった．写像の連続性は定義域における各点での連続性に帰着される．すなわち，\((X_1,d_1),(X_2,d_2)\)を距離空間とし，\(f:X_1\to X_2\)を写像とするとき，\(f\)が連続写像であるとは，各\(a\in X_1\)で\(f\)が連続となることである． しかし関数の性質を調べるときには，定義域内の1点での性質ではなく，定義域全体での連続性を議論することが多い．そこで，定義域内の点をとって連続かどうかを議論するという視点を捨て，点によらない関数の連続性の定義を考えよう．距離は距離空間内の2つの点に対して定義されるものであったから，点によらずに関数の連続性を定義するために「距離をさらに抽象化することはできないか？」という問いが考えられる． 定義 5.1.における連続性の定義は，集合上に定まる距離に依存している．距離を抽象化するために，連続性の定義から距離を隠す，すなわち距離に依存しない連続性の定義を考えよう．そのために，距離に依存しない概念を見つけることから始める． 6. 距離空間における点列の収束 距離空間において距離に依存しない概念が登場するのは，点列の収束について考えるときである．一次元の数列の収束は次のように定義されていた． 定義 6.1. 実数からなる数列\( \{a_n \}_{n\in \mathbb{Z}^+}\)が\(\alpha\in \mathbb{R}\)に収束するとは， 任意の正の数\(\varepsilon\)に対して，ある正の整数\(N(\varepsilon)\)が存在し，\(n\ge N\)ならば，\(|a_n-\alpha|&amp;lt;\varepsilon\)が成立することである． すなわち，「どんなに小さい正の数\(\varepsilon\)を選んでも，ある正の整数\(N=N(\varepsilon)\)より先の自然数に対する項は，極限値との距離を\(\varepsilon\)より小さくできる」ということである．数列の極限においても，収束概念の定式化には距離の概念が不可欠である．一般の距離を用いれば，距離空間の場合においても点列の収束を定義できる． 定義 6.2. \(X=(X,d)\)を距離空間とする．\(X\)の元からなる数列\( \{a_n \}_{n\in \mathbb{Z}^+}\)が\(\alpha\in X\)に収束するとは， 任意の正の数\(\varepsilon\)に対して，ある正の整数\(N=N(\varepsilon)\)が存在し，\(n\ge N\)ならば，\(d(a_n,\alpha)&amp;lt;\varepsilon\)が成立することである． ここで，距離空間における定義に別の解釈を与えてみよう．\(d(a_n,\alpha)&amp;lt;\varepsilon\)とは，\(n\ge N\)なる\(n\)に対しては\(a_n\)と\(\alpha\)の距離が\(\varepsilon\)未満である，ということだった．これはつまり，\(\alpha\)を中心とする半径\(\varepsilon\)の境界を含まない円板\(B(\alpha;\varepsilon)\)考えたとき，\(N\)より先の\(n\)に対して，全ての\(a_n\)が\(B(\alpha;\varepsilon)\)に含まれる，ということである．つまり，収束の定義は次のような書き換えが可能である． 定義 6.3. \(X=(X,d)\)を距離空間とする．Xの元からなる数列\( \{a_n \}_{n\in \mathbb{Z}^+}\)が\(\alpha\in X\)に収束するとは， 任意の正の数\(\varepsilon\)に対して，ある正の整数\(N=N(\varepsilon)\)が存在し，\(n\ge N\)ならば，\(a_n \in B(\alpha;\varepsilon)\)が成立することである． これは単なる定義の書き換えと思われるかもしれない．しかしながら，この集合は，距離空間において距離の抽象化を考えるときに，非常に有用である．距離の抽象化を与える概念が，この集合を用いて表現されることを見ていこう． 7. 距離を抽象化する 前節で現れた集合は，今後頻繁に現れる．そこで，この集合に名前をつけておこう． 定義 6.4. 距離空間 \(X=(X,d)\) について， \(B(a;\varepsilon) = \left\{\, x\in X \, \mid d(a,x)&amp;lt;\varepsilon \,\right\} \) を\(a\in X\)の \(\varepsilon\)近傍という． 以下に定義する，距離空間から定まる集合は，すべて\(\varepsilon\)近傍から定まる概念である．その意味で，\(B(a;\varepsilon)\)は基本的である． \(\varepsilon\)近傍の定義を見れば，\(\varepsilon\)近傍は境界がなく”開いている”円板，という印象を受ける．\(X\)の任意の部分集合にも，”開いている”集合を定義することができる．ここで，\(\varepsilon\)近傍が本質的な役割を果たす． 定義 6.5. \(A\)を距離空間\(X\)の部分集合とする．\(a\in A\)に対して，\(B(a ;\delta)\subset A\)なる\(\delta\)が存在するとき，\(a\)を\(A\)の内点という．\(A\)の内点全体の集合を内部とよび，\(A^i\)とかく． \(A ^c = X \backslash A\)を\(A\)の補集合という． \(A ^c\)の内点を，\(A\)の外点という．\(A\)の外点全体の集合を外部とよび，\(A ^e\)とかく． 外部でも内部でもない点全体の集合を境界とよび，\(A ^f\)とかく． 明らかに，\(A ^i\subset A\)が成立する．また，この定義により，\(X=A ^i\cup A ^e \cup A ^f\)が非交和として成り立つ． 定義 6.6. \(X\)を距離空間とし，\(A\)は\(X\)の部分集合とする． \(A^i=A\)を満たすとき，\(A\)を開集合という． \(A^c\)が開集合のとき，\(A\)を閉集合という． 集合の相当条件から，\(A\)が開集合であることは，\(A\subset A^i\)と同値である．開集合かつ閉集合となる集合も存在することに注意する． 例 6.7. \(\varnothing,X\)などは，開かつ閉集合である． 開集合であり，かつ閉集合である集合を，開閉集合（Clopen set） という． 距離空間における開集合は，境界がない集合として捉えられそうである．距離空間に対してはこの感覚は正しいと考えられる．しかし，ここまでの議論では，開集合が持つ性質として抽象化できそうなものは見られない．開集合を具体的に追うことで，開集合が持つ性質を調べよう． 定理 6.8. \(X\)を距離空間とする．任意の\(r\)について\(B(a;r)\)は開集合である． さらに，\(A^i\)は開集合であり，\(A\)に包まれる開集合の中で最大のものである． 定理 6.8. の証明 略. 定理 6.9. \({(A_\lambda)}_{\lambda \in \Lambda}\) について，各\(A_\lambda\)が開集合なら\(\displaystyle \bigcup_{\lambda\in \Lambda}A_\lambda\)は開集合である． \({(A_i)}_{i=1} ^N\) について，各 \(A_i\) が開集合なら \(\displaystyle \bigcap_{i=1} ^N A_i\)は開集合である． 定理 6.9. の証明 \(a\in \bigcup_{\lambda\in \Lambda}A_\lambda=A\)とする．ある\(\lambda\)が存在し，\(a\in A_\lambda\)であり，仮定から，\(a\in A_\lambda\)に対して，ある\(r&amp;gt;0\)が存在し，\(B(a;r)\subset A_\lambda\)となる．このとき，\(B(a;r)\subset A\)であり，\(a\)は\(A\)の内点である．よって，\(A\)は開集合である． \(a\in \bigcap_{i=1}^NA_i=A\)とする．各\(i\in \mathbb{Z}_N\)に対して，\(a\in A_i\)であり，仮定より，ある\(r_i&amp;gt;0\)が存在して\(B(a;r_i)\subset A_i\)となる．\[r=\min\{r_1,\dots,r_N\}\]とすれば，すべての\(i\)で\(B(a;r)\subset A_i\)が成立する．すなわち，\(B(a;r)\subset A\)であり，\(a\)は\(A\)の内点である．よって，\(A\)は開集合である． 定理 6.10. 集合が開集合であることは，開球の和集合であることと同値である． 定理 6.10. の証明 開球は開集合であるから，定理13より，開球の和集合は開集合である． \(A\)を開集合とする．各\(a\in A\)について，\(r_a\)が存在して，\(B(a;r_a)\subset A\) となる．\(\bigcup_{a\in A}B(a;r_a) \subset A,A \subset \bigcup_{a\in A}B(a;r_a)\)である．よって，\(A=\bigcup_{a\in A}B(a;r_a)\)であり，\(A\)は開球の和集合である． 開集合に対して成立する種々の定理を見てきた．ここで，距離空間における開集合の性質をまとめる． 定理 6.11. 距離空間\(X=(X,d)\)において，\(d\)から定まる開集合全体を\(\mathcal{O}_d\)とかき，\((X,d)\)の開集合系という．\(\mathcal{O}_d\subset \mathscr{P}(X)\)である．さらに，開集合系にたいして次が成立する． \[ \begin{align} \varnothing,X &amp;amp; \in \mathcal{O}_d. \label{axiom:1}\\ O_1,O_2\in \mathcal{O}_d ~ &amp;amp;\implies O_1\cap O_2\in \mathcal{O}_d. \label{axiom:2}\\ (\forall \lambda\in \Lambda\,(O_\lambda \in \mathcal{O}_d) ) &amp;amp; \implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}_d. \label{axiom:3} \end{align} \] 定理 6.11.は，\(\mathcal{O}_d\)が距離から定まる集合であるという条件を明示的に用いていない．ここで，距離空間における開集合が満たす性質\((\ref{axiom:1})\)～\((\ref{axiom:3})\)を公理として採用できないか，ということを考える．詳しくは，次の節で述べよう． ここで，開集合と似た概念である近傍に関するいくつかの定義を確認しておこう． 定義 6.12. \(X\)を距離空間とする．\(a\in X\)が\(X\)の部分集合\(U\)の内点となるとき，\(U\)を\(a\)の近傍という．点\(a\)の近傍全体の集合を\(\mathfrak{N}(a)\)とかき，近傍系という． 近傍を用いて定義 5.1.における連続性の定義を書き直す． [2] 定義 6.13. \((X_1,d_1),(X_2,d_2)\)を距離空間とし，\(f:X_1\to X_2\)を写像とする．\(f\)が 点\(a\in X_1\)で連続であるとは次のことである． &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;「任意の正の数\(\varepsilon\)に対して\(d(x,a)&amp;lt;\delta_{\varepsilon,a}\)ならば， &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(d(f(x),f(a))&amp;lt;\varepsilon\)を満たす正の数\(\delta_{\varepsilon,a}\)が存在する．」(1) \(\iff\) 「任意の正の数\(\varepsilon\)に対して\(x\in B(a;\delta_{\varepsilon,a})\)ならば， &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(f(x)\in B(f(a);\varepsilon)\)を満たす正の数\(\delta_{\varepsilon,a}\)が存在する．」(2) \(\iff\) 「任意の正の数\(\varepsilon\)に対して\(x\in B(a;\delta_{\varepsilon,a})\)ならば， &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;\(x\in f^{-1}(B(f(a);\varepsilon))\) を満たす正の数\(\delta_{\varepsilon,a}\)が存在する．」(3) \(\iff\) 「任意の正の数\(\varepsilon\)に対して\(B(a;\delta_{\varepsilon,a})\subset f^{-1}(B(f(a);\varepsilon))\) &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;を満たす正の数\(\delta_{\varepsilon,a}\)が存在する．」(4) \(\iff\) 「\(f(a)\)の近傍\(U\)について，\(f^{-1}(U)\)が\(a\)の近傍になる．」 定義 5.1.のあとで注意したように，写像の連続性は定義域の各点の連続性の議論に帰着される． 定義 6.13.の1,2,3,4は任意の\(\varepsilon&amp;gt;0\)に対しての定義となっているが，\(\varepsilon'&amp;gt;\varepsilon&amp;gt;0\)に対して，\(f^{-1}(B(f(a);\varepsilon))\subset f^{-1}(B(f(a);\varepsilon'))\)となるから，十分小さい\(\varepsilon\)にたいして，\(d(x,a)&amp;lt;\delta_{\varepsilon,a}\)ならば，\(d(f(x),f(a))&amp;lt;\varepsilon\)を満たす正の数\(\delta_{\varepsilon,a}\)が存在することを確認すればよい． ここまで距離空間と距離空間上に定まる開集合を見てきた．定義 6.13.の書き換えを念頭に置けば，開集合を用いて連続写像を簡明に表現できる． 定理 6.14. \((X_1,d_1),(X_2,d_2)\)を距離空間とし，\(f:X_1\to X_2\)を写像とする．TFAE. \(f\)は連続である． \(X_2\)の開集合\(Q\)について\(f^{-1}(Q)\)は\(X_1\)の開集合である． \(X_2\)の閉集合\(Q\)について\(f^{-1}(Q)\)は\(X_1\)の閉集合である． \(f\left(\overline{A}\right)\subset \overline{f(A)}.\) ここでTFAE.は&quot;The Followings Are Equivalent&quot;（以下はすべて互いに同値）の略である． 簡単に1,2,3の同値性を述べる． 定理 6.14. の証明 1\(\implies\)2を示す． \(Q\)を\(X_2\)の開集合とし，\(P=f^{-1}(Q)\)とおく． \(a\in P\iff f(a)\in Q\)であり，\(a\in P\)ならば，ある\(\varepsilon&amp;gt;0\)によって， \(B(f(a);\varepsilon)\subset Q\)とできる．\(f\)は連続であるから，\(\varepsilon\)に対して， \(B(a;\delta) \subset f^{-1}(B(f(a);\varepsilon))\)となる\(\delta\)が存在する． よって，\(B(a;\delta) \subset f^{-1}(B(f(a);\varepsilon))\subset f^{-1}(Q)=P\)であり， \(P\)は開集合である． 2\(\implies \)1を示す． 任意の\(\varepsilon&amp;gt;0\)に対して，\(B(f(a);\varepsilon)\)は開集合である． よって，\(f^{-1}(B(f(a);\varepsilon))\)も開集合であり，\(\varepsilon\)にたいして，\(B(a;\delta)\subset f^{-1}(B(f(a);\varepsilon))\)とな\(\delta\)が存在する．これは，\(f\)が連続であることを示している． 2\(\iff\)3を示す． \({(f ^{-1}(Q))} ^c = f ^{-1} (Q ^c)\) に注意すれば，「\(Q\)が閉集合ならば，\(f ^{-1}(Q)\)は閉集合である．」\(\iff\)「\( {Q} ^c \) が開集合ならば，\( f^{-1}(Q ^c) \)は開集合である．」であり，同値性が示される． 定理 6.14.により，距離空間の間の連続写像は，開集合の概念のみを用いて表現されることがわかった． つまり，開集合を距離によらず定義できれば定理 6.14.の命題のうちの一つを連続写像の定義として採用できるということである． 8. 位相空間での連続写像 距離空間における開集合全体の集合は，定理 6.11.の性質を満たす．そこからの抽象化として，距離空間における開集合が満たすべき性質を取り出し，開集合の定義とする． 定義 6.15. 集合\(X\)と\(\mathcal{O}\subset \mathscr{P}(X)\)について，\(\mathcal{O}\)が位相であるとは次の3つの公理を満たすことである． \[\notag \begin{align*} \varnothing,X &amp;amp;\in \mathcal{O}.\\ O_1,O_2\in \mathcal{O} ~ &amp;amp;\implies O_1\cap O_2\in \mathcal{O}.\\ (\forall \lambda\in \Lambda\,(O_\lambda \in \mathcal{O}) ) &amp;amp;\implies \bigcup_{\lambda\in \Lambda}O_\lambda \in \mathcal{O}. \end{align*} \] このとき，組\((X,\mathcal{O})\)を\(\mathcal{O}\)を開集合系とする位相空間という． しばしば，位相空間\((X,\mathcal{O})\)を，位相空間\(X\)と略記する．\(U\in \mathcal{O}\) なる \(U\) を \(\mathcal{O}\) -開集合という．位相が明らかである場合には，単に開集合ということもある．2つ目の公理より， \(\mathcal{O}\) は有限個の交叉で閉じている． 上の公理は，距離空間の開集合系に対して成り立つ性質(定理 6.11.)からの類推によって得られた．以上により距離の定まっていない集合に対しても開集合を導入することができた．同じように，距離空間に対する連続写像の定理を援用し，位相空間の間の連続写像の定義とする． 定義 6.16. \((X_1,\mathcal{O}_1),(X_2,\mathcal{O}_2)\)を位相空間とする．写像\(f:X_1\to X_2\)が連続であるとは，任意の\(Q\in \mathcal{O}_2\)に対して，\(f^{-1}(Q)\in \mathcal{O}_1\)となることである． 以上で，位相空間の間の連続写像が定義できた． 異なる位相を入れた位相空間の間の恒等写像に対しては，次のような性質がある． 例 6.17. \((X,\mathcal{O}_1,(X,\mathcal{O}_2)\)を位相空間とし，\(f:(X,\mathcal{O}_1)\to (X,\mathcal{O}_2)\)を恒等写像とする．\(f\)が連続写像であることは，\(\mathcal{O}_2\subseteq \mathcal{O}_1\)となることと同値である． 例 6.17. の証明 各\(x\in X\)に対して，\(f(x)=x\)であることに注意すれば，定義より，\(f\)が連続であるとは，\(\mathcal{O}_2\)-開集合\(Q\)について，\(f^{-1}(Q)=Q\)が\(\mathcal{O}_1\)-開集合となることであり，これは，\(Q\in \mathcal{O}_2\implies Q\in \mathcal{O}_1\)となることと同値であるから，\(f\)が連続であることは，\(\mathcal{O}_2\subseteq \mathcal{O}_1\)となることと同値である． 距離空間\((X,d)\)において，\( d \)から定まる開集合全体を\(\mathcal{O}_d\)とおくと，\(\mathcal{O}_d\)は位相である．よって，すべての距離空間は位相空間となる．すなわち位相空間は距離空間を一般化したものと捉えられる． 9. おわりに 今回は，位相空間の一般論に踏み込まず，連続写像に焦点を当てました．位相空間のことはあまり知らないため，勉強してまた何か書くことができればいいと思います． ありがとうございました． 参考文献 内田伏一　(1986).『数学シリーズ　集合と位相』,裳華房． 松坂和夫　(2018).『解析入門　中』,岩波書店. 1. 大島利雄ほか13名著 (2018).極限,『改訂版　数学III』,数研出版,pp.141-142.より引用． 2. 近傍系を用いて開集合を定義し，位相空間を定義することもできる．(またの機会に……)</summary></entry><entry><title type="html">VSCodeとCloud LaTeXの連携</title><link href="/posts/link-to-cloud-latex" rel="alternate" type="text/html" title="VSCodeとCloud LaTeXの連携" /><published>2021-04-03T14:00:00+09:00</published><updated>2021-04-03T14:00:00+09:00</updated><id>/posts/link-to-cloud-latex</id><content type="html" xml:base="/posts/link-to-cloud-latex">&lt;h2 id=&quot;要約&quot;&gt;要約&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Viual Studio Codeの拡張機能&lt;a href=&quot;https://github.com/cloudlatex-team/cloudlatex-vscode-extension&quot;&gt;Cloud LaTeX Extension for Visual Studio Code&lt;/a&gt;を使ってCloud LaTeXとVSCodeを連携します．&lt;/li&gt;
