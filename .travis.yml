@@ -1,17 +1,22 @@
 language: ruby
-rvm:
-  - 2.4.1
+script:
+  - ./build.sh
 branches:
   only:
   - master
-before_script: cp -rfv docs/_includes .
-script: JEKYLL_ENV=production bundle exec jekyll build --config ./docs/_config.yml
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: _site
-  keep-history: true
-  on:
-    branch: master
-    target_branch: gh-pages
+rvm:
+- 2.1.2
+env:
+  global:
+    secure: B/ZpOhwdAW23cU0lfmYk/ykaR0rejJi1bP401bcSYY6KdA0QtbD4JtvmX1qppbSmFYWUSjuF34vp10b1NUCl4YfUTk9Kqw1YCvalkDUzQbbM59lNBZhFFPqCvAru8+Q/85VE0knj4zy+Ofu+aPTF0ZC0d5gA6QbTFaVchO307DXcnvGlFOkKuhPVp21Sk0/FAJUkNYeqANApJGpP8Gq7n7IYw3W5oXsJp3og2c1mxv2xo2W9FQ/J45hj9/Re+kQtejyKuKgt4CIQNqdZqFvQxnNuPyaQkJjIfWHKtaKFcgjLoEM0DS3AaYi/kD6T484hkVx/F5pSrZwd1Rb+6xeCdJpHjpmN3XMrzRl0gaumMO0LlXA/L57XUvsZrc7cqH2bDM4EOjhWHvQybNx+sf8DmS7J1NSEcWoKrjcAL6fqlDrgMzo5ghCSqdheoKdyIOFKrX1o7KsFCWOp/NAtYtZZvSHl9qa7EJKo7W6gKIxtDkgVtadhyYKRXDH3zXklAcN4nHadsNUJO/Kdyg6R8YjNoDThDzNL4bsUvIR3DuImhKSGNiP9h4z0ebSlde3VFAENAjN4Qh58Ln7Wlps9/2+nbimWEeGHQY37kG5RrfTKmKVOsr5zZ3QgpbANuoKUMHYleCd7gNCXIpmu3t41uRxg8j8ZaEZvd+qCXMwaOXcauQU=
+
+before_install:            
+  - chmod +x build.sh
+
+after_success:
+  - git init
+  - git config --local user.name "Makoto Fukuda"
+  - git config --local user.email "shiba.dog.leo.private@gmail.com"
+  - git add -A .
+  - git commit -a -m "Deploy to GitHub Pages"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1

@@ -1,0 +1,192 @@
+= Ascii Doc 構文解説
+:author: shiba
+:page-layout: article
+:page-permalink: /posts/Syntax_Smple
+:page-date: 2021-08-20 14:00:00 +0900
+:page-modify_date: 2021-08-23 00:00:00 +0900
+:page-tags: ["Asciidoc",]
+:sectnums:
+:sectnumlevels: 2
+:stem:
+:eqnums: all
+:dummy: {counter2:section:0}
+:example-caption: 例
+:table-caption: 表
+
+数学関連の記事を書くために最低限必要な構文です．
+
+== 文字装飾
+:dummy: {counter2:section:1}
+:num: 0
+//sectionカウンタを1からスタート．section2アトリビュートは表示せずにインクリメントする．
+
+//https://darshandsoni.com/asciidoctor-skins/css
+
+[#tab-dec, title='書式一覧']
+|====
+|修飾の名前 | 構文 | 表示 | 用途
+
+|太字
+|pass:[**bold**]
+|**bold**
+| 強調，用語の定義
+
+|斜体footnote:[厳密にはイタリックと斜体は異なるらしい．参考：  https://www.nishishi.com/css/font-italic-oblique.html#:~:text=%E6%AC%A7%E6%96%87%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%AD%E3%81%AB,%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E5%BD%A2%E3%81%A7%E3%81%99%E3%80%82&text=%E3%81%9D%E3%81%AE%E5%A0%B4%E5%90%88%E3%80%81%E3%82%82%E3%81%97%E3%82%A4%E3%82%BF%E3%83%AA%E3%83%83%E3%82%AF%E4%BD%93,%E3%81%9D%E3%82%8C%E3%81%8C%E4%BD%BF%E3%82%8F%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82[斜体とイタリック体は違うのか]]
+|pass:[_italic_]
+|__italic__
+|引用文献の名前，定理の名前
+
+|打消し線
+|pass:[[line-through]pass:[#打消し線#]]
+|[line-through]#打消し線#
+|訂正
+
+|コメントアウト
+|pass:[//この部分は表示されない]
+|
+|表示したくないとき
+
+|====
+
+== 章・節の区分
+:dummy: {counter2:section}
+:num: 0
+
+[#ex-dec, title='章・節の区分']
+----
+= Document Title (Level 0)
+
+ページタイトル
+
+最も大きい見出し
+
+== Level 1 Section Title
+
+見出し1
+「章」だとおもって差支えない．
+
+=== Level 2 Section Title
+
+見出し2 +
+「小節」だと思って差支えない．
+
+----
+
+
+=== 解説
+
+空行を1行加えると段落とみなされる．(level 0 の下の文) +
+空行を入れないと，続きの文章とみなされる．(level 1 の下の文) +
+同じ段落で改行したいときは行末にpass:[+]を置く．(level 2 の下の文)
+
+
+== 数式の利用
+:dummy: {counter2:section}
+:num: 0
+
+タイトル(level 0 要素)のすぐ下に，空行をはさまずに``:stem:``と書くと +
+``\( \)``でインライン，``\[ \]``で別行立ての数式を\(\LaTeX\)記法で入力できる. +
+``:stem:``の下の行に``:eqnums: all``とすると自動的に別行立て数式に番号を表示する.
+
+[title='ソースコード']
+----
+インライン数式：\(F = ma\)
+
+別行立て数式：
+\[\notag
+    \begin{align*}
+        \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+    \end{align*}
+\]
+
+----
+
+
+:ex-show: 表示例 
+[#ex_show, title='{ex-show}']
+****
+インライン数式：\(F = ma\)
+
+別行立て数式：
+\[\notag
+    \left(\dfrac{1}{2}\right)\times \cdots  \times \left(\dfrac{1}{2}\right) \times \cdots = \lim_{n \to \infty}\dfrac{1}{2^n} = 0.
+\]
+****
+
+
+=== 解説
+
+このようにすることで``label{}``や``\ref{}``が使え，自動で番号付けされ，リンクもつけられる. 
+
+番号を表示したくないときは``\[``のあとに``\notag``をおく．
+
+
+== 定理環境
+:dummy: {counter2:section}
+:num: 0
+
+初めての節（level 1 Section）の**前**に``:dummy: pass:[{counter2:section:0}]``と記述し，節の初めに
+----
+:dummy: {counter2:section}
+:num: 0
+----
+という文字をおくことで実現できる．詳細は述べない．（述べられない．）
+
+[定理環境]
+----
+:def-add: 定義 {section}.{counter:num}.
+[#def_add.definition, title='{def-add}']
+****
+\(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という．
+
+\[
+    \begin{align}
+        \Omega & \in G \label{def:certain}\\
+        E \in G & \implies E^c \in G \label{def:complement}\\
+        E_1, E_2 \in G & \implies E_1 \cup E_2 \in G \label{def:additive}
+    \end{align}
+\]
+****
+
+<<def_add>>は重要．\((\ref{def:additive})\) を加法性という．
+----
+
+:ex-show: 表示例 
+[#ex_show, title='{ex-show}']
+******
+:def-add: 定義 {section}.{counter:num}.
+[#def_add.definition, title='{def-add}']
+****
+\(\Omega\)を標本空間とする．\( G \subset 2^{\Omega}\)で次の3つの性質を満たすものを\(\Omega\)の**加法族**という．
+
+\[
+    \begin{align}
+        \Omega & \in G \label{def:certain}\\
+        E \in G & \implies E^c \in G \label{def:complement}\\
+        E_1, E_2 \in G & \implies E_1 \cup E_2 \in G \label{def:additive}
+    \end{align}
+\]
+****
+
+<<def_add>>は重要．\((\ref{def:additive})\) を加法性という．
+******
+
+
+=== 解説
+
+. ``:def-add:``という部分でタイトルを指定する．
+. ``:def-add:``という部分の``def-add``という文字列はなんでも良い．ただし，何を表しているのかわかりやすいほうがいいので``def-hoge``や``thm-hoge``などのようにすることを推奨する．
+. ``pass:[{section}]``という部分で節番号を表示する．
+. ``pass:[{counter:num}]``という部分で連続した番号を表示する．
+. ``#def_add``という部分で定理環境のidを作成する．``<< >>``で参照すると自動でリンクが作成される．
+. ``#def_add``の``def_add``という部分はなんでもいいが，何を表しているのかわかりやすいほうがいいので``def_hoge``や``thm_hoge``などのようにすることを推奨する．
+. ``.definition``という部分はこの文字列**でなければならない**．
+    * **定義**なら``.definition``
+    * **命題**なら``.proposition``
+    * **証明**なら``.proof``
+    * **例**なら``.example``
+    * **定理**なら``.theorem`` +
+    などとする. その他必要なものがあれば実装するので行ってください．
+
+== 参考文献
+* https://qiita.com/xmeta/items/de667a8b8a0f982e123a[AsciiDoc入門]
