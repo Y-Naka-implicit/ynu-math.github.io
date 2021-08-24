@@ -6,6 +6,10 @@ author: shiba
 date:   2021-04-03 14:00:00 +0900
 modify_date: 
 tags: VSCode LaTeX
+article_header:
+  type: cover
+  image:
+    src: ./assets/images/topics/cloudlatex/header.png
 ---
 
 ## 要約

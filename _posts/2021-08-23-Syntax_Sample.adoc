@@ -1,10 +1,16 @@
+---
+layout: article
+permalink: /posts/Syntax_Smple
+date: 2021-08-20 14:00:00 +0900
+modify_date: 2021-08-23 00:00:00 +0900
+tags: ["Asciidoc",]
+article_header:
+  type: cover
+  image:
+    src: ./assets/images/topics/Syntax_Smple/logo.png
+---
 = Ascii Doc 構文解説
-:author: shiba
-:page-layout: article
-:page-permalink: /posts/Syntax_Smple
-:page-date: 2021-08-20 14:00:00 +0900
-:page-modify_date: 2021-08-23 00:00:00 +0900
-:page-tags: ["Asciidoc",]
+shiba
 :sectnums:
 :sectnumlevels: 2
 :stem:
@@ -12,6 +18,7 @@
 :dummy: {counter2:section:0}
 :example-caption: 例
 :table-caption: 表
+
 
 数学関連の記事を書くために最低限必要な構文です．
 
