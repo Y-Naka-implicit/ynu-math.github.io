@@ -301,7 +301,13 @@ defaults:
 ## => Plugins
 ##############################
 plugins:
+  - jekyll-asciidoc
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jemoji
+  #- jemoji
+
+
+asciidoctor:
+  attributes:
+  - stem
