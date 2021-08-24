@@ -29,6 +29,7 @@ show_author_profile: false
 
     松坂和夫著『線型代数入門』の輪読ゼミです．
     学部1年生向け．東京都立大の有志学生と共同で行っています．
+
 ## 終了した活動
 
 - [解析入門 上 ゼミ](/minutes/Analysis_I/meeting-01)

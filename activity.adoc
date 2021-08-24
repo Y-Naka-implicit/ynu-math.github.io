@@ -1,0 +1,46 @@
+:page-layout: activity
+:page-title: 活動記録
+:page-permalink: activity
+:page-show_author: false
+:page-date: 2021-03-08 15:21:40 +0900
+:page-modify_date: 2021-08-25 00:00:00 +0900
+:imagesdir: ./assets/images/activity
+
+[#activity, cols="1a,5a", grid='',]
+|===
+
+|link:/minutes/General/meeting-01[image:android-chrome-512x512.png[]]
+|link:/minutes/General/meeting-01[全体ミーティング]::
+サークルの活動方針や全体の内容を話し合った際の議事録です．
+|===
+
+
+== 進行中の活動
+
+[#activity, cols="1a,5a", grid='',]
+|===
+
+|link:./minutes/Analysis_II/meeting-01[image:Analysis_II.png[]]
+|link:./minutes/Analysis_II/meeting-01[解析入門 中 ゼミ]::
+松坂和夫著『解析入門 中』の輪読ゼミです． +
+学部2年生向け．
+
+|link:./minutes/Analysis_I_Solution/meeting-01[image:Analysis_I.png[]]
+|link:./minutes/Analysis_I_Solution/meeting-01[解析入門 上 解答集作成]::
+松坂和夫著『解析入門 上』の演習問題の解答を作成しています．
+
+|link:./minutes/Linear_Algebra/seminar-01[image:Linear_Algebra.png[]]
+|link:./minutes/Linear_Algebra/seminar-01[線型代数入門 ゼミ]::
+松坂和夫著『線型代数入門』の輪読ゼミです． +
+学部1年生向け．東京都立大の有志学生と共同で行っています．
+
+|===
+
+== 終了した活動
+
+[#activity, cols="1a,5a", grid='',]
+|===
+|link:./minutes/Analysis_I/meeting-01[image:Analysis_I.png[]]
+|link:./minutes/Analysis_I/meeting-01[解析入門 上 ゼミ]::
+2020-07-18～2020-11-14に行っていた松坂和夫著『解析入門 上』の輪読ゼミです．
+|===

@@ -22,6 +22,8 @@ yarn.lock
 package-lock.json
 Gemfile.lock
 
-._site
+
 .jekyll-metadata
 .jekyll-cache/
+
+_site

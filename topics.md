@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: topics
 title: 記事一覧
 author: #shiba
 date: 2021-03-08 15:21:40 +0900

@@ -3376,6 +3376,8 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 .quoteblock blockquote { background: url("../images/github/blockquote-arrow.png?1372292342") 0 2px no-repeat; padding-left: 1em; }
 
 /********オリジナル要素*****************************/
+#activity table tr th, table tr td { padding: 0.6em 0.66667em; font-size: 1.2em; color: #222222; }
+
 .definition { border-style: solid; border-width: 1px; border-color: #c0c6c9; margin-bottom: 1.33333em; padding: 1.33333em; background: white; -webkit-border-radius: 3px; border-radius: 3px; }
 
 .definition h1, .definition h2, .definition h3, .definition #toctitle, .definition > .content > .title, .definition h4, .definition h5, .definition h6 { line-height: 1; margin-bottom: 0.66667em; }
