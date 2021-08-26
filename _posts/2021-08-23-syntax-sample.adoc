@@ -145,7 +145,7 @@ shiba
 \[
     \begin{align}
         \Omega & \in G \label{def:certain}\\
-        E \in G & \implies E^c \in G \label{def:complement}\\
+        E \in G & \implies E^c \in G \notag\\
         E_1, E_2 \in G & \implies E_1 \cup E_2 \in G \label{def:additive}
     \end{align}
 \]
@@ -165,7 +165,7 @@ shiba
 \[
     \begin{align}
         \Omega & \in G \label{def:certain}\\
-        E \in G & \implies E^c \in G \label{def:complement}\\
+        E \in G & \implies E^c \in G \notag\\
         E_1, E_2 \in G & \implies E_1 \cup E_2 \in G \label{def:additive}
     \end{align}
 \]
