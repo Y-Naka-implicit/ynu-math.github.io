@@ -311,3 +311,4 @@ plugins:
 asciidoctor:
   attributes:
   - stem
+  - eqnums: all

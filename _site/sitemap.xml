@@ -213,10 +213,6 @@
 <lastmod>2021-02-28T19:10:30+09:00</lastmod>
 </url>
 <url>
-<loc>/posts/welcome</loc>
-<lastmod>2021-03-08T15:21:40+09:00</lastmod>
-</url>
-<url>
 <loc>/posts/generalize-fresnel-integral</loc>
 <lastmod>2021-03-18T14:45:00+09:00</lastmod>
 </url>
@@ -233,7 +229,7 @@
 <lastmod>2021-08-20T14:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>/posts/Syntax_Smple</loc>
+<loc>/posts/syntax-sample</loc>
 <lastmod>2021-08-20T14:00:00+09:00</lastmod>
 </url>
 <url>
@@ -249,15 +245,12 @@
 <loc>/</loc>
 </url>
 <url>
-<loc>/topics.html</loc>
+<loc>/topics</loc>
 </url>
 <url>
 <loc>/page2/</loc>
 </url>
 <url>
 <loc>/page3/</loc>
-</url>
-<url>
-<loc>/page4/</loc>
 </url>
 </urlset>
